@@ -19,7 +19,7 @@ export function ServiceDetailHero({ service }: { service: ServiceItem }) {
             <span className="text-brand-volt">{service.title}</span>
           </div>
 
-          <h1 className="text-[36px] sm:text-[46px] lg:text-[56px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-6">
+          <h1 className="text-[26px] sm:text-[38px] lg:text-[52px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-6">
             {service.title}
           </h1>
           <p className="text-text-secondary text-base sm:text-lg lg:text-[1.125rem] font-light leading-relaxed mb-8 max-w-[640px]">
@@ -33,9 +33,8 @@ export function ServiceDetailHero({ service }: { service: ServiceItem }) {
           </div>
         </div>
 
-
         {/* Hero Featured Photography */}
-        <div className="relative aspect-[16/8] sm:aspect-[16/7] w-full rounded-[32px] overflow-hidden bg-surface-dark border border-white/10 shadow-2xl">
+        <div className="relative aspect-[16/8] sm:aspect-[16/7] w-full rounded-[28px] sm:rounded-[32px] overflow-hidden bg-surface-base border border-border-olive shadow-2xl">
           <Image
             src={service.imageSrc}
             alt={service.title}

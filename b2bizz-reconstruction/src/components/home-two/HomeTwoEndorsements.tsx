@@ -7,11 +7,11 @@ export function HomeTwoEndorsements() {
   const { endorsements } = HOME_TWO_DATA;
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         {/* Section Heading */}
         <div className="text-center max-w-[700px] mx-auto mb-12">
-          <h2 className="text-[32px] sm:text-[38px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight">
+          <h2 className="text-[26px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight">
             {endorsements.headline}
           </h2>
         </div>
@@ -23,10 +23,10 @@ export function HomeTwoEndorsements() {
             return (
               <div
                 key={item.id}
-                className={`relative rounded-[28px] p-8 flex flex-col justify-between min-h-[350px] border transition-all duration-300 shadow-xl overflow-hidden group ${
+                className={`relative rounded-[28px] p-8 flex flex-col justify-between min-h-[340px] border transition-all duration-300 shadow-xl overflow-hidden group ${
                   isFeatured
                     ? "border-brand-volt/40 bg-surface-elevated text-text-primary"
-                    : "border-white/10 bg-surface-subtle/70 text-text-primary hover:border-brand-volt/30"
+                    : "border-border-olive bg-surface-card text-text-primary hover:border-brand-volt/30"
                 }`}
               >
                 {/* Backdrop wallpaper on featured card */}

@@ -231,8 +231,8 @@ body {
 }
 
 .section-padding-hero {
-  padding-top: 0.625rem;  /* 10px */
-  padding-bottom: 1.875rem; /* 30px */
+  padding-top: clamp(5.25rem, 5vw + 2rem, 7.25rem);
+  padding-bottom: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
 /* ---------------------------------------------------------------------------

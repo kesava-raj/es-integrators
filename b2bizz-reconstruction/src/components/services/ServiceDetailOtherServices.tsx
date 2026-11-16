@@ -9,12 +9,12 @@ export function ServiceDetailOtherServices({ currentSlug }: { currentSlug: strin
   const otherServices = SERVICES_LIST.filter((s) => s.slug !== currentSlug).slice(0, 3);
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
           <div>
-            <h2 className="text-[32px] sm:text-[38px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-2">
+            <h2 className="text-[26px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-2">
               Other services
             </h2>
             <p className="text-sm text-text-muted font-light">
@@ -35,9 +35,9 @@ export function ServiceDetailOtherServices({ currentSlug }: { currentSlug: strin
             <Link
               key={item.id}
               href={`/service/${item.slug}`}
-              className="group block p-6 rounded-[28px] bg-surface-subtle/70 hover:bg-surface-elevated/90 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-xl overflow-hidden"
+              className="group block p-6 rounded-[28px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-xl overflow-hidden"
             >
-              <div className="relative aspect-[16/10] w-full rounded-[20px] overflow-hidden mb-5 bg-surface-dark border border-white/5">
+              <div className="relative aspect-[16/10] w-full rounded-[20px] overflow-hidden mb-5 bg-surface-base border border-border-olive/50">
                 <Image
                   src={item.imageSrc}
                   alt={item.title}
@@ -58,7 +58,7 @@ export function ServiceDetailOtherServices({ currentSlug }: { currentSlug: strin
                 {item.tags.slice(0, 2).map((tag, tIdx) => (
                   <span
                     key={tIdx}
-                    className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-0.5 rounded-full bg-white/5 border border-white/10"
+                    className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-0.5 rounded-full bg-surface-subtle border border-border-olive/60"
                   >
                     {tag}
                   </span>

@@ -7,7 +7,7 @@ export function HomeTwoMetrics() {
   const { metrics } = HOME_TWO_DATA;
 
   return (
-    <section className="py-[100px] lg:py-[150px] relative z-10">
+    <section className="py-14 sm:py-20 lg:py-28 relative z-10">
       <div className="container-wrapper">
         {/* 4 Counter Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">

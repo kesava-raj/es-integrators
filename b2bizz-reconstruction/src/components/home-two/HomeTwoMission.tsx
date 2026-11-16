@@ -9,7 +9,7 @@ export function HomeTwoMission() {
   const { mission } = HOME_TWO_DATA;
 
   return (
-    <section className="pt-[100px] lg:pt-[150px] pb-0 relative z-10 text-center">
+    <section className="pt-14 sm:pt-20 lg:pt-28 pb-0 relative z-10 text-center">
       <div className="container-wrapper max-w-[960px] mx-auto">
         {/* Main Heading */}
         <h2 className="text-[32px] sm:text-[40px] lg:text-[44px] font-normal leading-[1.22] text-brand-volt tracking-tight mb-8 max-w-[800px] mx-auto">

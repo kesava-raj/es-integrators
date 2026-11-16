@@ -64,18 +64,18 @@ export const MethodologySection: React.FC = () => {
 
 
           {/* Right Column: Interactive Staggered Pipeline with Ramp & Step Tabs */}
-          <div className="lg:col-span-7 relative min-h-[440px] sm:min-h-[480px] flex flex-col justify-between">
+          <div className="lg:col-span-7 relative min-h-[400px] sm:min-h-[480px] flex flex-col justify-between">
             {/* Top Step Pill Tabs */}
             <div className="flex justify-center sm:justify-start lg:justify-center pb-6">
-              <div className="inline-flex items-center p-1.5 rounded-full bg-[#161A18] border border-border-olive/70 gap-1">
+              <div className="inline-flex items-center p-1.5 rounded-full bg-surface-card border border-border-olive gap-1">
                 {steps.map((step, idx) => (
                   <button
                     key={step.id}
                     onClick={() => setActiveStep(idx)}
-                    className={`px-5 py-1.5 rounded-full text-xs font-normal transition-all ${
+                    className={`px-4 sm:px-5 py-1.5 rounded-full text-xs transition-all cursor-pointer ${
                       activeStep === idx
-                        ? "bg-[#252B23] text-brand-volt font-medium border border-border-olive"
-                        : "text-text-secondary hover:text-text-primary"
+                        ? "bg-brand-volt text-surface-base font-semibold border border-brand-volt shadow-sm"
+                        : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
                     }`}
                   >
                     {step.stepNum}
@@ -84,10 +84,18 @@ export const MethodologySection: React.FC = () => {
               </div>
             </div>
 
+            {/* Active Step Narrative Note */}
+            <div className="mb-4 text-center sm:text-left px-2">
+              <p className="text-xs sm:text-sm text-text-secondary leading-relaxed bg-surface-subtle/80 border border-border-olive/50 p-3 sm:p-4 rounded-2xl backdrop-blur-sm">
+                <span className="font-semibold text-brand-volt mr-2">Phase {steps[activeStep].stepNum}:</span>
+                {steps[activeStep].description}
+              </p>
+            </div>
+
             {/* Visual Ramp Wave Graphic at Bottom */}
-            <div className="relative w-full h-[320px] sm:h-[360px] flex items-end">
-              {/* SVG Background Slope Shape */}
-              <div className="absolute inset-x-0 bottom-0 w-full h-[180px] sm:h-[220px] pointer-events-none opacity-90">
+            <div className="relative w-full min-h-[260px] sm:min-h-[320px] flex items-end">
+              {/* SVG Background Slope Shape (Hidden on small mobile to avoid cramped overlap) */}
+              <div className="hidden sm:block absolute inset-x-0 bottom-0 w-full h-[180px] sm:h-[220px] pointer-events-none opacity-80">
                 <Image
                   src="/icons/icon-X8QKXnvD0vuQ.svg"
                   alt=""
@@ -96,88 +104,45 @@ export const MethodologySection: React.FC = () => {
                 />
               </div>
 
-              {/* 3 Staggered Step Cards positioned along the ramp with vertical dashed drop lines */}
-              <div className="relative z-10 w-full grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-4 items-end pb-8 sm:pb-12 px-2">
-                {/* Step 1: Low-left */}
-                <div
-                  className={`relative p-4 rounded-2xl border transition-all duration-300 cursor-pointer ${
-                    activeStep === 0
-                      ? "bg-[#161A18] border-brand-volt/70 shadow-[0_0_20px_rgba(243,255,201,0.15)] translate-y-[-8px]"
-                      : "bg-[#0E100F]/90 border-border-olive/60 hover:border-border-olive/90"
-                  }`}
-                  onClick={() => setActiveStep(0)}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-surface-card flex items-center justify-center shrink-0">
-                      <Image
-                        src={steps[0].iconSrc}
-                        alt=""
-                        width={20}
-                        height={20}
-                        className="object-contain"
-                      />
-                    </div>
-                    <span className="text-xs sm:text-sm font-normal text-brand-volt leading-tight">
-                      {steps[0].title}
-                    </span>
-                  </div>
-                  {/* Dashed vertical connector line */}
-                  <div className="hidden sm:block absolute left-1/2 top-full w-px h-10 border-l border-dashed border-border-olive/80" />
-                </div>
+              {/* 3 Staggered Step Cards positioned along the ramp */}
+              <div className="relative z-10 w-full grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 items-end pb-4 sm:pb-12 px-1">
+                {steps.map((step, idx) => {
+                  const isActive = activeStep === idx;
+                  const staggerClasses = [
+                    "", // Step 1
+                    "sm:mb-10", // Step 2
+                    "sm:mb-20", // Step 3
+                  ];
 
-                {/* Step 2: Mid-center */}
-                <div
-                  className={`relative p-4 rounded-2xl border transition-all duration-300 cursor-pointer sm:mb-12 ${
-                    activeStep === 1
-                      ? "bg-[#161A18] border-brand-volt/70 shadow-[0_0_20px_rgba(243,255,201,0.15)] translate-y-[-8px]"
-                      : "bg-[#0E100F]/90 border-border-olive/60 hover:border-border-olive/90"
-                  }`}
-                  onClick={() => setActiveStep(1)}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-surface-card flex items-center justify-center shrink-0">
-                      <Image
-                        src={steps[1].iconSrc}
-                        alt=""
-                        width={20}
-                        height={20}
-                        className="object-contain"
-                      />
+                  return (
+                    <div
+                      key={step.id}
+                      className={`relative p-4 rounded-2xl border transition-all duration-300 cursor-pointer ${staggerClasses[idx]} ${
+                        isActive
+                          ? "bg-surface-card border-brand-volt shadow-[0_0_20px_var(--token-overlay-glow)] sm:-translate-y-2"
+                          : "bg-surface-subtle/90 border-border-olive hover:border-border-olive/90"
+                      }`}
+                      onClick={() => setActiveStep(idx)}
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-lg bg-surface-base border border-border-olive/60 flex items-center justify-center shrink-0">
+                          <Image
+                            src={step.iconSrc}
+                            alt=""
+                            width={18}
+                            height={18}
+                            className="object-contain"
+                          />
+                        </div>
+                        <span className="text-xs sm:text-sm font-medium text-brand-volt leading-tight">
+                          {step.title}
+                        </span>
+                      </div>
+                      {/* Dashed vertical connector line on desktop */}
+                      <div className="hidden sm:block absolute left-1/2 top-full w-px h-8 border-l border-dashed border-border-olive/80" />
                     </div>
-                    <span className="text-xs sm:text-sm font-normal text-brand-volt leading-tight">
-                      {steps[1].title}
-                    </span>
-                  </div>
-                  {/* Dashed vertical connector line */}
-                  <div className="hidden sm:block absolute left-1/2 top-full w-px h-16 border-l border-dashed border-border-olive/80" />
-                </div>
-
-                {/* Step 3: High-right */}
-                <div
-                  className={`relative p-4 rounded-2xl border transition-all duration-300 cursor-pointer sm:mb-24 ${
-                    activeStep === 2
-                      ? "bg-[#161A18] border-brand-volt/70 shadow-[0_0_20px_rgba(243,255,201,0.15)] translate-y-[-8px]"
-                      : "bg-[#0E100F]/90 border-border-olive/60 hover:border-border-olive/90"
-                  }`}
-                  onClick={() => setActiveStep(2)}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-surface-card flex items-center justify-center shrink-0">
-                      <Image
-                        src={steps[2].iconSrc}
-                        alt=""
-                        width={20}
-                        height={20}
-                        className="object-contain"
-                      />
-                    </div>
-                    <span className="text-xs sm:text-sm font-normal text-brand-volt leading-tight">
-                      {steps[2].title}
-                    </span>
-                  </div>
-                  {/* Dashed vertical connector line */}
-                  <div className="hidden sm:block absolute left-1/2 top-full w-px h-28 border-l border-dashed border-border-olive/80" />
-                </div>
+                  );
+                })}
               </div>
             </div>
           </div>

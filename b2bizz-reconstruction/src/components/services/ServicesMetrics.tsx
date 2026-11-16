@@ -7,7 +7,7 @@ export function ServicesMetrics() {
   const { metrics } = SERVICES_PAGE_DATA;
 
   return (
-    <section className="pt-[100px] lg:pt-[150px] pb-0 relative z-10">
+    <section className="pt-14 sm:pt-20 lg:pt-28 pb-0 relative z-10">
       <div className="container-wrapper">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {metrics.map((item, idx) => (

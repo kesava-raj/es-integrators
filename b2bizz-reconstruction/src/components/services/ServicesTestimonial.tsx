@@ -7,7 +7,7 @@ export function ServicesTestimonial() {
   const { testimonial } = SERVICES_PAGE_DATA;
 
   return (
-    <section className="py-[100px] lg:py-[150px] relative z-10">
+    <section className="py-14 sm:py-20 lg:py-28 relative z-10">
       <div className="container-wrapper">
         <div className="relative rounded-[32px] overflow-hidden p-8 sm:p-12 lg:p-16 border border-brand-volt/30 shadow-2xl bg-surface-elevated">
           {/* Backdrop Wallpaper */}

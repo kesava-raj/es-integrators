@@ -9,17 +9,17 @@ export function AboutVisionMission() {
   const { vision, mission } = visionMission;
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
           {/* Left Card: Vision */}
-          <div className="p-8 lg:p-9 rounded-[32px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between shadow-xl">
+          <div className="p-8 lg:p-9 rounded-[32px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between shadow-xl">
             <div>
               <div className="flex items-center justify-between gap-4 mb-6">
                 <Badge variant="volt">
                   {vision.badge}
                 </Badge>
-                <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 p-2 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-surface-subtle border border-border-olive p-2 flex items-center justify-center">
                   <Image
                     src={vision.iconSrc}
                     alt=""
@@ -38,7 +38,7 @@ export function AboutVisionMission() {
               </p>
             </div>
 
-            <div className="relative h-[180px] sm:h-[200px] w-full rounded-[20px] overflow-hidden bg-surface-dark border border-white/5 mt-4">
+            <div className="relative h-[180px] sm:h-[200px] w-full rounded-[20px] overflow-hidden bg-surface-base border border-border-olive/50 mt-4">
               <Image
                 src={vision.imageSrc}
                 alt="Our Vision"
@@ -50,13 +50,13 @@ export function AboutVisionMission() {
           </div>
 
           {/* Right Card: Mission */}
-          <div className="p-7 lg:p-8 rounded-[32px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between shadow-xl">
+          <div className="p-7 lg:p-8 rounded-[32px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between shadow-xl">
             <div>
               <div className="flex items-center justify-between gap-4 mb-5">
                 <Badge variant="volt">
                   {mission.badge}
                 </Badge>
-                <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 p-2 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-surface-subtle border border-border-olive p-2 flex items-center justify-center">
                   <Image
                     src={mission.iconSrc}
                     alt=""
@@ -76,7 +76,7 @@ export function AboutVisionMission() {
                 {mission.pillars.map((pillar, idx) => (
                   <div
                     key={idx}
-                    className="flex items-center justify-between py-2.5 px-4 rounded-[14px] bg-white/[0.03] border border-white/5 hover:border-brand-volt/20 transition-colors"
+                    className="flex items-center justify-between py-2.5 px-4 rounded-[14px] bg-surface-subtle border border-border-olive/60 hover:border-brand-volt/30 transition-colors"
                   >
                     <span className="text-sm font-normal text-text-primary">
                       {pillar}
@@ -89,7 +89,7 @@ export function AboutVisionMission() {
               </div>
             </div>
 
-            <div className="pt-6 border-t border-white/10 mt-8">
+            <div className="pt-6 border-t border-border-olive/60 mt-8">
               <p className="text-xs sm:text-sm text-text-muted font-light">
                 Built on accountability, technical precision, and measurable business growth.
               </p>

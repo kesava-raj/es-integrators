@@ -13,10 +13,10 @@ export function HomeTwoHero() {
   return (
     <section className="relative page-header-spacing pb-0 lg:pb-0 z-10">
       <div className="container-wrapper">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center min-h-[750px] lg:min-h-[820px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center min-h-0 lg:min-h-[780px] py-6 sm:py-10">
           {/* Left Column: Heading, Subtitle, CTA & Partner Logos */}
           <div className="lg:col-span-7 flex flex-col justify-center">
-            <h1 className="text-[36px] sm:text-[46px] lg:text-[60px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-6">
+            <h1 className="text-[28px] sm:text-[42px] lg:text-[56px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-6">
               {hero.headline}
             </h1>
             <p className="text-text-muted text-base sm:text-lg lg:text-[1.125rem] leading-relaxed max-w-[540px] mb-8 font-light">
@@ -30,7 +30,7 @@ export function HomeTwoHero() {
             </div>
 
             {/* Featured B2B Clients Row */}
-            <div className="pt-6 border-t border-white/10 max-w-[560px]">
+            <div className="pt-6 border-t border-border-olive/60 max-w-[560px]">
               <div className="text-[0.75rem] uppercase tracking-wider text-text-muted mb-4 font-mono font-medium">
                 {hero.featuredClientsLabel}
               </div>
@@ -57,14 +57,14 @@ export function HomeTwoHero() {
 
             <Link
               href={featuredCaseStudy.href}
-              className="group block relative bg-surface-subtle/80 hover:bg-surface-elevated/90 border border-white/10 hover:border-brand-volt/40 rounded-[32px] p-6 lg:p-7 backdrop-blur-md transition-all duration-300 shadow-2xl overflow-hidden"
+              className="group block relative bg-surface-card border border-border-olive hover:border-brand-volt/40 rounded-[32px] p-6 lg:p-7 backdrop-blur-md transition-all duration-300 shadow-2xl overflow-hidden"
             >
               {/* Header: Badge & Category */}
               <div className="flex items-center justify-between gap-4 mb-5">
                 <Badge variant="volt">
                   {featuredCaseStudy.badge}
                 </Badge>
-                <span className="text-xs font-mono uppercase tracking-wider text-text-muted px-3 py-1 rounded-full bg-white/5 border border-white/10">
+                <span className="text-xs font-mono uppercase tracking-wider text-text-muted px-3 py-1 rounded-full bg-surface-subtle border border-border-olive">
                   {featuredCaseStudy.category}
                 </span>
               </div>

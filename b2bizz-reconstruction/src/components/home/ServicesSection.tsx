@@ -133,7 +133,7 @@ export const ServicesSection: React.FC = () => {
                           {service.tags.map((tag, tIdx) => (
                             <span
                               key={tIdx}
-                              className="px-3 py-1 rounded-full text-xs font-normal bg-[#161A18] border border-border-olive/60 text-text-secondary"
+                              className="px-3 py-1 rounded-full text-xs font-normal bg-surface-subtle border border-border-olive/60 text-text-secondary"
                             >
                               {tag}
                             </span>
@@ -158,7 +158,7 @@ export const ServicesSection: React.FC = () => {
 
           {/* Right Column: Authentic Enterprise Project Showcase Graphic matching Reference */}
           <div className="lg:col-span-6 flex items-center justify-center">
-            <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 bg-gradient-to-br from-[#2F2920]/40 via-[#1A1813]/60 to-[#0E100F] p-3 sm:p-5 w-full">
+            <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 bg-surface-card p-3 sm:p-5 w-full shadow-2xl">
               <div className="relative aspect-[1246/966] w-full rounded-[20px] sm:rounded-[24px] overflow-hidden shadow-2xl">
                 <Image
                   src="/images/img-Gey8JdeAVmsT.png"

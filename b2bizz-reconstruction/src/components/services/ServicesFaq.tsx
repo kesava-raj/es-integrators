@@ -13,11 +13,11 @@ export function ServicesFaq() {
   };
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Left Column: FAQ Illustration Image */}
-          <div className="lg:col-span-5 relative aspect-square w-full rounded-[32px] overflow-hidden bg-surface-dark border border-white/10 shadow-2xl">
+          <div className="lg:col-span-5 relative aspect-square w-full rounded-[28px] sm:rounded-[32px] overflow-hidden bg-surface-base border border-border-olive shadow-2xl">
             <Image
               src={faq.imageSrc}
               alt="Frequently Asked Questions"
@@ -29,7 +29,7 @@ export function ServicesFaq() {
 
           {/* Right Column: FAQ Accordion */}
           <div className="lg:col-span-7">
-            <h2 className="text-[32px] sm:text-[38px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-8">
+            <h2 className="text-[26px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-8">
               {faq.headline}
             </h2>
 
@@ -39,11 +39,11 @@ export function ServicesFaq() {
                 return (
                   <div
                     key={idx}
-                    className="p-5 sm:p-6 rounded-[20px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/30 transition-all duration-300"
+                    className="p-5 sm:p-6 rounded-[20px] bg-surface-card border border-border-olive hover:border-brand-volt/40 transition-all duration-300"
                   >
                     <button
                       onClick={() => toggle(idx)}
-                      className="w-full flex items-center justify-between gap-4 text-left font-normal text-base sm:text-lg text-text-primary group"
+                      className="w-full flex items-center justify-between gap-4 text-left font-normal text-base sm:text-lg text-text-primary group cursor-pointer"
                     >
                       <span className="flex items-center gap-3">
                         <span className="text-xs font-mono text-brand-volt">
@@ -53,13 +53,13 @@ export function ServicesFaq() {
                           {item.question}
                         </span>
                       </span>
-                      <span className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-text-muted group-hover:text-brand-volt transition-colors">
+                      <span className="w-8 h-8 rounded-full bg-surface-subtle border border-border-olive/60 flex items-center justify-center shrink-0 text-text-muted group-hover:text-brand-volt transition-colors">
                         {isOpen ? "−" : "+"}
                       </span>
                     </button>
 
                     {isOpen && (
-                      <div className="pt-4 text-sm text-text-muted font-light leading-relaxed border-t border-white/5 mt-4">
+                      <div className="pt-4 text-sm text-text-muted font-light leading-relaxed border-t border-border-olive/40 mt-4">
                         {item.answer}
                       </div>
                     )}

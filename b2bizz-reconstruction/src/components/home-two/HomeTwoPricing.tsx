@@ -12,21 +12,21 @@ export function HomeTwoPricing() {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         {/* Section Heading */}
         <div className="text-center max-w-[700px] mx-auto mb-10">
-          <h2 className="text-[32px] sm:text-[38px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-8">
+          <h2 className="text-[28px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-8">
             {pricing.headline}
           </h2>
 
           {/* Monthly / Yearly Toggle */}
-          <div className="inline-flex items-center gap-3 p-1.5 rounded-full bg-surface-subtle border border-white/10 backdrop-blur-md">
+          <div className="inline-flex items-center gap-3 p-1.5 rounded-full bg-surface-subtle border border-border-olive backdrop-blur-md">
             <button
               onClick={() => setIsYearly(false)}
-              className={`px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${
+              className={`px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all cursor-pointer ${
                 !isYearly
-                  ? "bg-brand-volt text-canvas shadow-md"
+                  ? "bg-brand-volt text-surface-base shadow-md font-semibold"
                   : "text-text-muted hover:text-text-primary"
               }`}
             >
@@ -34,14 +34,14 @@ export function HomeTwoPricing() {
             </button>
             <button
               onClick={() => setIsYearly(true)}
-              className={`px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all flex items-center gap-2 ${
+              className={`px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all flex items-center gap-2 cursor-pointer ${
                 isYearly
-                  ? "bg-brand-volt text-canvas shadow-md"
+                  ? "bg-brand-volt text-surface-base shadow-md font-semibold"
                   : "text-text-muted hover:text-text-primary"
               }`}
             >
               <span>Yearly</span>
-              <span className="text-[0.65rem] font-mono px-2 py-0.5 rounded-full bg-white/20 text-canvas font-semibold uppercase">
+              <span className="text-[0.65rem] font-mono px-2 py-0.5 rounded-full bg-white/20 text-surface-base font-semibold uppercase">
                 {pricing.discountBadge}
               </span>
             </button>
@@ -60,7 +60,7 @@ export function HomeTwoPricing() {
                 className={`relative rounded-[32px] p-8 sm:p-9 flex flex-col justify-between transition-all duration-300 shadow-2xl overflow-hidden ${
                   isPopular
                     ? "bg-surface-elevated/90 border-2 border-brand-volt/60 shadow-brand-volt/10"
-                    : "bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/30"
+                    : "bg-surface-card border border-border-olive hover:border-brand-volt/30"
                 }`}
               >
                 {/* Popular Pill Badge */}

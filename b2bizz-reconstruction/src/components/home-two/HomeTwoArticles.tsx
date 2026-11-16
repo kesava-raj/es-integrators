@@ -9,12 +9,12 @@ export function HomeTwoArticles() {
   const { articles } = HOME_TWO_DATA;
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         {/* Header with Title and "Explore all blogs" */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
           <div>
-            <h2 className="text-[32px] sm:text-[40px] lg:text-[48px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-2">
+            <h2 className="text-[26px] sm:text-[36px] lg:text-[46px] font-normal leading-[1.2] text-brand-volt tracking-tight mb-2">
               {articles.headline}
             </h2>
             <p className="text-sm text-text-muted font-light">
@@ -46,7 +46,7 @@ export function HomeTwoArticles() {
             <Link
               key={article.id}
               href={article.href}
-              className="group block rounded-[28px] overflow-hidden bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 p-5 backdrop-blur-md transition-all duration-300 shadow-xl"
+              className="group block rounded-[28px] overflow-hidden bg-surface-card border border-border-olive hover:border-brand-volt/40 p-5 backdrop-blur-md transition-all duration-300 shadow-xl"
             >
               {/* Article Featured Image */}
               <div className="relative aspect-[16/10] w-full rounded-[20px] overflow-hidden mb-5 bg-surface-dark border border-white/5">

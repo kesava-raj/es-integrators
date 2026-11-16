@@ -7,9 +7,9 @@ export function ServiceDetailTestimonial({ service }: { service: ServiceItem }) 
   const { testimonial } = service;
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper max-w-[1000px] mx-auto">
-        <div className="p-8 sm:p-12 rounded-[32px] bg-surface-subtle/80 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-2xl relative overflow-hidden">
+        <div className="p-8 sm:p-12 rounded-[32px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-2xl relative overflow-hidden">
           {/* Subtle Ambient Volt Light */}
           <div className="absolute right-0 top-0 w-48 h-48 bg-brand-volt/10 blur-3xl rounded-full pointer-events-none" />
 
@@ -30,7 +30,7 @@ export function ServiceDetailTestimonial({ service }: { service: ServiceItem }) 
             &ldquo;{testimonial.quote}&rdquo;
           </blockquote>
 
-          <div className="flex items-center gap-4 pt-6 border-t border-white/10">
+          <div className="flex items-center gap-4 pt-6 border-t border-border-olive/60">
             <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-brand-volt/40 bg-surface-dark">
               <Image
                 src={testimonial.avatarSrc}

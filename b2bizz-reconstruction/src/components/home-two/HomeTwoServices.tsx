@@ -9,11 +9,11 @@ export function HomeTwoServices() {
   const { services } = HOME_TWO_DATA;
 
   return (
-    <section className="pt-[100px] lg:pt-[150px] pb-0 relative z-10">
+    <section className="pt-14 sm:pt-20 lg:pt-28 pb-0 relative z-10">
       <div className="container-wrapper">
         {/* Header with Title on Left and "Get started" on Right */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
-          <h2 className="text-[32px] sm:text-[38px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt max-w-[620px] tracking-tight">
+          <h2 className="text-[26px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt max-w-[620px] tracking-tight">
             {services.headline}
           </h2>
           <div>
@@ -29,10 +29,10 @@ export function HomeTwoServices() {
             <Link
               key={item.id}
               href={item.href}
-              className="group relative flex flex-col sm:flex-row items-start sm:items-center gap-5 p-5 bg-surface-subtle/70 hover:bg-surface-elevated/90 border border-white/10 hover:border-brand-volt/40 rounded-[24px] backdrop-blur-md transition-all duration-300 overflow-hidden shadow-lg"
+              className="group relative flex flex-col sm:flex-row items-start sm:items-center gap-5 p-5 bg-surface-card border border-border-olive hover:border-brand-volt/40 rounded-[24px] backdrop-blur-md transition-all duration-300 overflow-hidden shadow-lg"
             >
               {/* Image thumbnail on left */}
-              <div className="relative w-full sm:w-[170px] h-[154px] rounded-[16px] overflow-hidden shrink-0 bg-surface-dark border border-white/5">
+              <div className="relative w-full sm:w-[170px] h-[154px] rounded-[16px] overflow-hidden shrink-0 bg-surface-base border border-border-olive/50">
                 <Image
                   src={item.imageSrc}
                   alt={item.title}
@@ -58,7 +58,7 @@ export function HomeTwoServices() {
                   {item.tags.map((tag, tIdx) => (
                     <span
                       key={tIdx}
-                      className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-0.5 rounded-full bg-white/5 border border-white/10"
+                      className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-0.5 rounded-full bg-surface-subtle border border-border-olive/60"
                     >
                       {tag}
                     </span>

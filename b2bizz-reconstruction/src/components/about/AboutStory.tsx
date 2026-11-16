@@ -9,7 +9,7 @@ export function AboutStory() {
   const { story } = ABOUT_DATA;
 
   return (
-    <section className="py-[100px] lg:py-[150px] relative z-10">
+    <section className="py-14 sm:py-20 lg:py-28 relative z-10">
       <div className="container-wrapper">
         {/* Core Narrative Statement */}
         <div className="max-w-[1080px] mb-16">

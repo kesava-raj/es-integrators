@@ -34,14 +34,14 @@ export const IndustriesSection: React.FC = () => {
           <div className="flex items-center gap-2.5 shrink-0">
             <button
               onClick={() => scroll("left")}
-              className="w-10 h-10 rounded-xl bg-[#161A18] border border-border-olive flex items-center justify-center text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors"
+              className="w-10 h-10 rounded-xl bg-surface-card border border-border-olive flex items-center justify-center text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors cursor-pointer"
               aria-label="Previous Industry"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
             <button
               onClick={() => scroll("right")}
-              className="w-10 h-10 rounded-xl bg-[#161A18] border border-border-olive flex items-center justify-center text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors"
+              className="w-10 h-10 rounded-xl bg-surface-card border border-border-olive flex items-center justify-center text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors cursor-pointer"
               aria-label="Next Industry"
             >
               <ChevronRight className="w-4 h-4" />

@@ -75,16 +75,15 @@
   --font-family-display: var(--font-geist, "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
   --font-family-body: var(--font-inter, "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
 
-  /* Responsive Display & Heading Scales (Measured empirically from Framer reference) */
-  /* Responsive Display & Heading Scales (Measured empirically from Framer reference) */
-  --text-display-1: clamp(2.75rem, 3.5vw + 1.5rem, 4.5rem); /* 44px (375px) -> 72px (1440px) */
-  --text-h1: clamp(2.25rem, 2.5vw + 1.25rem, 3.75rem);       /* 36px (375px) -> 60px (1440px) */
-  --text-h2: clamp(1.75rem, 1.8vw + 0.9rem, 2.75rem);        /* 28px (375px) -> 44px (1440px) */
-  --text-h2-large: clamp(2rem, 2.2vw + 1rem, 3.125rem);      /* 32px (375px) -> 50px (1440px) */
-  --text-h2-compact: clamp(1.5rem, 1.5vw + 0.8rem, 2.25rem); /* 24px (375px) -> 36px (1440px) */
-  --text-h3: clamp(1.25rem, 0.8vw + 0.8rem, 1.5rem);         /* 20px (375px) -> 24px (1440px) */
-  --text-body-lead: clamp(1rem, 0.5vw + 0.85rem, 1.125rem);  /* 16px (375px) -> 18px (1440px) */
-  --text-body: clamp(0.875rem, 0.25vw + 0.8rem, 1rem);       /* 14px (375px) -> 16px (1440px) */
+  /* Responsive Display & Heading Scales (Fluid & Proportional for All Devices) */
+  --text-display-1: clamp(2rem, 3.2vw + 1.25rem, 4.25rem);  /* 32px (375px) -> 48px (768px) -> 68px (1440px) */
+  --text-h1: clamp(1.75rem, 2.5vw + 1rem, 3.5rem);           /* 28px (375px) -> 40px (768px) -> 56px (1440px) */
+  --text-h2: clamp(1.5rem, 1.8vw + 0.8rem, 2.5rem);          /* 24px (375px) -> 32px (768px) -> 40px (1440px) */
+  --text-h2-large: clamp(1.75rem, 2vw + 0.9rem, 2.875rem);   /* 28px (375px) -> 36px (768px) -> 46px (1440px) */
+  --text-h2-compact: clamp(1.35rem, 1.2vw + 0.8rem, 2rem);   /* 22px (375px) -> 26px (768px) -> 32px (1440px) */
+  --text-h3: clamp(1.15rem, 0.8vw + 0.75rem, 1.5rem);       /* 18px (375px) -> 20px (768px) -> 24px (1440px) */
+  --text-body-lead: clamp(1rem, 0.4vw + 0.85rem, 1.125rem);  /* 16px (375px) -> 17px (768px) -> 18px (1440px) */
+  --text-body: clamp(0.875rem, 0.25vw + 0.8rem, 1rem);       /* 14px (375px) -> 15px (768px) -> 16px (1440px) */
   --text-caption: 0.8125rem;                                 /* 13px */
 
   /* -------------------------------------------------------------------------

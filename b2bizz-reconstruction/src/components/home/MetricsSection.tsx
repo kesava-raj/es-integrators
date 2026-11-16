@@ -49,11 +49,11 @@ export const MetricsSection: React.FC = () => {
 
               <div className="space-y-3">
                 <div className="text-4xl sm:text-5xl font-normal text-brand-volt tracking-tight">
-                  5
+                  2
                 </div>
                 <div className="border-b border-border-olive/50 pb-2" />
                 <p className="text-sm sm:text-[15px] text-text-secondary leading-snug">
-                  Countries served with B2B services
+                  Global presence hubs (Chennai, India & Michigan, USA)
                 </p>
               </div>
             </div>

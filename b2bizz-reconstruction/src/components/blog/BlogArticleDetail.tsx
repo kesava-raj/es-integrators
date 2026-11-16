@@ -31,7 +31,7 @@ export function BlogArticleDetail({ post }: { post: BlogPost }) {
             {post.category}
           </span>
 
-          <h1 className="text-[32px] sm:text-[44px] lg:text-[54px] font-normal leading-[1.18] text-brand-volt tracking-tight">
+          <h1 className="text-[26px] sm:text-[38px] lg:text-[50px] font-normal leading-[1.18] text-brand-volt tracking-tight">
             {post.title}
           </h1>
 

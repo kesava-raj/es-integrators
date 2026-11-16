@@ -119,14 +119,15 @@ export const Navbar: React.FC = () => {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 8, scale: 0.96 }}
                     transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                    className="absolute top-full right-0 mt-3 w-80 p-2.5 rounded-2xl bg-[#161a18]/95 backdrop-blur-2xl border border-border-olive shadow-2xl z-50"
+                    className="absolute top-full right-0 mt-3 w-80 p-2.5 rounded-2xl bg-surface-card/95 backdrop-blur-2xl border border-border-olive shadow-2xl z-50"
                   >
                     <div className="space-y-1">
                       {NAVIGATION_DATA.dropdownLinks.map((item) => (
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="flex items-start justify-between p-2.5 rounded-xl transition-all duration-150 hover:bg-white/[0.05] group"
+                          onClick={() => setIsDropdownOpen(false)}
+                          className="flex items-start justify-between p-2.5 rounded-xl transition-all duration-150 hover:bg-surface-subtle group"
                         >
                           <div className="space-y-0.5">
                             <div className="flex items-center gap-2">
@@ -173,8 +174,9 @@ export const Navbar: React.FC = () => {
             {/* Mobile Menu Hamburger Button (Min 44x44 touch target) */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden min-w-[42px] min-h-[42px] flex items-center justify-center rounded-full bg-surface-card border border-border-olive text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors"
+              className="lg:hidden min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-surface-card border border-border-olive text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors cursor-pointer"
               aria-label="Toggle Navigation Menu"
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? (
                 <X className="w-5 h-5" />
@@ -186,71 +188,85 @@ export const Navbar: React.FC = () => {
         </div>
       </header>
 
-      {/* Mobile Navigation Drawer */}
+      {/* Mobile Navigation Drawer & Dimmer Overlay */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
-            className="fixed top-[62px] sm:top-[74px] left-0 right-0 z-40 bg-[var(--token-nav-bg)] backdrop-blur-2xl border-b border-border-olive overflow-hidden lg:hidden shadow-2xl"
-          >
-            <div className="container-wrapper py-6 space-y-6 max-h-[calc(100vh-80px)] overflow-y-auto">
-              <div className="flex items-center justify-between pb-2 border-b border-border-olive/50">
-                <span className="text-xs font-mono uppercase text-brand-volt font-semibold">
-                  Theme Appearance
-                </span>
-                <ThemeToggle showLabel />
-              </div>
+          <>
+            {/* Backdrop Dimmer */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden"
+            />
 
-              <div className="space-y-1">
-                <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
-                  Main Navigation
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
+              className="fixed top-[62px] sm:top-[74px] left-0 right-0 z-50 bg-[var(--token-nav-bg)] backdrop-blur-2xl border-b border-border-olive overflow-hidden lg:hidden shadow-2xl"
+            >
+              <div className="container-wrapper py-6 space-y-6 max-h-[calc(100vh-80px)] overflow-y-auto">
+                <div className="flex items-center justify-between pb-3 border-b border-border-olive/50">
+                  <span className="text-xs font-mono uppercase text-brand-volt font-semibold">
+                    Theme Appearance
+                  </span>
+                  <ThemeToggle showLabel />
                 </div>
-                {NAVIGATION_DATA.mainLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="block px-3 py-2.5 rounded-xl text-base font-medium text-text-primary hover:text-brand-volt hover:bg-white/[0.04] transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
 
-              <div className="space-y-1 border-t border-border-olive/60 pt-4">
-                <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
-                  Pages & Sub-routes
+                <div className="space-y-1">
+                  <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
+                    Main Navigation
+                  </div>
+                  {NAVIGATION_DATA.mainLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="block px-3 py-2.5 rounded-xl text-base font-medium text-text-primary hover:text-brand-volt hover:bg-surface-subtle transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
                 </div>
-                {NAVIGATION_DATA.dropdownLinks.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-medium text-text-secondary hover:text-brand-volt hover:bg-white/[0.04] transition-colors"
-                  >
-                    <span>{item.label}</span>
-                    {item.badge && (
-                      <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-border-olive text-brand-volt">
-                        {item.badge}
-                      </span>
-                    )}
-                  </Link>
-                ))}
-              </div>
 
-              <div className="pt-2">
-                <Button
-                  href={NAVIGATION_DATA.headerCta.href}
-                  variant="primary"
-                  showArrow
-                  className="w-full justify-center"
-                >
-                  {NAVIGATION_DATA.headerCta.label}
-                </Button>
+                <div className="space-y-1 border-t border-border-olive/60 pt-4">
+                  <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
+                    Pages & Sub-routes
+                  </div>
+                  {NAVIGATION_DATA.dropdownLinks.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-medium text-text-secondary hover:text-brand-volt hover:bg-surface-subtle transition-colors"
+                    >
+                      <span>{item.label}</span>
+                      {item.badge && (
+                        <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-border-olive text-brand-volt">
+                          {item.badge}
+                        </span>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+
+                <div className="pt-2">
+                  <Button
+                    href={NAVIGATION_DATA.headerCta.href}
+                    variant="primary"
+                    showArrow
+                    className="w-full justify-center min-h-[46px]"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {NAVIGATION_DATA.headerCta.label}
+                  </Button>
+                </div>
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
     </>

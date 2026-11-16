@@ -6,7 +6,7 @@ export function AboutPrinciples() {
   const { principles } = ABOUT_DATA;
 
   return (
-    <section className="pt-0 pb-[100px] lg:pb-[150px] relative z-10">
+    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
       <div className="container-wrapper">
         {/* Header */}
         <div className="max-w-[700px] mb-12">
