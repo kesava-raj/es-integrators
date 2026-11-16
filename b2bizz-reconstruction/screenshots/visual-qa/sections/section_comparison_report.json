@@ -1,0 +1,74 @@
+[
+  {
+    "section": "01-hero",
+    "localHeight": null,
+    "refHeight": 917,
+    "heightDiff": null
+  },
+  {
+    "section": "02-marquee",
+    "localHeight": 440,
+    "refHeight": 573,
+    "heightDiff": -133
+  },
+  {
+    "section": "03-about",
+    "localHeight": null,
+    "refHeight": 678,
+    "heightDiff": null
+  },
+  {
+    "section": "04-industries",
+    "localHeight": null,
+    "refHeight": 694,
+    "heightDiff": null
+  },
+  {
+    "section": "05-valueprops",
+    "localHeight": 925,
+    "refHeight": 911,
+    "heightDiff": 15
+  },
+  {
+    "section": "06-testimonial",
+    "localHeight": 925,
+    "refHeight": 911,
+    "heightDiff": 15
+  },
+  {
+    "section": "07-services",
+    "localHeight": null,
+    "refHeight": 811,
+    "heightDiff": null
+  },
+  {
+    "section": "08-metrics",
+    "localHeight": null,
+    "refHeight": 554,
+    "heightDiff": null
+  },
+  {
+    "section": "09-casestudies",
+    "localHeight": null,
+    "refHeight": 745,
+    "heightDiff": null
+  },
+  {
+    "section": "10-methodology",
+    "localHeight": null,
+    "refHeight": 706,
+    "heightDiff": null
+  },
+  {
+    "section": "11-ctabanner",
+    "localHeight": null,
+    "refHeight": 538,
+    "heightDiff": null
+  },
+  {
+    "section": "12-footer",
+    "localHeight": 562,
+    "refHeight": 679,
+    "heightDiff": -117
+  }
+]

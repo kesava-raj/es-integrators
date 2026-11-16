@@ -1,0 +1,1523 @@
+[
+  {
+    "idx": 0,
+    "top": 0,
+    "height": 917,
+    "width": 1440,
+    "paddingTop": "10px",
+    "paddingBottom": "30px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "30px",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Built for B2B, focused on results.",
+        "fontSize": "72px",
+        "lineHeight": "86.4px"
+      }
+    ],
+    "imagesCount": 10,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/PSxekxaLP7CkInNLr90hydTqHgs.svg?width=25&height=26",
+        "alt": "Service List Icon",
+        "width": 25,
+        "height": 26,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/Kwgm8fkaXetfqUnD7GEqD0dIbWA.svg?width=21&height=26",
+        "alt": "Service List Icon",
+        "width": 21,
+        "height": 26,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/pB2yoFzybhU5bVViKzLVeOg7FRI.svg?width=24&height=25",
+        "alt": "Service List Icon",
+        "width": 24,
+        "height": 25,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/Uy8tMCPa7LVBDzg5wCGkC3Hv7Cc.svg?width=26&height=27",
+        "alt": "Service List Icon",
+        "width": 26,
+        "height": 27,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/Be62KczKftDWo78NQ0aEDa7upys.svg?width=24&height=23",
+        "alt": "Service List Icon",
+        "width": 24,
+        "height": 23,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      }
+    ],
+    "textSnippet": "Built for B2B, focused on results. Explore our services 24/7 support and optimization Customer success experts Live performance tracking Security design approach Multichannel client support 24/7 suppo"
+  },
+  {
+    "idx": 1,
+    "top": 917,
+    "height": 573,
+    "width": 1440,
+    "paddingTop": "150px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [],
+    "imagesCount": 12,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/OeS5x9D923NiahSYKN9hxk4Suro.svg?width=84&height=26",
+        "alt": "Client Icon",
+        "width": 84,
+        "height": 26,
+        "renderedWidth": 88,
+        "renderedHeight": 27
+      },
+      {
+        "src": "https://framerusercontent.com/images/2YZnNW7BCWQWAN6pAEpTgy0410.svg?width=105&height=26",
+        "alt": "Client Icon",
+        "width": 105,
+        "height": 26,
+        "renderedWidth": 88,
+        "renderedHeight": 22
+      },
+      {
+        "src": "https://framerusercontent.com/images/KKl7D5KyqYO8OIic0B8moR7GpE.svg?width=81&height=26",
+        "alt": "Client Icon",
+        "width": 81,
+        "height": 26,
+        "renderedWidth": 88,
+        "renderedHeight": 28
+      },
+      {
+        "src": "https://framerusercontent.com/images/5nrbaFlN2ej82Yl2b67RMPBpjA.svg?width=82&height=26",
+        "alt": "Client Icon",
+        "width": 82,
+        "height": 26,
+        "renderedWidth": 88,
+        "renderedHeight": 28
+      },
+      {
+        "src": "https://framerusercontent.com/images/sbqFrNnjBcJmLYn7HwM461w3vI.svg?width=114&height=26",
+        "alt": "Client Icon",
+        "width": 114,
+        "height": 26,
+        "renderedWidth": 88,
+        "renderedHeight": 20
+      }
+    ],
+    "textSnippet": "Trusted by fast-moving B2B teams"
+  },
+  {
+    "idx": 2,
+    "top": 1490,
+    "height": 678,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Informed strategy, Operational strength, and sustainable results.",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      }
+    ],
+    "imagesCount": 1,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/nyZo544QkOMb4JMxmjR4KDthig.jpg?width=800&height=600",
+        "alt": "About Image",
+        "width": 833,
+        "height": 625,
+        "renderedWidth": 833,
+        "renderedHeight": 364
+      }
+    ],
+    "textSnippet": "Informed strategy, Operational strength, and sustainable results. We specialize in empowering B2B companies with results-driven consulting solutions tailored to modern business challenges. Communicate"
+  },
+  {
+    "idx": 3,
+    "top": 2169,
+    "height": 694,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "50px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Accelerating B2B growth across diverse industries",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      }
+    ],
+    "imagesCount": 22,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      }
+    ],
+    "textSnippet": "Accelerating B2B growth across diverse industries Financial services Healthcare Technology Manufacturing Logistics & supply chain Financial services Healthcare Technology Manufacturing Logistics & sup"
+  },
+  {
+    "idx": 4,
+    "top": 2333,
+    "height": 380,
+    "width": 1380,
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "normal",
+    "alignItems": "center",
+    "gap": "normal",
+    "headings": [],
+    "imagesCount": 22,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Industries Image",
+        "width": 400,
+        "height": 400,
+        "renderedWidth": 338,
+        "renderedHeight": 380
+      }
+    ],
+    "textSnippet": "Financial services Healthcare Technology Manufacturing Logistics & supply chain Financial services Healthcare Technology Manufacturing Logistics & supply chain Financial services Healthcare Technology"
+  },
+  {
+    "idx": 5,
+    "top": 2863,
+    "height": 911,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "50px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "What makes us the right partner",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H2",
+        "text": "Working with B2bizz was a game-changer for our B2B strategy. Their team didn’t just offer advice — they became an extension of our leadership. Their insights, professionalism, and tailored approach helped us unlock new growth and streamline our operations.",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      }
+    ],
+    "imagesCount": 5,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/LvrjgEFWUJmw4KNk0Z3Vkj4tMnw.svg?width=62&height=62",
+        "alt": "Why Choose Icon",
+        "width": 62,
+        "height": 62,
+        "renderedWidth": 60,
+        "renderedHeight": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/GlhEiNlKFOg8ofVXCHtk2Dhu8Wg.svg?width=62&height=62",
+        "alt": "Why Choose Icon",
+        "width": 62,
+        "height": 62,
+        "renderedWidth": 60,
+        "renderedHeight": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/1MVVAon08dDj9NsTo05Y9n4MWL4.svg?width=60&height=60",
+        "alt": "Why Choose Icon",
+        "width": 60,
+        "height": 60,
+        "renderedWidth": 60,
+        "renderedHeight": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/XwCo50BibsVkSjbmawMbcrbww.jpg?width=1200&height=600",
+        "alt": "CTA BG",
+        "width": 1380,
+        "height": 690,
+        "renderedWidth": 1380,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/pfX9Sn5qRme6iCFMisneY4YIt7I.jpg?width=150&height=150",
+        "alt": "Avatar",
+        "width": 150,
+        "height": 150,
+        "renderedWidth": 100,
+        "renderedHeight": 100
+      }
+    ],
+    "textSnippet": "What makes us the right partner Choosing the right consulting partner can define the future of your business. At B2bizz, we don’t just advise — we collaborate, innovate, and deliver. B2B expertise tha"
+  },
+  {
+    "idx": 6,
+    "top": 3244,
+    "height": 380,
+    "width": 1380,
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Working with B2bizz was a game-changer for our B2B strategy. Their team didn’t just offer advice — they became an extension of our leadership. Their insights, professionalism, and tailored approach helped us unlock new growth and streamline our operations.",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      }
+    ],
+    "imagesCount": 2,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/XwCo50BibsVkSjbmawMbcrbww.jpg?width=1200&height=600",
+        "alt": "CTA BG",
+        "width": 1380,
+        "height": 690,
+        "renderedWidth": 1380,
+        "renderedHeight": 380
+      },
+      {
+        "src": "https://framerusercontent.com/images/pfX9Sn5qRme6iCFMisneY4YIt7I.jpg?width=150&height=150",
+        "alt": "Avatar",
+        "width": 150,
+        "height": 150,
+        "renderedWidth": 100,
+        "renderedHeight": 100
+      }
+    ],
+    "textSnippet": "Working with B2bizz was a game-changer for our B2B strategy. Their team didn’t just offer advice — they became an extension of our leadership. Their insights, professionalism, and tailored approach he"
+  },
+  {
+    "idx": 7,
+    "top": 3774,
+    "height": 811,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Expert services that move your business forward",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      }
+    ],
+    "imagesCount": 12,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/faPhM0qEMdEDrvx9YQHLGdq9H58.svg?width=24&height=24",
+        "alt": "Service Icon",
+        "width": 24,
+        "height": 24,
+        "renderedWidth": 24,
+        "renderedHeight": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/wba5aXb5NBJ72EgeKZ5MjD6fvM.svg?width=24&height=24",
+        "alt": "Service Icon",
+        "width": 24,
+        "height": 24,
+        "renderedWidth": 24,
+        "renderedHeight": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/qO0gP79WRVKKssXtK6bje8XqSg.svg?width=25&height=24",
+        "alt": "Service Icon",
+        "width": 25,
+        "height": 24,
+        "renderedWidth": 24,
+        "renderedHeight": 24
+      }
+    ],
+    "textSnippet": "Expert services that move your business forward Get started B2B website design & development Conversion-focused websites are built for speed, trust, and lead generation. Business website Corporate sit"
+  },
+  {
+    "idx": 8,
+    "top": 4584,
+    "height": 554,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "150px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Proven performance, Measurable results",
+        "fontSize": "36px",
+        "lineHeight": "43.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "4X",
+        "fontSize": "36px",
+        "lineHeight": "43.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "5",
+        "fontSize": "36px",
+        "lineHeight": "43.2px"
+      }
+    ],
+    "imagesCount": 1,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/xdZBOwkMZJeriKhloXInsZER2rY.svg?width=455&height=400",
+        "alt": "Statistics Image",
+        "width": 455,
+        "height": 400,
+        "renderedWidth": 460,
+        "renderedHeight": 404
+      }
+    ],
+    "textSnippet": "Proven performance, Measurable results Our work is backed by measurable results. These numbers reflect the trust, success, and outcomes we've delivered for our B2B partners across industries and regio"
+  },
+  {
+    "idx": 9,
+    "top": 5139,
+    "height": 745,
+    "width": 1440,
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Enterprise resource integration for a manufacturing firm",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Eco Enterprise",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "25%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "70%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Strategic digital shift for a B2B consulting agency",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Spendora",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "40%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "60%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Lead generation boost for a B2B logistics company",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "EdgeTrans",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "2.5X",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "38%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Scalable SaaS platform for a fintech startup",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Brand Edge",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "50%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "30%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Enterprise resource integration for a manufacturing firm",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Eco Enterprise",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "25%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "70%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      }
+    ],
+    "imagesCount": 34,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/KZBATV7TBPgBxGgzaAjj79STA8.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/SDF44TiCtWyHIceLhE0MsUGlSps.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/ULil3BuLizq2aHXRU0MIGjYytw.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      }
+    ],
+    "textSnippet": "CRM & ERP integrations Enterprise resource integration for a manufacturing firm Eco Enterprise Challenge: Disconnected legacy systems hindered real-time data access. Solution: Integrated ERP, CRM, and"
+  },
+  {
+    "idx": 10,
+    "top": 5169,
+    "height": 600,
+    "width": 1320,
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "normal",
+    "alignItems": "center",
+    "gap": "normal",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Enterprise resource integration for a manufacturing firm",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Eco Enterprise",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "25%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "70%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Strategic digital shift for a B2B consulting agency",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Spendora",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "40%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "60%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Lead generation boost for a B2B logistics company",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "EdgeTrans",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "2.5X",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "38%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Scalable SaaS platform for a fintech startup",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Brand Edge",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "50%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "30%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "Enterprise resource integration for a manufacturing firm",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Eco Enterprise",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "25%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "70%",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H2",
+        "text": "",
+        "fontSize": "44px",
+        "lineHeight": "57.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      }
+    ],
+    "imagesCount": 34,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/KZBATV7TBPgBxGgzaAjj79STA8.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/SDF44TiCtWyHIceLhE0MsUGlSps.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/ULil3BuLizq2aHXRU0MIGjYytw.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "width": 1440,
+        "height": 1080,
+        "renderedWidth": 630,
+        "renderedHeight": 454
+      }
+    ],
+    "textSnippet": "CRM & ERP integrations Enterprise resource integration for a manufacturing firm Eco Enterprise Challenge: Disconnected legacy systems hindered real-time data access. Solution: Integrated ERP, CRM, and"
+  },
+  {
+    "idx": 11,
+    "top": 5884,
+    "height": 706,
+    "width": 1440,
+    "paddingTop": "150px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Our method for strategic B2B growth",
+        "fontSize": "50px",
+        "lineHeight": "60px"
+      }
+    ],
+    "imagesCount": 4,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/X8QKXnvD0vuQAmNPaiuSiDWAII0.svg?width=1760&height=600",
+        "alt": "Shape",
+        "width": 1527,
+        "height": 521,
+        "renderedWidth": 889,
+        "renderedHeight": 450
+      },
+      {
+        "src": "https://framerusercontent.com/images/W1lcf4BgY3X9TQGR6SVbHi6yKqA.svg?width=31&height=30",
+        "alt": "Step Icon",
+        "width": 31,
+        "height": 30,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/ZfEE2pKPHkOFFneaQ9yk7U5WRg4.svg?width=30&height=30",
+        "alt": "Step Icon",
+        "width": 30,
+        "height": 30,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      },
+      {
+        "src": "https://framerusercontent.com/images/1ClaDdRxEtRT8xD5buBHj16PM.svg?width=50&height=50",
+        "alt": "Step Icon",
+        "width": 50,
+        "height": 50,
+        "renderedWidth": 26,
+        "renderedHeight": 26
+      }
+    ],
+    "textSnippet": "Our method for strategic B2B growth Our streamlined 3-step approach ensures your business gets a focused strategy, practical solutions, and measurable outcomes. Explore our services Step 1 Step 2 Step"
+  },
+  {
+    "idx": 12,
+    "top": 6590,
+    "height": 538,
+    "width": 1440,
+    "paddingTop": "150px",
+    "paddingBottom": "0px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "0px",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Is your B2B business ready for the next level?",
+        "fontSize": "36px",
+        "lineHeight": "43.2px"
+      },
+      {
+        "tag": "H3",
+        "text": "Time to level up your B2B game?",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      },
+      {
+        "tag": "H3",
+        "text": "Need expert help to scale fast?",
+        "fontSize": "24px",
+        "lineHeight": "28.8px"
+      }
+    ],
+    "imagesCount": 6,
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "width": 20,
+        "height": 19,
+        "renderedWidth": 18,
+        "renderedHeight": 18
+      },
+      {
+        "src": "https://framerusercontent.com/images/AY6PQekAWDMcCklwuXMbqPS9CeE.jpg?width=1200&height=600",
+        "alt": "CTA BG",
+        "width": 1160,
+        "height": 580,
+        "renderedWidth": 1160,
+        "renderedHeight": 280
+      },
+      {
+        "src": "https://framerusercontent.com/images/FNXmFBsR2D4C0k2feNCZLAs3q5s.svg?width=50&height=51",
+        "alt": "CTA Icon",
+        "width": 50,
+        "height": 51,
+        "renderedWidth": 50,
+        "renderedHeight": 50
+      },
+      {
+        "src": "https://framerusercontent.com/images/MhAEp2N1wwDuRfYGNfI0npA9N8.svg?width=9&height=16",
+        "alt": "Overview Icon",
+        "width": 9,
+        "height": 16,
+        "renderedWidth": 20,
+        "renderedHeight": 20
+      },
+      {
+        "src": "https://framerusercontent.com/images/R1XsGA4fBWxao88g7o1D35jw.svg?width=50&height=51",
+        "alt": "CTA Icon",
+        "width": 50,
+        "height": 51,
+        "renderedWidth": 50,
+        "renderedHeight": 50
+      }
+    ],
+    "textSnippet": "Is your B2B business ready for the next level? Book a free call Time to level up your B2B game? Contact now Need expert help to scale fast? Contact our experts"
+  }
+]

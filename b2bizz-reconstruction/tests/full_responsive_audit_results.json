@@ -1,0 +1,2055 @@
+{
+  "timestamp": "2026-11-15T09:19:16.210Z",
+  "viewportsTested": [
+    "1440px (Desktop_1440)",
+    "1280px (Laptop_1280)",
+    "1024px (SmallLaptop_1024)",
+    "768px (Tablet_768)",
+    "390px (Mobile_390)",
+    "375px (SmallMobile_375)"
+  ],
+  "routesAudited": [
+    "/",
+    "/home-2",
+    "/about",
+    "/service",
+    "/service/b2b-website-design-development",
+    "/case-study",
+    "/case-study/lead-generation-boost-for-a-b2b-logistics-company",
+    "/blog",
+    "/blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+    "/contact",
+    "/changelog",
+    "/legal-pages/privacy-policy"
+  ],
+  "viewportResults": {
+    "375": {
+      "viewport": {
+        "name": "SmallMobile_375",
+        "width": 375,
+        "height": 667
+      },
+      "local": {
+        "viewportWidth": 375,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "windowWidth": 375,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "glow-ambient-volt top-0 left-1/2 -translate-x-1/2",
+            "right": 438,
+            "left": -62,
+            "width": 500
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 2565,
+            "left": 0,
+            "width": 2565
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 458,
+            "left": 357,
+            "width": 101
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 442,
+            "left": 373,
+            "width": 69
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 442,
+            "left": 373,
+            "width": 69
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 562,
+            "left": 506,
+            "width": 56
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 546,
+            "left": 522,
+            "width": 24
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 546,
+            "left": 522,
+            "width": 24
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 663,
+            "left": 610,
+            "width": 53
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 647,
+            "left": 626,
+            "width": 21
+          }
+        ],
+        "navigation": {
+          "headerHeight": 84,
+          "isDesktopNavVisible": false,
+          "isHamburgerVisible": true,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "36px",
+            "lineHeight": "41.4px",
+            "letterSpacing": "-0.9px"
+          },
+          "h2": {
+            "fontSize": "28px",
+            "lineHeight": "33.6px"
+          },
+          "body": {
+            "fontSize": "16px",
+            "lineHeight": "24.8px"
+          }
+        },
+        "containers": [
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 375,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 631,
+            "paddingTop": "88px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 253,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 753,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 1057,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1197,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 775,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 2,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 164,
+              "height": 179
+            },
+            {
+              "width": 164,
+              "height": 179
+            },
+            {
+              "width": 164,
+              "height": 179
+            },
+            {
+              "width": 164,
+              "height": 179
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 0,
+            "height": 0,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 0,
+            "height": 0,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 343,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 343,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 343,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 253,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 1,
+          "newsletterWidth": 343
+        }
+      },
+      "mobileDrawer": {
+        "tested": true,
+        "openedSuccessfully": true,
+        "drawerMetrics": null,
+        "drawerScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-375px-drawer-open.png"
+      },
+      "reference": {
+        "viewportWidth": 375,
+        "scrollWidth": 375,
+        "windowWidth": 375,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "44px",
+          "lineHeight": "48.4px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-375px-smallmobile_375.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-375px-smallmobile_375.png"
+    },
+    "390": {
+      "viewport": {
+        "name": "Mobile_390",
+        "width": 390,
+        "height": 844
+      },
+      "local": {
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "windowWidth": 390,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "glow-ambient-volt top-0 left-1/2 -translate-x-1/2",
+            "right": 445,
+            "left": -55,
+            "width": 500
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 2565,
+            "left": 0,
+            "width": 2565
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 458,
+            "left": 357,
+            "width": 101
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 442,
+            "left": 373,
+            "width": 69
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 442,
+            "left": 373,
+            "width": 69
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 562,
+            "left": 506,
+            "width": 56
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 546,
+            "left": 522,
+            "width": 24
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 546,
+            "left": 522,
+            "width": 24
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 663,
+            "left": 610,
+            "width": 53
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 647,
+            "left": 626,
+            "width": 21
+          }
+        ],
+        "navigation": {
+          "headerHeight": 84,
+          "isDesktopNavVisible": false,
+          "isHamburgerVisible": true,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "36px",
+            "lineHeight": "41.4px",
+            "letterSpacing": "-0.9px"
+          },
+          "h2": {
+            "fontSize": "28px",
+            "lineHeight": "33.6px"
+          },
+          "body": {
+            "fontSize": "16px",
+            "lineHeight": "24.8px"
+          }
+        },
+        "containers": [
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          },
+          {
+            "width": 390,
+            "maxWidth": "1460px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 631,
+            "paddingTop": "88px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 253,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 753,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 1036,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1151,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 775,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 2,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 171,
+              "height": 179
+            },
+            {
+              "width": 171,
+              "height": 179
+            },
+            {
+              "width": 171,
+              "height": 179
+            },
+            {
+              "width": 171,
+              "height": 179
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 0,
+            "height": 0,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 0,
+            "height": 0,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 358,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 358,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 358,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 253,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 1,
+          "newsletterWidth": 358
+        }
+      },
+      "mobileDrawer": {
+        "tested": true,
+        "openedSuccessfully": true,
+        "drawerMetrics": null,
+        "drawerScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-390px-drawer-open.png"
+      },
+      "reference": {
+        "viewportWidth": 390,
+        "scrollWidth": 390,
+        "windowWidth": 390,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "44px",
+          "lineHeight": "48.4px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-390px-mobile_390.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-390px-mobile_390.png"
+    },
+    "768": {
+      "viewport": {
+        "name": "Tablet_768",
+        "width": 768,
+        "height": 1024
+      },
+      "local": {
+        "viewportWidth": 768,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "windowWidth": 768,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 3053,
+            "left": 0,
+            "width": 3053
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 851,
+            "left": 791,
+            "width": 60
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 835,
+            "left": 807,
+            "width": 28
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 835,
+            "left": 807,
+            "width": 28
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 975,
+            "left": 915,
+            "width": 60
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 959,
+            "left": 931,
+            "width": 28
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 959,
+            "left": 931,
+            "width": 28
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1185,
+            "left": 1039,
+            "width": 146
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1169,
+            "left": 1055,
+            "width": 114
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1169,
+            "left": 1055,
+            "width": 114
+          }
+        ],
+        "navigation": {
+          "headerHeight": 87,
+          "isDesktopNavVisible": false,
+          "isHamburgerVisible": true,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "39.2px",
+            "lineHeight": "45.08px",
+            "letterSpacing": "-0.98px"
+          },
+          "h2": {
+            "fontSize": "31.36px",
+            "lineHeight": "37.632px"
+          },
+          "body": {
+            "fontSize": "17.44px",
+            "lineHeight": "27.032px"
+          }
+        },
+        "containers": [
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          },
+          {
+            "width": 768,
+            "maxWidth": "1460px",
+            "paddingLeft": "24px",
+            "paddingRight": "24px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 420,
+            "paddingTop": "88px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 237,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 573,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 635,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1048,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 656,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 4,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 162,
+              "height": 240
+            },
+            {
+              "width": 162,
+              "height": 240
+            },
+            {
+              "width": 162,
+              "height": 240
+            },
+            {
+              "width": 162,
+              "height": 240
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 0,
+            "height": 0,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 244,
+            "height": 47,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 217,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 228,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 184,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 237,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 2,
+          "newsletterWidth": 289
+        }
+      },
+      "mobileDrawer": {
+        "tested": true,
+        "openedSuccessfully": true,
+        "drawerMetrics": null,
+        "drawerScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-768px-drawer-open.png"
+      },
+      "reference": {
+        "viewportWidth": 768,
+        "scrollWidth": 768,
+        "windowWidth": 768,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "44px",
+          "lineHeight": "48.4px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-768px-tablet_768.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-768px-tablet_768.png"
+    },
+    "1024": {
+      "viewport": {
+        "name": "SmallLaptop_1024",
+        "width": 1024,
+        "height": 768
+      },
+      "local": {
+        "viewportWidth": 1024,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "windowWidth": 1024,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 3053,
+            "left": 0,
+            "width": 3053
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1185,
+            "left": 1039,
+            "width": 146
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1169,
+            "left": 1055,
+            "width": 114
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1169,
+            "left": 1055,
+            "width": 114
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1364,
+            "left": 1249,
+            "width": 115
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1348,
+            "left": 1265,
+            "width": 83
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1348,
+            "left": 1265,
+            "width": 83
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1529,
+            "left": 1428,
+            "width": 101
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          }
+        ],
+        "navigation": {
+          "headerHeight": 106,
+          "isDesktopNavVisible": true,
+          "isHamburgerVisible": false,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "45.6px",
+            "lineHeight": "52.44px",
+            "letterSpacing": "-1.14px"
+          },
+          "h2": {
+            "fontSize": "36.48px",
+            "lineHeight": "43.776px"
+          },
+          "body": {
+            "fontSize": "18px",
+            "lineHeight": "27.9px"
+          }
+        },
+        "containers": [
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1024,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 508,
+            "paddingTop": "128px",
+            "paddingBottom": "80px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 237,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 638,
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 673,
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1076,
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 769,
+            "paddingTop": "80px",
+            "paddingBottom": "80px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 4,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 222,
+              "height": 227
+            },
+            {
+              "width": 222,
+              "height": 227
+            },
+            {
+              "width": 222,
+              "height": 227
+            },
+            {
+              "width": 222,
+              "height": 227
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 91,
+            "height": 32,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 244,
+            "height": 47,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "",
+            "width": 0,
+            "height": 0,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 217,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 228,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 184,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 237,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 12,
+          "newsletterWidth": 225
+        }
+      },
+      "mobileDrawer": {
+        "tested": false
+      },
+      "reference": {
+        "viewportWidth": 1024,
+        "scrollWidth": 1024,
+        "windowWidth": 1024,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "60px",
+          "lineHeight": "72px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-1024px-smalllaptop_1024.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-1024px-smalllaptop_1024.png"
+    },
+    "1280": {
+      "viewport": {
+        "name": "Laptop_1280",
+        "width": 1280,
+        "height": 800
+      },
+      "local": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "windowWidth": 1280,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 3053,
+            "left": 0,
+            "width": 3053
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1364,
+            "left": 1249,
+            "width": 115
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1348,
+            "left": 1265,
+            "width": 83
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1348,
+            "left": 1265,
+            "width": 83
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1529,
+            "left": 1428,
+            "width": 101
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1649,
+            "left": 1593,
+            "width": 56
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1633,
+            "left": 1609,
+            "width": 24
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1633,
+            "left": 1609,
+            "width": 24
+          }
+        ],
+        "navigation": {
+          "headerHeight": 87,
+          "isDesktopNavVisible": true,
+          "isHamburgerVisible": false,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "52px",
+            "lineHeight": "59.8px",
+            "letterSpacing": "-1.3px"
+          },
+          "h2": {
+            "fontSize": "41.6px",
+            "lineHeight": "49.92px"
+          },
+          "body": {
+            "fontSize": "18px",
+            "lineHeight": "27.9px"
+          }
+        },
+        "containers": [
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1280,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 587,
+            "paddingTop": "160px",
+            "paddingBottom": "112px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 237,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 707,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 711,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1169,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 864,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 4,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 286,
+              "height": 203
+            },
+            {
+              "width": 286,
+              "height": 203
+            },
+            {
+              "width": 286,
+              "height": 203
+            },
+            {
+              "width": 286,
+              "height": 203
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 91,
+            "height": 32,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 244,
+            "height": 47,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "",
+            "width": 0,
+            "height": 0,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 217,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 228,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 184,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 237,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 12,
+          "newsletterWidth": 289
+        }
+      },
+      "mobileDrawer": {
+        "tested": false
+      },
+      "reference": {
+        "viewportWidth": 1280,
+        "scrollWidth": 1280,
+        "windowWidth": 1280,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "72px",
+          "lineHeight": "86.4px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-1280px-laptop_1280.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-1280px-laptop_1280.png"
+    },
+    "1440": {
+      "viewport": {
+        "name": "Desktop_1440",
+        "width": 1440,
+        "height": 900
+      },
+      "local": {
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "windowWidth": 1440,
+        "hasHorizontalOverflow": false,
+        "overflowingElements": [
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center gap-12 sm:gap-16 w-max animate-marquee hover:[animation-play-",
+            "right": 3053,
+            "left": 0,
+            "width": 3053
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1529,
+            "left": 1428,
+            "width": 101
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1513,
+            "left": 1444,
+            "width": 69
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1649,
+            "left": 1593,
+            "width": 56
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1633,
+            "left": 1609,
+            "width": 24
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1633,
+            "left": 1609,
+            "width": 24
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 flex items-center justify-center shrink-0 grayscale opacity-60 hover:grayscale-",
+            "right": 1766,
+            "left": 1713,
+            "width": 53
+          },
+          {
+            "tagName": "DIV",
+            "id": null,
+            "className": "jsx-8e3b123739d64041 relative h-7 flex items-center",
+            "right": 1750,
+            "left": 1729,
+            "width": 21
+          },
+          {
+            "tagName": "IMG",
+            "id": null,
+            "className": "max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all",
+            "right": 1750,
+            "left": 1729,
+            "width": 21
+          }
+        ],
+        "navigation": {
+          "headerHeight": 87,
+          "isDesktopNavVisible": true,
+          "isHamburgerVisible": false,
+          "isHeaderCTAVisible": true
+        },
+        "typography": {
+          "h1": {
+            "fontSize": "56px",
+            "lineHeight": "64.4px",
+            "letterSpacing": "-1.4px"
+          },
+          "h2": {
+            "fontSize": "44px",
+            "lineHeight": "52.8px"
+          },
+          "body": {
+            "fontSize": "18px",
+            "lineHeight": "27.9px"
+          }
+        },
+        "containers": [
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          },
+          {
+            "width": 1440,
+            "maxWidth": "1460px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
+          }
+        ],
+        "sections": [
+          {
+            "index": 0,
+            "id": "section-0",
+            "height": 596,
+            "paddingTop": "160px",
+            "paddingBottom": "112px"
+          },
+          {
+            "index": 1,
+            "id": "marquee",
+            "height": 237,
+            "paddingTop": "48px",
+            "paddingBottom": "48px"
+          },
+          {
+            "index": 2,
+            "id": "metrics",
+            "height": 696,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 3,
+            "id": "section-3",
+            "height": 714,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 4,
+            "id": "faq",
+            "height": 1174,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          },
+          {
+            "index": 5,
+            "id": "section-5",
+            "height": 873,
+            "paddingTop": "120px",
+            "paddingBottom": "120px"
+          }
+        ],
+        "metricGrid": {
+          "columns": 4,
+          "cardCount": 4,
+          "cardDimensions": [
+            {
+              "width": 326,
+              "height": 187
+            },
+            {
+              "width": 326,
+              "height": 187
+            },
+            {
+              "width": 326,
+              "height": 187
+            },
+            {
+              "width": 326,
+              "height": 187
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "text": "Pages",
+            "width": 91,
+            "height": 32,
+            "minHeight": "0px",
+            "fontSize": "14px",
+            "borderRadius": "3.35544e+07px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Request a consultation",
+            "width": 244,
+            "height": 47,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "",
+            "width": 0,
+            "height": 0,
+            "minHeight": "44px",
+            "fontSize": "16px",
+            "borderRadius": "12px",
+            "meetsTouchTarget": false
+          },
+          {
+            "text": "Test Logo Marquee",
+            "width": 217,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test Metric Counters",
+            "width": 228,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Test FAQ Accordion ↓",
+            "width": 184,
+            "height": 44,
+            "minHeight": "44px",
+            "fontSize": "14px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Secondary Button",
+            "width": 207,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          },
+          {
+            "text": "Primary Volt",
+            "width": 167,
+            "height": 49,
+            "minHeight": "44px",
+            "fontSize": "15px",
+            "borderRadius": "9999px",
+            "meetsTouchTarget": true
+          }
+        ],
+        "marquee": {
+          "height": 237,
+          "hasMask": false
+        },
+        "footer": {
+          "columns": 12,
+          "newsletterWidth": 289
+        }
+      },
+      "mobileDrawer": {
+        "tested": false
+      },
+      "reference": {
+        "viewportWidth": 1440,
+        "scrollWidth": 1440,
+        "windowWidth": 1440,
+        "hasHorizontalOverflow": false,
+        "h1": {
+          "fontSize": "72px",
+          "lineHeight": "86.4px"
+        },
+        "screenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\ref-1440px-desktop_1440.png"
+      },
+      "localScreenshot": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\local-1440px-desktop_1440.png"
+    }
+  },
+  "routeStatusLocal": {
+    "/": {
+      "name": "Home",
+      "status": 200,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": true
+    },
+    "/home-2": {
+      "name": "Home2",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/about": {
+      "name": "About",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/service": {
+      "name": "Services",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/service/b2b-website-design-development": {
+      "name": "ServiceDetail",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/case-study": {
+      "name": "CaseStudies",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/case-study/lead-generation-boost-for-a-b2b-logistics-company": {
+      "name": "CaseStudyDetail",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/blog": {
+      "name": "Blog",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/blog/how-to-scale-your-b2b-sales-funnel-in-2026": {
+      "name": "BlogDetail",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/contact": {
+      "name": "Contact",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/changelog": {
+      "name": "Changelog",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    },
+    "/legal-pages/privacy-policy": {
+      "name": "PrivacyPolicy",
+      "status": 404,
+      "title": "B2bizz - B2B Consulting Agency for Digital Growth",
+      "isCurrentlyImplemented": false
+    }
+  },
+  "referenceRouteMetrics": {}
+}

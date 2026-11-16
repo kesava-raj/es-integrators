@@ -1,0 +1,785 @@
+{
+  "desktop_1440": {
+    "viewport": {
+      "name": "desktop_1440",
+      "width": 1440,
+      "height": 900
+    },
+    "localMetrics": {
+      "totalHeight": 7553,
+      "scrollWidth": 1440,
+      "h1Styles": {
+        "fontSize": "72px",
+        "lineHeight": "86.4px",
+        "letterSpacing": "-2.16px",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "HEADER",
+          "heading": null,
+          "height": 87,
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": "Built for B2B,\nfocused on results.",
+          "height": 865,
+          "paddingTop": "10px",
+          "paddingBottom": "30px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 440,
+          "paddingTop": "150px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operational\nstrength, and susta",
+          "height": 651,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth\nacross diverse industries",
+          "height": 699,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 925,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "Expert services that move\nyour business forward",
+          "height": 833,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Proven performance,\nMeasurable results",
+          "height": 570,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 824,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Our method\nfor strategic\nB2B growth",
+          "height": 630,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Is your B2B business\nready for the next level?",
+          "height": 554,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 11,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 562,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "refMetrics": {
+      "totalHeight": 7807,
+      "scrollWidth": 1440,
+      "h1Styles": {
+        "fontSize": "72px",
+        "lineHeight": "86.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "SECTION",
+          "heading": "Built for B2B, focused on results.",
+          "height": 917,
+          "paddingTop": "10px",
+          "paddingBottom": "30px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 573,
+          "paddingTop": "150px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operational strength, and susta",
+          "height": 678,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth across diverse industries",
+          "height": 694,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 380,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 0,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 911,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Working with B2bizz was a game-changer for our B2B",
+          "height": 380,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Working with B2bizz was a game-changer for our B2B",
+          "height": 0,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Working with B2bizz was a game-changer for our B2B",
+          "height": 0,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Expert services that move your business forward",
+          "height": 811,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 11,
+          "tag": "SECTION",
+          "heading": "Proven performance, Measurable results",
+          "height": 554,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 12,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 745,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 13,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 600,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 14,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 0,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 15,
+          "tag": "SECTION",
+          "heading": "Our method for strategic B2B growth",
+          "height": 706,
+          "paddingTop": "150px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 16,
+          "tag": "SECTION",
+          "heading": "Is your B2B business ready for the next level?",
+          "height": 538,
+          "paddingTop": "150px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 17,
+          "tag": "SECTION",
+          "heading": "Is your B2B business ready for the next level?",
+          "height": 0,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 18,
+          "tag": "SECTION",
+          "heading": "Is your B2B business ready for the next level?",
+          "height": 0,
+          "paddingTop": "120px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 19,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 679,
+          "paddingTop": "150px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 20,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 0,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 21,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 0,
+          "paddingTop": "120px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "screenshots": {
+      "localFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-desktop_1440-full.png",
+      "localHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-desktop_1440-hero.png",
+      "refFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-desktop_1440-full.png",
+      "refHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-desktop_1440-hero.png"
+    }
+  },
+  "tablet_768": {
+    "viewport": {
+      "name": "tablet_768",
+      "width": 768,
+      "height": 1024
+    },
+    "localMetrics": {
+      "totalHeight": 8540,
+      "scrollWidth": 768,
+      "h1Styles": {
+        "fontSize": "50.88px",
+        "lineHeight": "61.056px",
+        "letterSpacing": "-1.5264px",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "HEADER",
+          "heading": null,
+          "height": 87,
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": "Built for B2B,\nfocused on results.",
+          "height": 785,
+          "paddingTop": "10px",
+          "paddingBottom": "30px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 340,
+          "paddingTop": "100px",
+          "paddingBottom": "100px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operational\nstrength, and susta",
+          "height": 892,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth\nacross diverse industries",
+          "height": 565,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 923,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "Expert services that move\nyour business forward",
+          "height": 1285,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Proven performance,\nMeasurable results",
+          "height": 790,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 866,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Our method\nfor strategic\nB2B growth",
+          "height": 865,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Is your B2B business\nready for the next level?",
+          "height": 480,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 11,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 749,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "refMetrics": {
+      "totalHeight": 10969,
+      "scrollWidth": 768,
+      "h1Styles": {
+        "fontSize": "44px",
+        "lineHeight": "48.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "SECTION",
+          "heading": "Built for B2B, focused on results.",
+          "height": 395,
+          "paddingTop": "60px",
+          "paddingBottom": "20px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 348,
+          "paddingTop": "80px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operational strength, and susta",
+          "height": 1091,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth across diverse industries",
+          "height": 446,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 220,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 922,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "Working with B2bizz was a game-changer for our B2B",
+          "height": 272,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Expert services that move your business forward",
+          "height": 1267,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Proven performance, Measurable results",
+          "height": 696,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 3983,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Our method for strategic B2B growth",
+          "height": 561,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 11,
+          "tag": "SECTION",
+          "heading": "Is your B2B business ready for the next level?",
+          "height": 424,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 12,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 836,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "screenshots": {
+      "localFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-tablet_768-full.png",
+      "localHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-tablet_768-hero.png",
+      "refFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-tablet_768-full.png",
+      "refHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-tablet_768-hero.png"
+    }
+  },
+  "mobile_375": {
+    "viewport": {
+      "name": "mobile_375",
+      "width": 375,
+      "height": 800
+    },
+    "localMetrics": {
+      "totalHeight": 8990,
+      "scrollWidth": 375,
+      "h1Styles": {
+        "fontSize": "44px",
+        "lineHeight": "52.8px",
+        "letterSpacing": "-1.32px",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "HEADER",
+          "heading": null,
+          "height": 84,
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": "Built for B2B,\nfocused on results.",
+          "height": 685,
+          "paddingTop": "10px",
+          "paddingBottom": "30px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 340,
+          "paddingTop": "100px",
+          "paddingBottom": "100px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operationalstrength, and sustai",
+          "height": 877,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth\nacross diverse industries",
+          "height": 593,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 1230,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "Expert services that move\nyour business forward",
+          "height": 1119,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Proven performance,\nMeasurable results",
+          "height": 845,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 896,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Our method\nfor strategic\nB2B growth",
+          "height": 810,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Is your B2B business\nready for the next level?",
+          "height": 546,
+          "paddingTop": "0px",
+          "paddingBottom": "48px"
+        },
+        {
+          "idx": 11,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 1049,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "refMetrics": {
+      "totalHeight": 10276,
+      "scrollWidth": 375,
+      "h1Styles": {
+        "fontSize": "44px",
+        "lineHeight": "48.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(243, 255, 201)"
+      },
+      "sections": [
+        {
+          "idx": 0,
+          "tag": "SECTION",
+          "heading": "Built for B2B, focused on results.",
+          "height": 491,
+          "paddingTop": "60px",
+          "paddingBottom": "20px"
+        },
+        {
+          "idx": 1,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 348,
+          "paddingTop": "80px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 2,
+          "tag": "SECTION",
+          "heading": "Informed strategy, Operational strength, and susta",
+          "height": 851,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 3,
+          "tag": "SECTION",
+          "heading": "Accelerating B2B growth across diverse industries",
+          "height": 483,
+          "paddingTop": "0px",
+          "paddingBottom": "150px"
+        },
+        {
+          "idx": 4,
+          "tag": "SECTION",
+          "heading": null,
+          "height": 220,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 5,
+          "tag": "SECTION",
+          "heading": "What makes us the right partner",
+          "height": 1133,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 6,
+          "tag": "SECTION",
+          "heading": "Working with B2bizz was a game-changer for our B2B",
+          "height": 392,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 7,
+          "tag": "SECTION",
+          "heading": "Expert services that move your business forward",
+          "height": 1077,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 8,
+          "tag": "SECTION",
+          "heading": "Proven performance, Measurable results",
+          "height": 674,
+          "paddingTop": "0px",
+          "paddingBottom": "80px"
+        },
+        {
+          "idx": 9,
+          "tag": "SECTION",
+          "heading": "Lead generation boost for a B2B logistics company",
+          "height": 3235,
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 10,
+          "tag": "SECTION",
+          "heading": "Our method for strategic B2B growth",
+          "height": 638,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 11,
+          "tag": "SECTION",
+          "heading": "Is your B2B business ready for the next level?",
+          "height": 491,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        },
+        {
+          "idx": 12,
+          "tag": "FOOTER",
+          "heading": null,
+          "height": 854,
+          "paddingTop": "80px",
+          "paddingBottom": "0px"
+        }
+      ]
+    },
+    "screenshots": {
+      "localFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-mobile_375-full.png",
+      "localHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\local-mobile_375-hero.png",
+      "refFull": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-mobile_375-full.png",
+      "refHero": "C:\\Users\\manoj\\Downloads\\es-integrators\\b2bizz-reconstruction\\screenshots\\visual-qa\\ref-mobile_375-hero.png"
+    }
+  }
+}

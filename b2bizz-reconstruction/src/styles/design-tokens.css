@@ -1,0 +1,120 @@
+/**
+ * B2bizz Design Tokens
+ * Source of Truth: https://b2bizz-wbs.framer.website/
+ * Measured from Live Framer SSR Stylesheet & DOM Tokens
+ */
+
+:root {
+  /* -------------------------------------------------------------------------
+   * 1. Core Color System (Exact Reference Values)
+   * ------------------------------------------------------------------------- */
+  /* Pure Canvas OLED Black */
+  --token-canvas: #000000;
+  --color-canvas: var(--token-canvas);
+
+  /* Dark Charcoal Base Surface */
+  --token-surface-base: #0E100F;
+  --color-surface-base: var(--token-surface-base);
+
+  /* Primary Card & Container Surface */
+  --token-surface-card: #161A18;
+  --color-surface-card: var(--token-surface-card);
+
+  /* Translucent Surface Overlays */
+  --token-surface-translucent: rgba(22, 26, 24, 0.80);
+  --color-surface-translucent: var(--token-surface-translucent);
+
+  --token-surface-glass: rgba(22, 26, 24, 0.60);
+  --color-surface-glass: var(--token-surface-glass);
+
+  --token-surface-panel: #101011;
+  --color-surface-panel: var(--token-surface-panel);
+
+  /* Tactical Borders */
+  --token-border-olive: #2F3126;
+  --color-border-olive: var(--token-border-olive);
+
+  --token-border-dark: #2B2B2C;
+  --color-border-dark: var(--token-border-dark);
+
+  /* Olive Accents & Dividers */
+  --token-accent-olive: #585E44;
+  --color-accent-olive: var(--token-accent-olive);
+
+  /* High-Contrast Electric Volt Lime (Signature Brand Accent) */
+  --token-brand-volt: #F3FFC9;
+  --color-brand-volt: var(--token-brand-volt);
+
+  /* Light Volt Highlight Tint */
+  --token-brand-volt-light: #F9FFE5;
+  --color-brand-volt-light: var(--token-brand-volt-light);
+
+  /* Typography Colors */
+  --token-text-primary: #F9FFE5;
+  --color-text-primary: var(--token-text-primary);
+
+  --token-text-secondary: #BBC1A7;
+  --color-text-secondary: var(--token-text-secondary);
+
+  --token-text-muted: #606266;
+  --color-text-muted: var(--token-text-muted);
+
+  --token-text-white: #FFFFFF;
+  --color-text-white: var(--token-text-white);
+
+  /* Light Overlay Highlights */
+  --token-overlay-subtle: rgba(255, 255, 255, 0.03);
+  --color-overlay-subtle: var(--token-overlay-subtle);
+
+  --token-overlay-glow: rgba(243, 255, 201, 0.15);
+  --color-overlay-glow: var(--token-overlay-glow);
+
+  /* -------------------------------------------------------------------------
+   * 2. Typography Token References
+   * ------------------------------------------------------------------------- */
+  --font-family-display: var(--font-geist, "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+  --font-family-body: var(--font-inter, "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+
+  /* Responsive Display & Heading Scales (Measured empirically from Framer reference) */
+  /* Responsive Display & Heading Scales (Measured empirically from Framer reference) */
+  --text-display-1: clamp(2.75rem, 3.5vw + 1.5rem, 4.5rem); /* 44px (375px) -> 72px (1440px) */
+  --text-h1: clamp(2.25rem, 2.5vw + 1.25rem, 3.75rem);       /* 36px (375px) -> 60px (1440px) */
+  --text-h2: clamp(1.75rem, 1.8vw + 0.9rem, 2.75rem);        /* 28px (375px) -> 44px (1440px) */
+  --text-h2-large: clamp(2rem, 2.2vw + 1rem, 3.125rem);      /* 32px (375px) -> 50px (1440px) */
+  --text-h2-compact: clamp(1.5rem, 1.5vw + 0.8rem, 2.25rem); /* 24px (375px) -> 36px (1440px) */
+  --text-h3: clamp(1.25rem, 0.8vw + 0.8rem, 1.5rem);         /* 20px (375px) -> 24px (1440px) */
+  --text-body-lead: clamp(1rem, 0.5vw + 0.85rem, 1.125rem);  /* 16px (375px) -> 18px (1440px) */
+  --text-body: clamp(0.875rem, 0.25vw + 0.8rem, 1rem);       /* 14px (375px) -> 16px (1440px) */
+  --text-caption: 0.8125rem;                                 /* 13px */
+
+  /* -------------------------------------------------------------------------
+   * 3. Geometric Radii & Contours
+   * ------------------------------------------------------------------------- */
+  --radius-pill: 9999px;
+  --radius-master: 32px;
+  --radius-card: 24px;
+  --radius-input: 10px;
+
+  /* -------------------------------------------------------------------------
+   * 4. Layout Constraints
+   * ------------------------------------------------------------------------- */
+  --container-max-wrapper: 1460px;
+  --container-max-grid: 1200px;
+  --container-max-reading: 800px;
+
+  /* -------------------------------------------------------------------------
+   * 5. Spacing Cadence (Empirical reference rhythm: 150px section transitions)
+   * ------------------------------------------------------------------------- */
+  --section-padding-desktop: 9.375rem; /* 150px */
+  --section-padding-tablet: 5rem;     /* 80px */
+  --section-padding-mobile: 3rem;     /* 48px */
+
+  /* -------------------------------------------------------------------------
+   * 6. Motion Curves & Timing
+   * ------------------------------------------------------------------------- */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snappy: cubic-bezier(0.44, 0, 0.56, 1);
+  --transition-fast: 0.15s ease-out;
+  --transition-base: 0.3s var(--ease-smooth);
+  --transition-card: 0.45s var(--ease-snappy);
+}

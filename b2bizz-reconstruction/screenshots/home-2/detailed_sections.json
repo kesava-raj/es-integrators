@@ -1,0 +1,1125 @@
+[
+  {
+    "idx": 0,
+    "heading": "Delivering insight driven strategy for B2B success",
+    "headingTag": "H1",
+    "headingStyles": {
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "lineHeight": "72px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 866,
+      "top": 0
+    },
+    "padding": "10px / 0px",
+    "paragraphs": [
+      "We take the guesswork out of business growth with tailored consulting, strategic planning, and results-backed execution.",
+      "Explore our services",
+      "Featured B2B clients",
+      "Featured case study",
+      "Web design",
+      "55%"
+    ],
+    "links": [
+      {
+        "href": "./service",
+        "text": "Explore our services"
+      },
+      {
+        "href": "./case-study/website-redesign-for-a-non-profit",
+        "text": "Web design Website redesign for a non-profit 55% Digital donations rise 60% Increase in website traffic"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/DgD9mO1f61Ssr7eIX4DSef97S5U.svg?width=69&height=22",
+        "alt": "Client Icon",
+        "w": 75,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/LBCUcKxNdGS0IytviptLk5dv8e4.svg?width=93&height=21",
+        "alt": "Client Icon",
+        "w": 106,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/f9uKyL9ZyMHw2ngdN3YDtOHsuks.svg?width=124&height=26",
+        "alt": "Client Icon",
+        "w": 114,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/iI7LXBxSt06VL0YQik2ZCLwSw4.svg?width=84&height=26",
+        "alt": "Client Icon",
+        "w": 78,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/nCW6l1WMUMEhDShqZscu3gFrVNo.svg?width=108&height=26",
+        "alt": "Client Icon",
+        "w": 100,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/Bm78PWCMmZmOntM9fiMogJCos.svg?width=83&height=26",
+        "alt": "Client Icon",
+        "w": 77,
+        "h": 24
+      },
+      {
+        "src": "https://framerusercontent.com/images/H0hRoAnIkQv54FIiHMwpBrGr2bM.jpg?width=800&height=600",
+        "alt": "Case Study Image",
+        "w": 540,
+        "h": 320
+      }
+    ]
+  },
+  {
+    "idx": 1,
+    "heading": "Smart solutions for scaling B2B operations",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "lineHeight": "57.2px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [
+      "B2B website design & development",
+      "Custom SaaS solutions",
+      "CRM & ERP integrations",
+      "Enterprise digital strategy"
+    ],
+    "rect": {
+      "width": 1440,
+      "height": 723,
+      "top": 866
+    },
+    "padding": "150px / 0px",
+    "paragraphs": [
+      "Get started",
+      "Conversion-focused websites are built for speed, trust, and lead generation.",
+      "Business website",
+      "Corporate site",
+      "Responsive design",
+      "Robust SaaS platforms tailored for growth, scalability, and performance."
+    ],
+    "links": [
+      {
+        "href": "./contact",
+        "text": "Get started"
+      },
+      {
+        "href": "./service/b2b-website-design-development",
+        "text": "B2B website design & development Conversion-focused websites are built for speed, trust, and lead generation. Business website Corporate site Responsive design"
+      },
+      {
+        "href": "./service/custom-saas-solutions",
+        "text": "Custom SaaS solutions Robust SaaS platforms tailored for growth, scalability, and performance. SaaS development Cloud platform MVP"
+      },
+      {
+        "href": "./service/crm-erp-integrations",
+        "text": "CRM & ERP integrations Streamline operations with seamless business system integrations. Automation Business tools KPIs"
+      },
+      {
+        "href": "./service/enterprise-digital-strategy",
+        "text": "Enterprise digital strategy Enabling smarter decision-making through digital strategy. Digital transformation B2B marketing KPIs"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/gdRM7GW5TQGv1DnZNScYVrTUQE.jpg?width=800&height=800",
+        "alt": "Service Image",
+        "w": 170,
+        "h": 154
+      },
+      {
+        "src": "https://framerusercontent.com/images/8kma30ImR7rLIvZAXGsqbVM48.jpg?width=800&height=800",
+        "alt": "Service Image",
+        "w": 170,
+        "h": 154
+      },
+      {
+        "src": "https://framerusercontent.com/images/WZgpMe3nzQNLHEKKxkNAVTLsJ6k.jpg?width=800&height=800",
+        "alt": "Service Image",
+        "w": 170,
+        "h": 154
+      },
+      {
+        "src": "https://framerusercontent.com/images/drIdWgUE5zBF1yAbgCfVAuoJTAs.jpg?width=800&height=800",
+        "alt": "Service Image",
+        "w": 170,
+        "h": 154
+      }
+    ]
+  },
+  {
+    "idx": 2,
+    "heading": "Smarter decisions. Stronger outcomes. Lasting Value.",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "lineHeight": "57.2px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 551,
+      "top": 1589
+    },
+    "padding": "150px / 0px",
+    "paragraphs": [
+      "We begin by immersing ourselves in your business to gain a deep understanding of your industry, operations, challenges, and growth goals.",
+      "We serve as your trusted partner at every stage of your business evolution, growth, and long-term success.",
+      "Industry expertise",
+      "Scalable growth",
+      "Custom strategies",
+      "Data driven decisions"
+    ],
+    "links": [
+      {
+        "href": "./about",
+        "text": "More about us"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "w": 18,
+        "h": 18
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "heading": "Serving businesses across every sector",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "lineHeight": "57.2px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [
+      "",
+      "",
+      "",
+      "Manufacturing",
+      "Supply chain",
+      "Healthcare",
+      "Financial services",
+      "Technology",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rect": {
+      "width": 1440,
+      "height": 642,
+      "top": 2140
+    },
+    "padding": "150px / 0px",
+    "paragraphs": [
+      "We empower manufacturing companies to embrace digital transformation with efficiency and foresight. Whether you're automating processes, enhancing supply chains, or deploying smart factory solutions, we provide strategic direction.",
+      "We help logistics and supply chain organizations streamline operations and embrace digital innovation with confidence. Whether you're optimizing last-mile delivery, integrating smart tracking systems, and improving overall efficiency.",
+      "We help healthcare organizations and MedTech companies navigate the digital landscape with precision and care. Whether you're modernizing operations or launching a new digital product, we bring strategic clarity and technical excellence to every stage.",
+      "We help financial institutions adapt to evolving digital demands with agility and security. Whether you're optimizing customer experiences, ensuring regulatory compliance, or launching fintech innovations for long term business growth.",
+      "We support technology-driven companies in scaling innovation with clarity and precision. Whether you're building breakthrough software or expanding your digital infrastructure, we align business goals with tech strategy to accelerate performance."
+    ],
+    "links": [],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/y0qqfoGHTyF0GDvxwrt3Vl7GYAU.svg?width=46&height=46",
+        "alt": "Back Arrow",
+        "w": 46,
+        "h": 46
+      },
+      {
+        "src": "https://framerusercontent.com/images/Z7jaGWaQurNGquVWOst1eLetxK4.svg?width=46&height=46",
+        "alt": "Next Arrow",
+        "w": 46,
+        "h": 46
+      }
+    ]
+  },
+  {
+    "idx": 4,
+    "heading": null,
+    "headingTag": null,
+    "headingStyles": null,
+    "h3s": [
+      "",
+      "",
+      "",
+      "Manufacturing",
+      "Supply chain",
+      "Healthcare",
+      "Financial services",
+      "Technology",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rect": {
+      "width": 1380,
+      "height": 385,
+      "top": 2397
+    },
+    "padding": "0px / 0px",
+    "paragraphs": [
+      "We empower manufacturing companies to embrace digital transformation with efficiency and foresight. Whether you're automating processes, enhancing supply chains, or deploying smart factory solutions, we provide strategic direction.",
+      "We help logistics and supply chain organizations streamline operations and embrace digital innovation with confidence. Whether you're optimizing last-mile delivery, integrating smart tracking systems, and improving overall efficiency.",
+      "We help healthcare organizations and MedTech companies navigate the digital landscape with precision and care. Whether you're modernizing operations or launching a new digital product, we bring strategic clarity and technical excellence to every stage.",
+      "We help financial institutions adapt to evolving digital demands with agility and security. Whether you're optimizing customer experiences, ensuring regulatory compliance, or launching fintech innovations for long term business growth.",
+      "We support technology-driven companies in scaling innovation with clarity and precision. Whether you're building breakthrough software or expanding your digital infrastructure, we align business goals with tech strategy to accelerate performance."
+    ],
+    "links": [],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/piT16WDn5IlyZFuOSxtCdNCE.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/6yH7AnJjW9VNMkEbhNrbO6N39hk.svg?width=46&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/HEd6UpzqP2U9vJOjBXBVjNcYc.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/cpS5vpDqkwONmm4ANafMTB2nzQ.svg?width=47&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/Zi0oKIBGmUqx63MJ5ToBVKKEg8U.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/NV847LCkUaJJk6CofKhgfVVsADQ.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/3IkbFdGrInFuAe651xdHTPvblJk.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/iUO7kHqYzrumeUO3sPWNv5RaWU.svg?width=46&height=47",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/aguefbs4xeL6pOf5bbuTclZOi58.jpg?width=800&height=800",
+        "alt": "Slider Image",
+        "w": 685,
+        "h": 353
+      },
+      {
+        "src": "https://framerusercontent.com/images/l7FQKHXNpkYXl9e5DuusZ9kKmE.svg?width=48&height=46",
+        "alt": "Icon",
+        "w": 36,
+        "h": 36
+      },
+      {
+        "src": "https://framerusercontent.com/images/y0qqfoGHTyF0GDvxwrt3Vl7GYAU.svg?width=46&height=46",
+        "alt": "Back Arrow",
+        "w": 46,
+        "h": 46
+      },
+      {
+        "src": "https://framerusercontent.com/images/Z7jaGWaQurNGquVWOst1eLetxK4.svg?width=46&height=46",
+        "alt": "Next Arrow",
+        "w": 46,
+        "h": 46
+      }
+    ]
+  },
+  {
+    "idx": 5,
+    "heading": null,
+    "headingTag": null,
+    "headingStyles": null,
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 697,
+      "top": 2782
+    },
+    "padding": "150px / 150px",
+    "paragraphs": [
+      "Average digital strategy projects",
+      "Countries served with B2B services",
+      "Increase in traffic for B2B clients",
+      "Global reach across industries",
+      "We deliver real growth, long-term impact, and measurable success for B2B businesses."
+    ],
+    "links": [],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/t7vSP4Rj677djkzHVCu0R74joPo.svg?width=52&height=46",
+        "alt": "Counter Icon",
+        "w": 46,
+        "h": 50
+      },
+      {
+        "src": "https://framerusercontent.com/images/qMEVpmaIU6Kr2y1FzyGpFt2dlk.svg?width=46&height=46",
+        "alt": "Counter Icon",
+        "w": 46,
+        "h": 50
+      },
+      {
+        "src": "https://framerusercontent.com/images/uGYuKXVYsIAASWuJFsb4S9EZxa4.svg?width=60&height=32",
+        "alt": "Counter Icon",
+        "w": 46,
+        "h": 50
+      },
+      {
+        "src": "https://framerusercontent.com/images/7dPe5Ge6KJnbarwVbw0dHfCaGXE.svg?width=46&height=46",
+        "alt": "Counter Icon",
+        "w": 46,
+        "h": 50
+      }
+    ]
+  },
+  {
+    "idx": 6,
+    "heading": "Trusted by B2B leaders worldwide",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "lineHeight": "57.2px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 607,
+      "top": 3479
+    },
+    "padding": "0px / 150px",
+    "paragraphs": [
+      "Their professionalism, speed, and communication made a huge difference. We finally have a partner who understands our business.",
+      "Priya M",
+      "CEO",
+      "The team brought clarity to a complex integration challenge and delivered beyond expectations.",
+      "Sonia K",
+      "Head of Product"
+    ],
+    "links": [],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/d4bOSjZzklRnk0Y8ssGiLJlIO0.jpg?width=800&height=800",
+        "alt": "Avatar",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/GEa5AaG3m0spY7fftLUtH9VOzI.jpg?width=800&height=800",
+        "alt": "Avatar",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/N8xp5eiZVkdKgKCiK4a5rkQI.jpg?width=800&height=800",
+        "alt": "Avatar",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/ou4oWL8RwosFygJ5hi7sUUHGb8Q.jpg?width=800&height=800",
+        "alt": "Bg Image",
+        "w": 393,
+        "h": 350
+      },
+      {
+        "src": "https://framerusercontent.com/images/eGjNeYGnzh6PxwjZw2sLNTa0No.jpg?width=800&height=800",
+        "alt": "Avatar",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://framerusercontent.com/images/ASeld6Z6rJZXBBwDgkaiZT8kZMw.svg?width=18&height=23",
+        "alt": "Icon",
+        "w": 16,
+        "h": 16
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "heading": "The right consulting plan for your business",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "lineHeight": "57.2px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [
+      "$1,500",
+      "$3,500",
+      "$5,500"
+    ],
+    "rect": {
+      "width": 1440,
+      "height": 1112,
+      "top": 4087
+    },
+    "padding": "0px / 150px",
+    "paragraphs": [
+      "Save up to 30%",
+      "Starter",
+      "/month",
+      "Perfect for early-stage teams or small B2B companies.",
+      "Get started",
+      "Strategy sessions (2x/month)"
+    ],
+    "links": [
+      {
+        "href": "./contact",
+        "text": "Get started"
+      },
+      {
+        "href": "./contact",
+        "text": "Start growing"
+      },
+      {
+        "href": "./contact",
+        "text": "Get started"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/igWV64CbhQMJ3He1oqptt5Yntdc.svg?width=30&height=30",
+        "alt": "Pricing Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://framerusercontent.com/images/igWV64CbhQMJ3He1oqptt5Yntdc.svg?width=30&height=30",
+        "alt": "Pricing Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://framerusercontent.com/images/igWV64CbhQMJ3He1oqptt5Yntdc.svg?width=30&height=30",
+        "alt": "Pricing Icon",
+        "w": 20,
+        "h": 20
+      }
+    ]
+  },
+  {
+    "idx": 8,
+    "heading": "Recent articles",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "50px",
+      "fontWeight": "400",
+      "lineHeight": "60px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 626,
+      "top": 5199
+    },
+    "padding": "0px / 0px",
+    "paragraphs": [
+      "Team Collaboration",
+      "Jan 21, 2026",
+      "Productivity",
+      "Jan 19, 2026",
+      "Data & Analytics",
+      "Jan 16, 2026"
+    ],
+    "links": [
+      {
+        "href": "./blog/how-to-scale-your-b2b-sales-funnel-in-2026",
+        "text": "Team Collaboration Jan 21, 2026 How to scale your B2B sales funnel in 2026"
+      },
+      {
+        "href": "./blog/the-power-of-market-research-in-b2b-strategy",
+        "text": "Productivity Jan 19, 2026 The power of market research in B2B strategy"
+      },
+      {
+        "href": "./blog/choosing-the-right-crm-for-your-b2b-sales-team",
+        "text": "Data & Analytics Jan 16, 2026 Choosing the right CRM for your B2B sales team"
+      },
+      {
+        "href": "./blog",
+        "text": "Explore all blogs"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/xfRqUBEwWre3EugH67J0zW90I.jpg?width=800&height=550",
+        "alt": "Blog Image",
+        "w": 413,
+        "h": 284
+      },
+      {
+        "src": "https://framerusercontent.com/images/Vqnnf2c8TUMDaPweZTzLwKmHec.jpg?width=800&height=550",
+        "alt": "Blog Image",
+        "w": 413,
+        "h": 284
+      },
+      {
+        "src": "https://framerusercontent.com/images/RjA8XHOIA8k7J1fnQYlwcM8FJE.jpg?width=800&height=550",
+        "alt": "Blog Image",
+        "w": 413,
+        "h": 284
+      },
+      {
+        "src": "https://framerusercontent.com/images/lF4qvKFOOsAkrC72wGno0l1d2kg.svg?width=20&height=19",
+        "alt": "Button Arrow",
+        "w": 18,
+        "h": 18
+      }
+    ]
+  },
+  {
+    "idx": 9,
+    "heading": "Want to join a growing list of forward-thinking companies?",
+    "headingTag": "H2",
+    "headingStyles": {
+      "fontSize": "50px",
+      "fontWeight": "400",
+      "lineHeight": "60px",
+      "color": "rgb(243, 255, 201)"
+    },
+    "h3s": [],
+    "rect": {
+      "width": 1440,
+      "height": 469,
+      "top": 5825
+    },
+    "padding": "150px / 0px",
+    "paragraphs": [
+      "Schedule a consultation",
+      "Clutch global award",
+      "Forbes business awards",
+      "CXO global awards",
+      "Fastest B2B service provider"
+    ],
+    "links": [
+      {
+        "href": "./contact",
+        "text": "Schedule a consultation"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://framerusercontent.com/images/Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/NTvSIOmgsP6rrvHPAQBQW9y1vA.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/NTvSIOmgsP6rrvHPAQBQW9y1vA.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/NTvSIOmgsP6rrvHPAQBQW9y1vA.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/Gx6UBmzydtzvFxaR6nNq8iTZoXs.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      },
+      {
+        "src": "https://framerusercontent.com/images/NTvSIOmgsP6rrvHPAQBQW9y1vA.svg?width=41&height=84",
+        "alt": "CTA Icon",
+        "w": 36,
+        "h": 74
+      }
+    ]
+  }
+]
