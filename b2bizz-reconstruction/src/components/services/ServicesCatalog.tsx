@@ -9,26 +9,30 @@ export function ServicesCatalog() {
   const { hero } = SERVICES_PAGE_DATA;
 
   return (
-    <section className="pt-[10px] pb-0 relative z-10">
+    <section className="page-header-spacing pb-0 relative z-10">
       <div className="container-wrapper">
         {/* Top Header */}
-        <div className="max-w-[760px] mb-12">
-          <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-4">
+        <div className="max-w-[800px] mb-12 space-y-4">
+          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-border-olive/40 border border-border-olive text-brand-volt text-xs font-mono uppercase tracking-wider">
+            {hero.badge}
+          </span>
+          <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal leading-[1.15] text-brand-volt tracking-tight">
             {hero.headline}
           </h1>
-          <p className="text-text-muted text-base sm:text-lg font-light leading-relaxed">
+          <p className="text-text-secondary text-base sm:text-lg font-light leading-relaxed">
             {hero.subtitle}
           </p>
         </div>
 
-        {/* 5 Services Stacked Cards */}
+        {/* 4 Core Services Stacked Cards */}
         <div className="space-y-6">
-          {SERVICES_LIST.map((service, idx) => (
+          {SERVICES_LIST.slice(0, 4).map((service, idx) => (
             <Link
               key={service.id}
               href={`/service/${service.slug}`}
               className="group block p-6 sm:p-8 rounded-[28px] bg-surface-subtle/70 hover:bg-surface-elevated/90 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-xl overflow-hidden"
             >
+
               <div className="flex flex-col md:flex-row items-start md:items-center gap-6 lg:gap-8 justify-between">
                 {/* Left: Thumbnail Image */}
                 <div className="relative w-full md:w-[220px] h-[160px] rounded-[20px] overflow-hidden shrink-0 bg-surface-dark border border-white/5">

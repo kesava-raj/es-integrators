@@ -10,24 +10,24 @@ export const MethodologySection: React.FC = () => {
   const steps = [
     {
       id: "step-1",
-      stepNum: "Step 1",
-      title: "Understand your business",
+      stepNum: "01",
+      title: "Understand Business Needs",
       iconSrc: "/icons/icon-W1lcf4BgY3X9.svg",
-      description: "We dive deep into your market, operations, and buyer journey to discover strategic leverage points.",
+      description: "We analyze specific operational requirements and structural bottlenecks to design scalable solutions that evolve with your organization.",
     },
     {
       id: "step-2",
-      stepNum: "Step 2",
-      title: "Build the right strategy",
+      stepNum: "02",
+      title: "Standardized Architecture",
       iconSrc: "/icons/icon-ZfEE2pKPHkOF.svg",
-      description: "We design high-impact digital systems and actionable roadmaps aligned to your growth targets.",
+      description: "We build component-based environments and robust integrations that bring internal and external business systems together seamlessly.",
     },
     {
       id: "step-3",
-      stepNum: "Step 3",
-      title: "Execute & deliver results",
+      stepNum: "03",
+      title: "Deliver Sustainable Growth",
       iconSrc: "/icons/icon-1ClaDdRxEtRT.svg",
-      description: "We deploy, measure, and optimize for continuous enterprise revenue velocity.",
+      description: "We support organizations throughout the solution lifecycle—from initial implementation to long-term operations, maintenance and consulting.",
     },
   ];
 
@@ -37,27 +37,31 @@ export const MethodologySection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Column: Heading, Subtitle, CTA Button */}
           <div className="lg:col-span-5 space-y-6">
+            <span className="text-xs font-mono uppercase tracking-wider text-brand-volt font-semibold">
+              Our Methodology
+            </span>
             <h2 className="text-h2-large text-brand-volt leading-[1.2] font-normal tracking-tight">
-              Our method
+              Our approach
               <br />
-              for strategic
+              to sustainable
               <br />
-              B2B growth
+              business growth
             </h2>
 
             <p className="text-body text-text-secondary text-sm sm:text-base leading-relaxed max-w-md">
-              Our streamlined 3-step approach ensures your business gets a focused strategy, practical solutions, and measurable outcomes.
+              Our standardized 3-phase methodology ensures your business simplifies technological complexity, implements scalable solutions, and achieves tangible performance.
             </p>
 
             <div className="pt-2">
               <Link
                 href="/service"
-                className="inline-flex items-center justify-center px-8 py-3.5 sm:py-4 rounded-full bg-brand-volt text-canvas font-medium text-sm sm:text-base hover:bg-brand-volt-light transition-all duration-300"
+                className="btn-primary"
               >
-                Explore our services
+                Explore Our Solutions
               </Link>
             </div>
           </div>
+
 
           {/* Right Column: Interactive Staggered Pipeline with Ramp & Step Tabs */}
           <div className="lg:col-span-7 relative min-h-[440px] sm:min-h-[480px] flex flex-col justify-between">

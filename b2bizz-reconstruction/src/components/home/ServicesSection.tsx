@@ -13,44 +13,36 @@ export const ServicesSection: React.FC = () => {
   // Exact preview metadata for active services
   const previewItems = [
     {
-      breadcrumb: "Global IT Consulting Firm",
-      title: "Website revamp for a global IT consulting firm",
-      status: "Completed",
-      progress: "90%",
-      dates: "25 May, 2025 - 3 June, 2025",
+      breadcrumb: "Custom Web Application",
+      title: "Customized web applications for workflow synchronization",
+      status: "Production Ready",
+      progress: "100%",
+      dates: "Enterprise Deployment",
       imageSrc: "/images/img-Gey8JdeAVmsT.png",
     },
     {
-      breadcrumb: "SaaS Workflow Platform",
-      title: "Scalable enterprise cloud architecture deployment",
-      status: "In Progress",
-      progress: "80%",
-      dates: "12 June, 2025 - 28 July, 2025",
+      breadcrumb: "Mobile Application Development",
+      title: "Cross-platform mobile applications for business lifecycle",
+      status: "Active",
+      progress: "95%",
+      dates: "Multi-Platform Support",
       imageSrc: "/images/img-gdRM7GW5TQGv.jpg",
     },
     {
-      breadcrumb: "Industrial Manufacturing",
-      title: "ERP & CRM telemetry automation integration",
-      status: "Completed",
+      breadcrumb: "Enterprise Solutions",
+      title: "Component-based architecture & standardized system integration",
+      status: "Operational",
       progress: "100%",
-      dates: "10 Jan, 2025 - 15 April, 2025",
+      dates: "Architecture Governance",
       imageSrc: "/images/case-study-eco-enterprise.jpg",
     },
     {
-      breadcrumb: "Fintech Advisory",
-      title: "Enterprise digital transformation & KPI governance",
-      status: "Active",
-      progress: "75%",
-      dates: "1 August, 2025 - Ongoing",
+      breadcrumb: "Business Consulting",
+      title: "Strategic management, staffing, operations & digital transformation",
+      status: "Continuous",
+      progress: "90%",
+      dates: "Strategic Advisory",
       imageSrc: "/images/case-study-consulting-shift.jpg",
-    },
-    {
-      breadcrumb: "B2B Logistics Agency",
-      title: "High-velocity pipeline & attribution engine",
-      status: "Completed",
-      progress: "95%",
-      dates: "5 March, 2025 - 18 May, 2025",
-      imageSrc: "/images/case-study-transedge.jpg",
     },
   ];
 
@@ -61,18 +53,23 @@ export const ServicesSection: React.FC = () => {
       <div className="container-wrapper space-y-10 sm:space-y-12">
         {/* Header matching Reference */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
-          <h2 className="text-h2 text-brand-volt leading-[1.3] font-normal tracking-tight max-w-2xl">
-            Expert services that move
-            <br />
-            your business forward
-          </h2>
+          <div className="space-y-2 max-w-2xl">
+            <span className="text-xs font-mono uppercase tracking-wider text-brand-volt font-semibold">
+              Our Services
+            </span>
+            <h2 className="text-h2 text-brand-volt leading-[1.25] font-normal tracking-tight">
+              Integrated Solutions.
+              <br />
+              <span className="text-text-primary">One Technology Partner.</span>
+            </h2>
+          </div>
 
           <div className="shrink-0">
             <Link
               href="/service"
-              className="inline-flex items-center justify-center px-7 py-3 rounded-full border border-border-olive bg-transparent text-text-primary text-sm sm:text-base font-normal hover:border-brand-volt hover:text-brand-volt transition-colors"
+              className="inline-flex items-center justify-center px-7 py-3 rounded-full border border-border-olive bg-surface-card text-text-primary text-sm sm:text-base font-normal hover:border-brand-volt hover:text-brand-volt transition-colors"
             >
-              Get started
+              Explore Our Solutions
             </Link>
           </div>
         </div>
@@ -88,8 +85,8 @@ export const ServicesSection: React.FC = () => {
                   key={service.id}
                   className={`rounded-[20px] border transition-all duration-300 overflow-hidden ${
                     isActive
-                      ? "bg-[#0E100F] border-border-olive/90 p-5 sm:p-6 space-y-4"
-                      : "bg-[#0E100F] border-border-olive/50 p-4 sm:p-5 hover:border-border-olive/80 cursor-pointer"
+                      ? "bg-surface-card border-brand-volt/50 p-5 sm:p-6 space-y-4 shadow-md"
+                      : "bg-surface-card/60 border-border-olive/50 p-4 sm:p-5 hover:border-border-olive/80 cursor-pointer"
                   }`}
                   onClick={() => setActiveIdx(idx)}
                 >
@@ -108,6 +105,7 @@ export const ServicesSection: React.FC = () => {
                       <span className="text-base sm:text-[17px] font-normal text-text-primary tracking-tight">
                         {service.title}
                       </span>
+
                     </div>
 
                     <button

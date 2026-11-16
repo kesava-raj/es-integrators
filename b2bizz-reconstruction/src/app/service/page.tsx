@@ -7,10 +7,11 @@ import { ServicesFaq } from "@/components/services/ServicesFaq";
 import { CtaBanner } from "@/components/shared/CtaBanner";
 
 export const metadata: Metadata = {
-  title: "Our Services - B2bizz Consulting",
+  title: "Integrated Solutions & Services | Emerald System Integrators (ESI)",
   description:
-    "Crafted digital solutions that drive results. Explore our full suite of services designed to elevate your brand and grow your business.",
+    "Integrated technology solutions including custom web applications, mobile development, enterprise systems architecture, and business consulting.",
 };
+
 
 export default function ServicesPage() {
   return (

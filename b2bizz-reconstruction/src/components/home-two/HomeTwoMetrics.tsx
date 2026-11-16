@@ -11,7 +11,7 @@ export function HomeTwoMetrics() {
       <div className="container-wrapper">
         {/* 4 Counter Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {metrics.items.map((item, idx) => (
+          {metrics.map((item, idx) => (
             <div
               key={idx}
               className="relative p-7 rounded-[28px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between min-h-[220px] shadow-lg group"
@@ -41,7 +41,7 @@ export function HomeTwoMetrics() {
         {/* Tagline */}
         <div className="text-center max-w-[680px] mx-auto">
           <p className="text-base sm:text-lg text-text-muted font-light leading-relaxed">
-            {metrics.tagline}
+            Delivering high-quality solutions, timely delivery, and dependable operations across global delivery centers.
           </p>
         </div>
       </div>

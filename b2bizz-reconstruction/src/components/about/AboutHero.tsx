@@ -9,22 +9,26 @@ export function AboutHero() {
   const { hero } = ABOUT_DATA;
 
   return (
-    <section className="pt-[10px] pb-0 relative z-10 overflow-hidden">
+    <section className="page-header-spacing pb-0 relative z-10 overflow-hidden">
       <div className="container-wrapper">
         {/* Top Header Block */}
-        <div className="max-w-[820px] mb-12">
-          <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal leading-[1.18] text-brand-volt tracking-tight mb-6">
+        <div className="max-w-[840px] mb-12 space-y-4">
+          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-border-olive/40 border border-border-olive text-brand-volt text-xs font-mono uppercase tracking-wider">
+            {hero.badge}
+          </span>
+          <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal leading-[1.15] text-brand-volt tracking-tight">
             {hero.headline}
           </h1>
-          <p className="text-text-muted text-base sm:text-lg lg:text-[1.125rem] font-light leading-relaxed mb-8 max-w-[620px]">
+          <p className="text-text-secondary text-base sm:text-lg lg:text-[1.125rem] font-light leading-relaxed max-w-[680px]">
             {hero.subtitle}
           </p>
-          <div>
+          <div className="pt-2">
             <Button href={hero.cta.href} variant="primary" className="rounded-full px-8 py-3.5">
               {hero.cta.text}
             </Button>
           </div>
         </div>
+
 
         {/* 3-Photo Collage Row */}
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 mb-12 items-stretch">

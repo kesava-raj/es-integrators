@@ -31,20 +31,25 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-2 lg:col-span-5 space-y-6">
             <Link
               href={NAVIGATION_DATA.logo.href}
-              className="flex items-center gap-2 group"
+              className="flex items-center gap-3 group"
             >
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-lg bg-surface-card border border-border-olive group-hover:border-brand-volt transition-colors">
+              <div className="relative w-9 h-9 flex items-center justify-center rounded-xl bg-surface-card border border-border-olive group-hover:border-brand-volt transition-colors shrink-0">
                 <Image
                   src={NAVIGATION_DATA.logo.iconPath}
-                  alt="B2bizz Logo"
-                  width={20}
-                  height={20}
+                  alt="Emerald System Integrators Logo"
+                  width={22}
+                  height={22}
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors">
-                {NAVIGATION_DATA.logo.text}
-              </span>
+              <div className="flex flex-col">
+                <span className="text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors leading-none">
+                  {NAVIGATION_DATA.logo.text}
+                </span>
+                <span className="text-xs text-text-muted font-light tracking-wide mt-1">
+                  {NAVIGATION_DATA.logo.subtext}
+                </span>
+              </div>
             </Link>
 
             <p className="text-body text-text-secondary max-w-sm">
@@ -54,12 +59,12 @@ export const Footer: React.FC = () => {
             {/* Newsletter Input Form */}
             <div className="space-y-3 pt-2">
               <span className="text-xs font-mono uppercase tracking-wider text-brand-volt font-semibold">
-                Subscribe to our B2B insights
+                Subscribe to Technology & Consulting Insights
               </span>
               {subscribed ? (
                 <div className="flex items-center gap-2 text-sm text-brand-volt bg-border-olive/40 border border-border-olive p-3 rounded-full">
                   <CheckCircle2 className="w-4 h-4 text-brand-volt shrink-0" />
-                  <span>Thank you! You are subscribed to B2B insights.</span>
+                  <span>Thank you! You are subscribed to ESI insights.</span>
                 </div>
               ) : (
                 <form
@@ -70,7 +75,7 @@ export const Footer: React.FC = () => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter your work email"
+                    placeholder="Enter your enterprise email"
                     required
                     className="flex-1 bg-surface-card border border-border-olive rounded-full px-4 py-2.5 text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-brand-volt transition-colors min-h-[44px]"
                   />
@@ -117,21 +122,16 @@ export const Footer: React.FC = () => {
                 <span>{NAVIGATION_DATA.footer.email}</span>
               </a>
 
-              <a
-                href={`tel:${NAVIGATION_DATA.footer.phone.replace(/[^0-9+]/g, "")}`}
-                className="flex items-center gap-3 hover:text-brand-volt transition-colors"
-              >
-                <div className="w-8 h-8 rounded-full bg-surface-card border border-border-olive flex items-center justify-center shrink-0">
-                  <Phone className="w-3.5 h-3.5 text-brand-volt" />
-                </div>
-                <span>{NAVIGATION_DATA.footer.phone}</span>
-              </a>
-
               <div className="flex items-start gap-3">
                 <div className="w-8 h-8 rounded-full bg-surface-card border border-border-olive flex items-center justify-center shrink-0 mt-0.5">
                   <MapPin className="w-3.5 h-3.5 text-brand-volt" />
                 </div>
-                <span>{NAVIGATION_DATA.footer.address}</span>
+                <div className="space-y-1">
+                  <p className="font-medium text-text-primary">India Presence:</p>
+                  <p className="text-text-muted text-xs">Chennai, Tamil Nadu, India</p>
+                  <p className="font-medium text-text-primary pt-1">USA Presence:</p>
+                  <p className="text-text-muted text-xs">Michigan, USA</p>
+                </div>
               </div>
             </div>
           </div>
@@ -150,8 +150,8 @@ export const Footer: React.FC = () => {
                 {item.label}
               </Link>
             ))}
-            <span className="text-text-muted/60">
-              Designed by Webestica, Powered by Framer
+            <span className="text-text-muted">
+              Emerald System Integrators (ESI)
             </span>
           </div>
         </div>

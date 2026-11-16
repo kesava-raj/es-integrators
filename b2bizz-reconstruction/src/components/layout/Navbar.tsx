@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown, Menu, X, ArrowRight, ArrowUpRight } from "lucide-react";
 import { NAVIGATION_DATA, NavItem } from "@/data/navigation";
 import { Button } from "@/components/ui/Button";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { cn } from "@/lib/utils";
 
 export const Navbar: React.FC = () => {
@@ -36,29 +37,35 @@ export const Navbar: React.FC = () => {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           isScrolled
-            ? "bg-[#0e100f]/85 backdrop-blur-xl border-b border-[#2f3126]/60 py-3 shadow-2xl"
-            : "bg-transparent py-5"
+            ? "bg-[var(--token-nav-bg)] backdrop-blur-xl border-b border-border-olive/70 py-3 shadow-xl"
+            : "bg-transparent py-4 sm:py-5"
         )}
       >
-        <div className="container-wrapper flex items-center justify-between">
+        <div className="container-wrapper flex items-center justify-between gap-4">
           {/* Brand Logo */}
           <Link
             href={NAVIGATION_DATA.logo.href}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-2.5 sm:gap-3 group shrink-0"
           >
-            <div className="relative w-8 h-8 flex items-center justify-center rounded-lg bg-surface-card border border-border-olive group-hover:border-brand-volt transition-colors">
+            <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-xl bg-surface-card border border-border-olive group-hover:border-brand-volt transition-colors shrink-0">
               <Image
                 src={NAVIGATION_DATA.logo.iconPath}
-                alt="B2bizz Logo Mark"
+                alt="Emerald System Integrators Logo"
                 width={20}
                 height={20}
                 className="object-contain"
               />
             </div>
-            <span className="text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors">
-              {NAVIGATION_DATA.logo.text}
-            </span>
+            <div className="flex flex-col">
+              <span className="text-lg sm:text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors leading-none">
+                {NAVIGATION_DATA.logo.text}
+              </span>
+              <span className="hidden sm:inline-block text-[11px] text-text-muted font-light tracking-wide mt-0.5">
+                {NAVIGATION_DATA.logo.subtext}
+              </span>
+            </div>
           </Link>
+
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center gap-1 bg-surface-card/60 backdrop-blur-md border border-border-olive/80 rounded-full px-4 py-1.5">
@@ -148,30 +155,34 @@ export const Navbar: React.FC = () => {
             </div>
           </nav>
 
-          {/* Right Header Action Button - Hidden on mobile, shown on sm+ */}
-          <div className="hidden sm:flex items-center gap-3">
-            <Button
-              href={NAVIGATION_DATA.headerCta.href}
-              variant="primary"
-              showArrow
-              className="text-sm"
-            >
-              {NAVIGATION_DATA.headerCta.label}
-            </Button>
-          </div>
+          {/* Right Header Action Button + Theme Toggle */}
+          <div className="flex items-center gap-2 sm:gap-3">
+            <ThemeToggle />
 
-          {/* Mobile Menu Hamburger Button (Min 44x44 touch target) */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-surface-card border border-border-olive text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors"
-            aria-label="Toggle Navigation Menu"
-          >
-            {isMobileMenuOpen ? (
-              <X className="w-5 h-5" />
-            ) : (
-              <Menu className="w-5 h-5" />
-            )}
-          </button>
+            <div className="hidden sm:block">
+              <Button
+                href={NAVIGATION_DATA.headerCta.href}
+                variant="primary"
+                showArrow
+                className="text-sm px-5 py-2"
+              >
+                {NAVIGATION_DATA.headerCta.label}
+              </Button>
+            </div>
+
+            {/* Mobile Menu Hamburger Button (Min 44x44 touch target) */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden min-w-[42px] min-h-[42px] flex items-center justify-center rounded-full bg-surface-card border border-border-olive text-text-secondary hover:text-brand-volt hover:border-brand-volt transition-colors"
+              aria-label="Toggle Navigation Menu"
+            >
+              {isMobileMenuOpen ? (
+                <X className="w-5 h-5" />
+              ) : (
+                <Menu className="w-5 h-5" />
+              )}
+            </button>
+          </div>
         </div>
       </header>
 
@@ -183,9 +194,16 @@ export const Navbar: React.FC = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
-            className="fixed top-[62px] sm:top-[74px] left-0 right-0 z-40 bg-[#0e100f]/98 backdrop-blur-2xl border-b border-border-olive overflow-hidden lg:hidden shadow-2xl"
+            className="fixed top-[62px] sm:top-[74px] left-0 right-0 z-40 bg-[var(--token-nav-bg)] backdrop-blur-2xl border-b border-border-olive overflow-hidden lg:hidden shadow-2xl"
           >
             <div className="container-wrapper py-6 space-y-6 max-h-[calc(100vh-80px)] overflow-y-auto">
+              <div className="flex items-center justify-between pb-2 border-b border-border-olive/50">
+                <span className="text-xs font-mono uppercase text-brand-volt font-semibold">
+                  Theme Appearance
+                </span>
+                <ThemeToggle showLabel />
+              </div>
+
               <div className="space-y-1">
                 <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
                   Main Navigation

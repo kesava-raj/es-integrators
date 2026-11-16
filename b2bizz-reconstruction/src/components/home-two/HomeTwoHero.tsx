@@ -11,7 +11,7 @@ export function HomeTwoHero() {
   const { featuredCaseStudy } = hero;
 
   return (
-    <section className="relative pt-[10px] pb-0 lg:pb-0 z-10">
+    <section className="relative page-header-spacing pb-0 lg:pb-0 z-10">
       <div className="container-wrapper">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center min-h-[750px] lg:min-h-[820px]">
           {/* Left Column: Heading, Subtitle, CTA & Partner Logos */}

@@ -10,10 +10,11 @@ import { AboutTeam } from "@/components/about/AboutTeam";
 import { HomeTwoCta } from "@/components/home-two/HomeTwoCta";
 
 export const metadata: Metadata = {
-  title: "About Us - B2bizz Consulting",
+  title: "About Us | Emerald System Integrators (ESI)",
   description:
-    "We are a strategy-first B2B consulting firm dedicated to helping businesses solve complex challenges and accelerate their growth.",
+    "Emerald System Integrators is a technology and consulting partner helping businesses become ready for the present and future through technology, specialist resourcing, and consulting.",
 };
+
 
 export default function AboutPage() {
   return (

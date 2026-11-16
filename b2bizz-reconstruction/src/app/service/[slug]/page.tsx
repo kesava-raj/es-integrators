@@ -25,10 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return {};
 
   return {
-    title: `${service.title} - B2bizz Services`,
+    title: `${service.title} | Emerald System Integrators (ESI)`,
     description: service.subtitle,
   };
 }
+
 
 export default async function ServiceDetailPage({ params }: Props) {
   const { slug } = await params;

@@ -8,6 +8,7 @@ export interface NavItem {
 export interface NavigationData {
   logo: {
     text: string;
+    subtext: string;
     href: string;
     iconPath: string;
   };
@@ -25,6 +26,7 @@ export interface NavigationData {
     email: string;
     phone: string;
     address: string;
+    locations: { city: string; country: string; label: string }[];
     legalLinks: NavItem[];
     copyright: string;
   };
@@ -32,7 +34,8 @@ export interface NavigationData {
 
 export const NAVIGATION_DATA: NavigationData = {
   logo: {
-    text: "B2bizz",
+    text: "ESI",
+    subtext: "Emerald System Integrators",
     href: "/",
     iconPath: "/icons/logo-b2bizz.png",
   },
@@ -46,63 +49,67 @@ export const NAVIGATION_DATA: NavigationData = {
   ],
   dropdownLinks: [
     {
-      label: "Home 2",
-      href: "/home-2",
-      description: "Alternative GTM and SaaS landing variant",
-      badge: "Variant",
+      label: "Solutions Overview",
+      href: "/service",
+      description: "Web apps, mobile solutions, enterprise architecture & consulting",
     },
     {
-      label: "All Services",
-      href: "/service",
-      description: "Explore our 5 core enterprise consulting services",
+      label: "Alternative View",
+      href: "/home-2",
+      description: "Executive solutions and enterprise consulting landing variant",
+      badge: "Variant",
     },
     {
       label: "Case Studies",
       href: "/case-study",
-      description: "Real-world B2B revenue and lead generation transformations",
+      description: "Real-world enterprise system integration and transformation results",
     },
     {
-      label: "Blog Articles",
+      label: "Insights & Blog",
       href: "/blog",
-      description: "Actionable thought leadership and sales funnel guides",
+      description: "Thought leadership on technology development and digital strategy",
     },
     {
       label: "Changelog",
       href: "/changelog",
-      description: "Platform updates, service evolutions, and release notes",
-      badge: "v2.4",
+      description: "Service evolutions, platform capabilities, and updates",
+      badge: "v2.5",
     },
     {
       label: "Privacy Policy",
       href: "/legal-pages/privacy-policy",
-      description: "Data governance, privacy standards, and compliance",
+      description: "Data governance, compliance, and privacy commitments",
     },
   ],
   headerCta: {
-    label: "Request a consultation",
-    href: "/contact",
+    label: "Explore Our Solutions",
+    href: "/service",
   },
   footer: {
     description:
-      "Empower your B2B business with result-driven consulting. From strategy to execution, we deliver measurable growth through expert digital and operational solutions.",
-    navColumnTitle: "Pages links",
+      "Emerald System Integrators helps businesses move forward through technology solutions, enterprise expertise and strategic consulting.",
+    navColumnTitle: "Navigation",
     navLinks: [
       { label: "Home", href: "/" },
-      { label: "Home 2", href: "/home-2" },
-      { label: "About", href: "/about" },
+      { label: "About Us", href: "/about" },
       { label: "Services", href: "/service" },
-      { label: "Case Study", href: "/case-study" },
-      { label: "Blog", href: "/blog" },
+      { label: "Case Studies", href: "/case-study" },
+      { label: "Insights", href: "/blog" },
       { label: "Contact", href: "/contact" },
       { label: "Changelog", href: "/changelog" },
     ],
-    contactColumnTitle: "Contact on",
-    email: "info@b2bizz.com",
+    contactColumnTitle: "Get in Touch",
+    email: "admin@es-integrators.com",
     phone: "+1 (800) 456-7890",
-    address: "100 Montgomery St, Suite 1500, San Francisco, CA 94104",
+    address: "Chennai, Tamil Nadu, India • Michigan, USA",
+    locations: [
+      { city: "Chennai", country: "India", label: "Chennai, Tamil Nadu, India" },
+      { city: "Michigan", country: "USA", label: "Michigan, USA" },
+    ],
     legalLinks: [
       { label: "Privacy Policy", href: "/legal-pages/privacy-policy" },
     ],
-    copyright: `© ${new Date().getFullYear()} B2bizz Consulting. All rights reserved.`,
+    copyright: "© Emerald System Integrators. All Rights Reserved.",
   },
 };
+

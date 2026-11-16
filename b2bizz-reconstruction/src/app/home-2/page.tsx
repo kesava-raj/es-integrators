@@ -11,10 +11,11 @@ import { HomeTwoArticles } from "@/components/home-two/HomeTwoArticles";
 import { HomeTwoCta } from "@/components/home-two/HomeTwoCta";
 
 export const metadata: Metadata = {
-  title: "B2bizz - B2B Consulting Agency for Digital Growth",
+  title: "Enterprise Technology & Consulting | Emerald System Integrators (ESI)",
   description:
-    "We take the guesswork out of business growth with tailored consulting, strategic planning, and results-backed execution.",
+    "Empowering businesses through intelligent technology, enterprise solutions and strategic consulting. Partner with ESI for sustainable growth.",
 };
+
 
 export default function HomeTwoPage() {
   return (

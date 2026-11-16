@@ -21,14 +21,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "B2bizz - B2B Consulting Agency for Digital Growth",
+  title: "Emerald System Integrators (ESI) | Engineering Digital Transformation",
   description:
-    "Empower your B2B business with result-driven consulting. From strategy to execution, we deliver measurable growth through expert digital and operational solutions.",
+    "Emerald System Integrators partners with businesses to simplify technological complexity, strengthen operations, and engineer digital transformation through technology, specialist resourcing, and consulting.",
   icons: {
-    icon: "/icons/favicon.png",
-    apple: "/icons/apple-touch-icon.png",
+    icon: "/icons/logo-b2bizz.png",
+    apple: "/icons/logo-b2bizz.png",
   },
 };
+
 
 export default function RootLayout({
   children,

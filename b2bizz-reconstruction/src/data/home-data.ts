@@ -42,20 +42,28 @@ export interface MethodologyStep {
   iconSrc: string;
 }
 
+export interface TestimonialItem {
+  id: string;
+  author: string;
+  role: string;
+  quote: string;
+  avatarSrc: string;
+}
+
 export const HOME_DATA = {
   hero: {
-    badge: "B2B Consulting Agency",
-    title: "Built for B2B, focused on results.",
+    badge: "Emerald System Integrators",
+    title: "Engineering Digital Transformation. Empowering What's Next.",
     subtitle:
-      "Empower your B2B business with result-driven consulting. From strategy to execution, we deliver measurable growth through expert digital and operational solutions.",
-    primaryCta: { text: "Explore our services", href: "/service" },
-    secondaryCta: { text: "More about us", href: "/about" },
+      "Empowering businesses through intelligent technology, enterprise solutions and strategic consulting. We help businesses navigate complexity, streamline operations and embrace opportunities through technology, specialist expertise and business consulting.",
+    primaryCta: { text: "Explore Our Solutions", href: "/service" },
+    secondaryCta: { text: "Discover ESI", href: "/about" },
     capabilities: [
-      "24/7 support and optimization",
-      "Customer success experts",
-      "Live performance tracking",
-      "Security design approach",
-      "Multichannel client support",
+      "Custom Web Application Development",
+      "Mobile Application Lifecycle Support",
+      "Enterprise System Integration",
+      "Strategic Business Consulting",
+      "Specialist Resourcing & Staffing",
     ],
     stats: {
       growthRate: "+250%",
@@ -66,139 +74,194 @@ export const HOME_DATA = {
   },
 
   marquee: {
-    headline: "Trusted by fast-moving B2B teams",
+    headline: "Trusted by forward-thinking organizations worldwide",
   },
 
   aboutOverview: {
-    badge: "Who we are",
-    title: "Informed strategy, Operational strength, and sustainable results.",
+    badge: "About ESI",
+    title: "Building the Foundation for What's Next.",
     description:
-      "We specialize in empowering B2B companies with results-driven consulting solutions tailored to modern business challenges.",
+      "Emerald System Integrators partners with businesses to simplify technological complexity, strengthen operations and pursue sustainable growth. Through technology development, specialist resourcing and business consulting, we bring together the expertise and solutions organizations need to move forward.",
     bullets: [
-      "Communicate value clearly and quickly",
-      "Solutions aligned with your business goals",
+      "Customized web, mobile, and enterprise technology solutions",
+      "Specialist resourcing across technology, tourism, translation and trading",
+      "Consulting support from initial setup through operations and maintenance",
+      "Customer value management focused on tangible, sustainable performance",
     ],
-    cta: { text: "More about us", href: "/about" },
-    imageSrc: "/images/img-drIdWgUE5zBF.jpg",
+    cta: { text: "Discover ESI", href: "/about" },
+    imageSrc: "/images/about-team.jpg",
   },
 
   industries: [
     {
-      id: "financial-services",
-      title: "Financial services",
-      category: "FinTech & Banking",
-      imageSrc: "/images/img-H0hRoAnIkQv5.jpg",
-    },
-    {
-      id: "healthcare",
-      title: "Healthcare",
-      category: "HealthTech & Pharma",
-      imageSrc: "/images/img-SiKi93XgBCO1.jpg",
-    },
-    {
       id: "technology",
-      title: "Technology",
-      category: "SaaS & Cloud Platforms",
+      title: "Technology & Software",
+      category: "Web & Mobile Platforms",
       imageSrc: "/images/img-Zi0oKIBGmUqx.jpg",
     },
     {
       id: "manufacturing",
-      title: "Manufacturing",
-      category: "Industry 4.0 & Supply Chain",
+      title: "Manufacturing & Industry",
+      category: "Component Integration",
       imageSrc: "/images/img-3IkbFdGrInFu.jpg",
     },
     {
       id: "logistics",
-      title: "Logistics & supply chain",
-      category: "Freight & Operations",
+      title: "Logistics & Supply Chain",
+      category: "Workflow Synchronization",
       imageSrc: "/images/img-snVr8e30vWzy.jpg",
+    },
+    {
+      id: "financial-services",
+      title: "Financial & Enterprise",
+      category: "Systems Integration",
+      imageSrc: "/images/img-H0hRoAnIkQv5.jpg",
+    },
+    {
+      id: "tourism-trading",
+      title: "Tourism & Trading",
+      category: "Specialist Resourcing",
+      imageSrc: "/images/img-SiKi93XgBCO1.jpg",
     },
   ] as IndustryCard[],
 
   valueProps: [
     {
-      id: "expertise",
-      title: "B2B expertise that matters",
+      id: "customer-satisfaction",
+      title: "Customer Satisfaction First",
       description:
-        "Deep expertise in navigating B2B challenges and opportunities to deliver sustained commercial advantage.",
+        "Standardized business processes, timely delivery, constant communication and dependable operations designed around client priorities.",
       iconSrc: "/icons/icon-Gx6UBmzydtzv.svg",
     },
     {
-      id: "data-informed",
-      title: "Data-informed, action-oriented",
+      id: "component-architecture",
+      title: "Standardized Enterprise Architecture",
       description:
-        "Strategies rooted in quantitative evidence and rapid operational deployment for measurable ROI.",
+        "Component-based technology environments that unify disparate systems, reduce architectural friction, and scale seamlessly.",
       iconSrc: "/icons/icon-NTvSIOmgsP6r.svg",
     },
     {
-      id: "tailored-strategies",
-      title: "Tailored strategies, measurable impact",
+      id: "long-term-partnerships",
+      title: "Partnership for Sustainable Growth",
       description:
-        "Every roadmap is uniquely architected around your commercial growth objectives and operational scale.",
+        "Long-term collaboration built on transparency, accountability, and continuous improvement across your technology journey.",
       iconSrc: "/icons/icon-shield-check.svg",
     },
   ] as ValuePropItem[],
 
   testimonial: {
     quote:
-      "Working with B2bizz was a game-changer for our B2B strategy. Their team didn’t just offer advice — they became an extension of our leadership. Their insights, professionalism, and tailored approach helped us unlock new growth and streamline our operations.",
-    author: "Orion Blake",
-    role: "COO",
-    company: "BrandEdge Global",
-    avatarSrc: "/images/avatar-orion-blake.jpg",
+      "Timely delivery, constant communication, and high professionalism throughout the application development lifecycle. Emerald System Integrators delivered exceptional quality and standardized business processes.",
+    author: "Ravi Kumar",
+    role: "Quality Analyst",
+    company: "Enterprise Client",
+    avatarSrc: "/images/avatar-michael-brown.jpg",
     bgImageSrc: "/images/img-XwCo50BibsVk.jpg",
   },
 
+  testimonialsList: [
+    {
+      id: "pranwant",
+      author: "Pranwant",
+      role: "Blog Writer",
+      quote:
+        "The website structure and easy access to relevant content made our collaboration smooth and impactful. ESI delivered exactly what was needed.",
+      avatarSrc: "/images/avatar-david-green.jpg",
+    },
+    {
+      id: "amarnath",
+      author: "Amarnath",
+      role: "Freelancer",
+      quote:
+        "Outstanding team quality and flawless project execution. Their engineering capabilities and consulting expertise set them apart.",
+      avatarSrc: "/images/avatar-orion-blake.jpg",
+    },
+    {
+      id: "ravi-kumar",
+      author: "Ravi Kumar",
+      role: "Quality Analyst",
+      quote:
+        "Timely delivery, constant communication, and high professionalism throughout the development lifecycle.",
+      avatarSrc: "/images/avatar-michael-brown.jpg",
+    },
+    {
+      id: "shivani-kumari",
+      author: "Shivani Kumari",
+      role: "Store Owner",
+      quote:
+        "Exceptional commitment and dedication to our business requirements. ESI helped streamline our operations effortlessly.",
+      avatarSrc: "/images/avatar-sarah-johnson.jpg",
+    },
+    {
+      id: "khushboo-sinha",
+      author: "Khushboo Sinha",
+      role: "Designer",
+      quote:
+        "Remarkable website development experience. The team combined technical strength with great design sensitivity.",
+      avatarSrc: "/images/avatar-emily-clark.jpg",
+    },
+  ] as TestimonialItem[],
+
   services: [
     {
-      id: "b2b-website",
-      slug: "b2b-website-design-development",
-      title: "B2B website design & development",
+      id: "web-apps",
+      slug: "web-application-development",
+      title: "Web Application Development",
       description:
-        "Conversion-focused websites built for speed, trust, and enterprise lead generation.",
-      tags: ["Business website", "Corporate site", "Responsive design"],
+        "ESI develops customized web applications designed to simplify IT complexity, streamline workflows and synchronize business operations.",
+      tags: [
+        "Custom Web Application Development",
+        "Workflow Optimization",
+        "Business Process Synchronization",
+        "Scalable Application Solutions",
+      ],
       iconSrc: "/icons/icon-analytics.svg",
       imageSrc: "/images/img-Gey8JdeAVmsT.png",
     },
     {
-      id: "custom-saas",
-      slug: "custom-saas-solutions",
-      title: "Custom SaaS solutions",
+      id: "mobile-apps",
+      slug: "mobile-application-development",
+      title: "Mobile Application Development",
       description:
-        "Robust, scalable SaaS platforms tailored to modern enterprise workflows and cloud scale.",
-      tags: ["Cloud architecture", "Intuitive UX", "API ecosystem"],
+        "ESI provides mobile application development expertise across multiple platforms, supporting businesses throughout the application development lifecycle.",
+      tags: [
+        "Mobile Application Development",
+        "Cross-Platform Development",
+        "Application Lifecycle Support",
+        "Business-Focused Mobile Solutions",
+      ],
       iconSrc: "/icons/icon-star.svg",
       imageSrc: "/images/img-gdRM7GW5TQGv.jpg",
     },
     {
-      id: "crm-erp",
-      slug: "crm-erp-integrations",
-      title: "CRM & ERP integrations",
+      id: "enterprise-solutions",
+      slug: "enterprise-solutions",
+      title: "Enterprise Solutions",
       description:
-        "Seamless integrations connecting disconnected legacy tools into a unified data ecosystem.",
-      tags: ["Workflow automation", "Unified data", "Real-time sync"],
+        "ESI provides enterprise technology solutions focused on system integration, standardized architecture and component-based technology environments.",
+      tags: [
+        "Enterprise Architecture",
+        "System Integration",
+        "Standardized Technology Components",
+        "Business Systems Integration",
+      ],
       iconSrc: "/icons/icon-shield-check.svg",
       imageSrc: "/images/case-study-eco-enterprise.jpg",
     },
     {
-      id: "digital-strategy",
-      slug: "enterprise-digital-strategy",
-      title: "Enterprise digital strategy",
+      id: "business-consulting",
+      slug: "business-consulting",
+      title: "Business Consulting",
       description:
-        "Actionable transformation roadmaps aligning commercial objectives with technical capability.",
-      tags: ["Digital roadmap", "Journey optimization", "Risk management"],
+        "ESI provides management consulting services addressing critical business challenges across strategy, operations, technology, and organizational transformation.",
+      tags: [
+        "Specialist Resourcing & Staffing",
+        "Business Strategy & Operations",
+        "Digital Transformation",
+        "Advanced Analytics & Systems",
+      ],
       iconSrc: "/icons/icon-arrow-up-right.svg",
       imageSrc: "/images/case-study-consulting-shift.jpg",
-    },
-    {
-      id: "data-marketing",
-      slug: "data-driven-marketing",
-      title: "Data-driven marketing",
-      description:
-        "Turning quantitative analytics into high-velocity pipeline generation and multi-touch attribution.",
-      tags: ["Attribution modeling", "Funnel scaling", "Conversion optimization"],
-      iconSrc: "/icons/icon-analytics.svg",
-      imageSrc: "/images/case-study-brand-edge.jpg",
     },
   ] as ServiceItem[],
 
@@ -206,97 +269,97 @@ export const HOME_DATA = {
     {
       id: "edgetrans",
       slug: "lead-generation-boost-for-a-b2b-logistics-company",
-      category: "Design & development",
+      category: "Web Application & Lead Generation",
       title: "Lead generation boost for a B2B logistics company",
-      client: "EdgeTrans",
-      challenge: "Low lead conversion from the existing legacy website.",
+      client: "TransEdge Logistics",
+      challenge: "Low digital inquiry conversion from an outdated legacy web architecture.",
       solution:
-        "Redesigned the digital presence with compelling narrative positioning and integrated conversion funnels.",
-      stat1: { value: "2.5X", label: "B2B lead uplift" },
-      stat2: { value: "38%", label: "Bounce rate dropped" },
+        "Engineered an integrated web application with optimized workflow synchronization and modern customer touchpoints.",
+      stat1: { value: "2.5X", label: "Qualified inquiry boost" },
+      stat2: { value: "38%", label: "Bounce rate reduced" },
       imageSrc: "/images/case-study-transedge.jpg",
     },
     {
       id: "brand-edge",
       slug: "scalable-saas-platform-for-a-fintech-startup",
-      category: "SaaS solution",
-      title: "Scalable SaaS platform for a fintech startup",
-      client: "Brand Edge",
-      challenge: "Delayed product iteration and sluggish market responsiveness.",
+      category: "Custom Web Application",
+      title: "Scalable platform for an innovative fintech provider",
+      client: "Brand Edge Fintech",
+      challenge: "Sluggish transaction velocity and component integration bottlenecks.",
       solution:
-        "Introduced agile microservices and development workflows to accelerate feature deployment velocity.",
-      stat1: { value: "50%", label: "Follower base growth" },
-      stat2: { value: "30%", label: "Campaign ROI achieved" },
+        "Architected modular microservices and standardized APIs to support high-concurrency client transactions.",
+      stat1: { value: "99.99%", label: "Platform uptime" },
+      stat2: { value: "3.2X", label: "Transaction capacity" },
       imageSrc: "/images/case-study-brand-edge.jpg",
     },
     {
       id: "eco-enterprise",
       slug: "enterprise-resource-integration-for-a-manufacturing-firm",
-      category: "CRM & ERP integrations",
+      category: "Enterprise System Integration",
       title: "Enterprise resource integration for a manufacturing firm",
       client: "Eco Enterprise",
-      challenge: "Disconnected legacy systems hindered real-time operational data access.",
+      challenge: "Disconnected legacy software systems hindered real-time operational data access.",
       solution:
-        "Integrated ERP, CRM, and supply chain tools into a unified platform for streamlined reporting.",
-      stat1: { value: "25%", label: "Improved lead flow" },
-      stat2: { value: "70%", label: "Bounce rate dropped" },
+        "Integrated ERP, CRM, and supply chain tools into a standardized component-based environment.",
+      stat1: { value: "70%", label: "Faster inventory sync" },
+      stat2: { value: "45%", label: "Process latency cut" },
       imageSrc: "/images/case-study-eco-enterprise.jpg",
     },
     {
       id: "spendora",
       slug: "strategic-digital-shift-for-a-b2b-consulting-agency",
-      category: "Enterprise digital strategy",
-      title: "Strategic digital shift for a B2B consulting agency",
-      client: "Spendora",
-      challenge: "Outdated digital presence and manual client acquisition pipelines.",
+      category: "Business Consulting & Digital Shift",
+      title: "Strategic digital shift for a professional advisory firm",
+      client: "Spendora Advisory",
+      challenge: "Manual consulting delivery pipelines and decentralized client reporting.",
       solution:
-        "Implemented automated lead qualification workflows, revamped their digital brand, and launched outbound funnels.",
-      stat1: { value: "40%", label: "Improved engagement" },
-      stat2: { value: "60%", label: "Reduced no-shows" },
+        "Implemented standardized technology workflows, client management tools, and analytics dashboards.",
+      stat1: { value: "60%", label: "Operational efficiency" },
+      stat2: { value: "40%", label: "Faster client onboarding" },
       imageSrc: "/images/case-study-consulting-shift.jpg",
     },
   ] as CaseStudyItem[],
 
   methodology: [
     {
-      step: "Step 1",
-      title: "Understand your business",
+      step: "01",
+      title: "Understand Business Needs",
       description:
-        "We dive deep into your market position, operational bottlenecks, and commercial goals to identify high-leverage growth vectors.",
+        "We analyze specific operational requirements and structural bottlenecks to design scalable solutions that evolve with your organization.",
       iconSrc: "/icons/icon-analytics.svg",
     },
     {
-      step: "Step 2",
-      title: "Build the right strategy",
+      step: "02",
+      title: "Standardized Architecture",
       description:
-        "We architect a tailored, data-backed execution roadmap combining technology, go-to-market motions, and resource allocation.",
+        "We build component-based environments and robust integrations that bring internal and external business systems together seamlessly.",
       iconSrc: "/icons/icon-shield-check.svg",
     },
     {
-      step: "Step 3",
-      title: "Execute & deliver results",
+      step: "03",
+      title: "Deliver Sustainable Growth",
       description:
-        "We deploy cross-functional teams to build, launch, and optimize your systems, ensuring sustainable pipeline velocity and measurable ROI.",
+        "We support organizations throughout the solution lifecycle—from initial implementation to long-term operations, maintenance and consulting.",
       iconSrc: "/icons/icon-arrow-up-right.svg",
     },
   ] as MethodologyStep[],
 
   ctaBanner: {
-    badge: "Ready to scale",
-    title: "Is your B2B business ready for the next level?",
-    primaryCtaText: "Book a free call",
-    primaryCtaHref: "/contact",
+    badge: "Ready for What's Next",
+    title: "Partner with Emerald System Integrators to engineer your digital transformation.",
+    primaryCtaText: "Explore Our Solutions",
+    primaryCtaHref: "/service",
     actionCards: [
       {
-        title: "Time to level up your B2B game?",
-        btnText: "Contact now",
+        title: "Ready to simplify technological complexity?",
+        btnText: "Get in touch",
         href: "/contact",
         iconSrc: "/icons/icon-arrow-up-right.svg",
       },
       {
-        title: "Need expert help to scale fast?",
-        btnText: "Contact our experts",
-        href: "/about#team",
+        title: "Looking for specialist resourcing or consulting?",
+        btnText: "Learn about ESI",
+        href: "/about",
         iconSrc: "/icons/icon-star.svg",
       },
     ],
