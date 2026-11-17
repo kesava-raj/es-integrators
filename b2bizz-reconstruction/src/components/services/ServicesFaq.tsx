@@ -13,7 +13,7 @@ export function ServicesFaq() {
   };
 
   return (
-    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
+    <section className="pt-0 pb-8 sm:pb-12 lg:pb-14 relative z-10">
       <div className="container-wrapper">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Left Column: FAQ Illustration Image */}

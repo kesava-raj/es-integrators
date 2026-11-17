@@ -20,7 +20,7 @@ export default function CaseStudiesPage() {
       <CaseStudiesGrid />
 
       {/* 3. Conversion Banner */}
-      <section className="section-padding relative z-10">
+      <section className="pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-12 relative z-10">
         <div className="container-wrapper">
           <CtaBanner />
         </div>

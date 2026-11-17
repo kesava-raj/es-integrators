@@ -55,7 +55,7 @@ export default function RootLayout({
       <body className="bg-canvas text-text-secondary font-body antialiased selection:bg-brand-volt selection:text-canvas min-h-screen flex flex-col">
         <SmoothScroll>
           <Navbar />
-          <main className="flex-1">
+          <main className="flex-1 flex flex-col">
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />

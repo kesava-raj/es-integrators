@@ -38,16 +38,16 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-canvas border-t border-border-olive/70 text-text-secondary relative overflow-hidden transition-colors">
+    <footer className="bg-canvas border-t border-border-olive/70 text-text-secondary relative overflow-hidden transition-colors mt-auto">
       {/* Top subtle emerald laser glow line */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-4/5 h-[1.5px] bg-gradient-to-r from-transparent via-brand-volt/30 to-transparent pointer-events-none" />
 
-      <div className="container-wrapper py-14 sm:py-20 space-y-12 sm:space-y-16">
+      <div className="container-wrapper pt-10 sm:pt-14 pb-6 sm:pb-8 space-y-10 sm:space-y-12">
         {/* Main 4-Column Enterprise Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-8 items-start">
           
-          {/* Column 1: Brand Identity, Mission & Intelligence Dispatch (5 cols on lg) */}
-          <div className="lg:col-span-5 space-y-6">
+          {/* Column 1: Brand Identity, Mission & Intelligence Dispatch (4 cols on lg) */}
+          <div className="lg:col-span-4 space-y-5">
             <Link
               href={NAVIGATION_DATA.logo.href}
               className="inline-flex items-center gap-3 group"
@@ -178,8 +178,8 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 4: Global Hubs & Direct Engagement (2 cols on lg) */}
-          <div className="lg:col-span-2 space-y-4">
+          {/* Column 4: Global Hubs & Direct Engagement (3 cols on lg) */}
+          <div className="lg:col-span-3 space-y-4">
             <h4 className="text-xs font-mono font-semibold tracking-wider uppercase text-text-primary flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-volt"></span>
               {NAVIGATION_DATA.footer.contactColumnTitle}

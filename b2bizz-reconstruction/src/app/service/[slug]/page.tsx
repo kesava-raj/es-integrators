@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { SERVICES_LIST } from "@/data/services-data";
 import { ServiceDetailHero } from "@/components/services/ServiceDetailHero";
 import { ServiceDetailApproach } from "@/components/services/ServiceDetailApproach";
-import { HomeTwoPricing } from "@/components/home-two/HomeTwoPricing";
 import { ServiceDetailTestimonial } from "@/components/services/ServiceDetailTestimonial";
 import { ServiceDetailOtherServices } from "@/components/services/ServiceDetailOtherServices";
 import { CtaBanner } from "@/components/shared/CtaBanner";
@@ -47,17 +46,14 @@ export default async function ServiceDetailPage({ params }: Props) {
       {/* 2. Core Capabilities, Approach Statement & 4-Point Deliverables */}
       <ServiceDetailApproach service={service} />
 
-      {/* 3. Consulting Pricing Plans & Dynamic Billing Toggle */}
-      <HomeTwoPricing />
-
-      {/* 4. Dedicated Client Endorsement Testimonial */}
+      {/* 3. Dedicated Client Endorsement Testimonial */}
       <ServiceDetailTestimonial service={service} />
 
-      {/* 5. Cross-Sell Recommendations: Other Services */}
+      {/* 4. Cross-Sell Recommendations: Other Services */}
       <ServiceDetailOtherServices currentSlug={service.slug} />
 
-      {/* 6. Pre-Footer Conversion CTA Banner */}
-      <section className="section-padding relative z-10">
+      {/* 5. Pre-Footer Conversion CTA Banner */}
+      <section className="pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-12 relative z-10">
         <div className="container-wrapper">
           <CtaBanner />
         </div>

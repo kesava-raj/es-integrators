@@ -1,25 +1,55 @@
-"use strict";
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import { HOME_TWO_DATA } from "@/data/home-2-data";
 
-export function HomeTwoEndorsements() {
-  const { endorsements } = HOME_TWO_DATA;
+const ENDORSEMENTS_DATA = {
+  headline: "What our clients say about Emerald System Integrators",
+  backdropImage: "/images/ou4oWL8RwosFygJ5hi7sUUHGb8Q.jpg",
+  items: [
+    {
+      id: "pranwant",
+      quote:
+        "The website structure and easy access to relevant content made our collaboration smooth and impactful. ESI delivered exactly what was needed.",
+      author: "Pranwant",
+      role: "Blog Writer",
+      avatarSrc: "/images/avatar-david-green.jpg",
+    },
+    {
+      id: "amarnath",
+      quote:
+        "Outstanding team quality and flawless project execution. Their engineering capabilities and consulting expertise set them apart.",
+      author: "Amarnath",
+      role: "Freelancer",
+      avatarSrc: "/images/avatar-orion-blake.jpg",
+    },
+    {
+      id: "ravi-kumar",
+      quote:
+        "Timely delivery, constant communication, and high professionalism throughout the application development lifecycle.",
+      author: "Ravi Kumar",
+      role: "Quality Analyst",
+      company: "Eco Enterprise",
+      avatarSrc: "/images/avatar-michael-brown.jpg",
+    },
+  ],
+};
 
+export function AboutEndorsements() {
   return (
-    <section className="pt-0 pb-14 sm:pb-20 lg:pb-28 relative z-10">
+    <section className="pt-0 pb-12 sm:pb-16 lg:pb-20 relative z-10">
       <div className="container-wrapper">
         {/* Section Heading */}
-        <div className="text-center max-w-[700px] mx-auto mb-12">
+        <div className="text-center max-w-[700px] mx-auto mb-10 sm:mb-12">
           <h2 className="text-[26px] sm:text-[36px] lg:text-[44px] font-normal leading-[1.2] text-brand-volt tracking-tight">
-            {endorsements.headline}
+            {ENDORSEMENTS_DATA.headline}
           </h2>
         </div>
 
         {/* Testimonials 3-Card Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {endorsements.items.slice(0, 3).map((item, idx) => {
-            const isFeatured = idx === 1; // Middle card has featured backdrop
+          {ENDORSEMENTS_DATA.items.map((item, idx) => {
+            const isFeatured = idx === 1;
             return (
               <div
                 key={item.id}
@@ -33,7 +63,7 @@ export function HomeTwoEndorsements() {
                 {isFeatured && (
                   <div className="absolute inset-0 -z-10 opacity-30 mix-blend-screen pointer-events-none">
                     <Image
-                      src={endorsements.backdropImage}
+                      src={ENDORSEMENTS_DATA.backdropImage}
                       alt=""
                       fill
                       className="object-cover"
@@ -59,9 +89,9 @@ export function HomeTwoEndorsements() {
                   </p>
                 </div>
 
-                {/* Author Metadata */}
-                <div className="flex items-center gap-4 pt-6 border-t border-border-olive mt-6 relative z-10">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-border-olive bg-surface-subtle">
+                {/* Author Info */}
+                <div className="relative z-10 flex items-center gap-4 mt-8 pt-6 border-t border-border-olive/50">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden border border-border-olive shrink-0">
                     <Image
                       src={item.avatarSrc}
                       alt={item.author}
@@ -70,10 +100,10 @@ export function HomeTwoEndorsements() {
                     />
                   </div>
                   <div>
-                    <h3 className="text-base font-normal text-text-primary leading-tight">
+                    <h4 className="text-sm font-semibold text-text-primary tracking-wide">
                       {item.author}
-                    </h3>
-                    <p className="text-xs text-text-muted font-light leading-snug">
+                    </h4>
+                    <p className="text-xs text-brand-volt font-medium">
                       {item.role} {item.company ? `• ${item.company}` : ""}
                     </p>
                   </div>
@@ -86,3 +116,5 @@ export function HomeTwoEndorsements() {
     </section>
   );
 }
+
+export default AboutEndorsements;

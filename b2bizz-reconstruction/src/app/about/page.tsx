@@ -5,9 +5,9 @@ import { AboutStory } from "@/components/about/AboutStory";
 import { AboutPrinciples } from "@/components/about/AboutPrinciples";
 import { AboutVisionMission } from "@/components/about/AboutVisionMission";
 import { LogoMarquee } from "@/components/shared/LogoMarquee";
-import { HomeTwoEndorsements } from "@/components/home-two/HomeTwoEndorsements";
+import { AboutEndorsements } from "@/components/about/AboutEndorsements";
 import { AboutTeam } from "@/components/about/AboutTeam";
-import { HomeTwoCta } from "@/components/home-two/HomeTwoCta";
+import { CtaBanner } from "@/components/shared/CtaBanner";
 
 export const metadata: Metadata = {
   title: "About Us | Emerald System Integrators (ESI)",
@@ -37,13 +37,17 @@ export default function AboutPage() {
       </section>
 
       {/* 6. Client Endorsements Testimonials */}
-      <HomeTwoEndorsements />
+      <AboutEndorsements />
 
       {/* 7. Executive Leadership Team Grid */}
       <AboutTeam />
 
-      {/* 8. Conversion Banner (Pre-footer CTA & Awards) */}
-      <HomeTwoCta />
+      {/* 8. Conversion Banner (Pre-footer CTA) */}
+      <section className="pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-12 relative z-10">
+        <div className="container-wrapper">
+          <CtaBanner />
+        </div>
+      </section>
     </div>
   );
 }

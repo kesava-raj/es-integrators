@@ -22,7 +22,7 @@ export const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
           duration: 0.35,
           ease: [0.16, 1, 0.3, 1],
         }}
-        className="w-full"
+        className="w-full flex-1 flex flex-col"
       >
         {children}
       </motion.div>

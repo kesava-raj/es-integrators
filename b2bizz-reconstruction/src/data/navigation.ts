@@ -85,7 +85,7 @@ export const NAVIGATION_DATA: NavigationData = {
     },
     {
       label: "Privacy Policy",
-      href: "/legal-pages/privacy-policy",
+      href: "/privacy-policy",
       description: "Data governance, compliance, and privacy commitments",
     },
   ],
@@ -98,11 +98,10 @@ export const NAVIGATION_DATA: NavigationData = {
       "Emerald System Integrators (ESI) delivers enterprise-grade software engineering, robust systems architecture, and transformative strategic consulting for organizations worldwide.",
     solutionsTitle: "Solutions & Practices",
     solutionsLinks: [
-      { label: "Web Applications & Platforms", href: "/service/b2b-website-design-development" },
-      { label: "Mobile Engineering & Lifecycle", href: "/service/custom-saas-solutions" },
-      { label: "CRM & ERP Integrations", href: "/service/crm-erp-integrations" },
-      { label: "Enterprise Digital Strategy", href: "/service/enterprise-digital-strategy" },
-      { label: "Data-Driven Marketing", href: "/service/data-driven-marketing" },
+      { label: "Web Application Development", href: "/service/web-application-development" },
+      { label: "Mobile Application Development", href: "/service/mobile-application-development" },
+      { label: "Enterprise Solutions", href: "/service/enterprise-solutions" },
+      { label: "Business Consulting", href: "/service/business-consulting" },
       { label: "All Solutions Overview", href: "/service" },
     ],
     companyTitle: "Company & Insights",
@@ -141,7 +140,7 @@ export const NAVIGATION_DATA: NavigationData = {
     ],
     sla: "Inquiries reviewed within 24 business hours",
     legalLinks: [
-      { label: "Privacy Policy", href: "/legal-pages/privacy-policy" },
+      { label: "Privacy Policy", href: "/privacy-policy" },
     ],
     copyright: "© 2026 Emerald System Integrators (ESI). All Rights Reserved.",
   },

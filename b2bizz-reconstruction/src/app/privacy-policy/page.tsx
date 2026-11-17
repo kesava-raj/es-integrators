@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="bg-canvas text-text-primary bg-noise relative overflow-hidden">
-      <section className="page-header-spacing pb-20 relative z-10">
+    <div className="bg-canvas text-text-primary bg-noise relative overflow-hidden flex-1">
+      <section className="page-header-spacing pb-16 relative z-10">
         <div className="container-wrapper max-w-4xl">
           {/* Back link */}
           <div className="mb-6">
