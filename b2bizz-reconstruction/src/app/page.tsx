@@ -11,7 +11,7 @@ import { MethodologySection } from "@/components/home/MethodologySection";
 import { CtaBanner } from "@/components/shared/CtaBanner";
 import { HOME_DATA } from "@/data/home-data";
 
-export default function B2bizzHomepage() {
+export default function EsiHomepage() {
   return (
     <div className="bg-canvas text-text-primary bg-noise relative overflow-hidden">
       {/* 1. Hero Section with Bottom-Aligned Headline and Capabilities Ticker */}

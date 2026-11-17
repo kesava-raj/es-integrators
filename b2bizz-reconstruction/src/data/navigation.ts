@@ -5,6 +5,13 @@ export interface NavItem {
   badge?: string;
 }
 
+export interface HubLocation {
+  city: string;
+  region: string;
+  role: string;
+  status: string;
+}
+
 export interface NavigationData {
   logo: {
     text: string;
@@ -20,13 +27,16 @@ export interface NavigationData {
   };
   footer: {
     description: string;
+    solutionsTitle: string;
+    solutionsLinks: NavItem[];
+    companyTitle: string;
+    companyLinks: NavItem[];
     navColumnTitle: string;
     navLinks: NavItem[];
     contactColumnTitle: string;
     email: string;
-    phone: string;
-    address: string;
-    locations: { city: string; country: string; label: string }[];
+    hubs: HubLocation[];
+    sla: string;
     legalLinks: NavItem[];
     copyright: string;
   };
@@ -54,12 +64,6 @@ export const NAVIGATION_DATA: NavigationData = {
       description: "Web apps, mobile solutions, enterprise architecture & consulting",
     },
     {
-      label: "Alternative View",
-      href: "/home-2",
-      description: "Executive solutions and enterprise consulting landing variant",
-      badge: "Variant",
-    },
-    {
       label: "Case Studies",
       href: "/case-study",
       description: "Real-world enterprise system integration and transformation results",
@@ -70,10 +74,14 @@ export const NAVIGATION_DATA: NavigationData = {
       description: "Thought leadership on technology development and digital strategy",
     },
     {
-      label: "Changelog",
-      href: "/changelog",
-      description: "Service evolutions, platform capabilities, and updates",
-      badge: "v2.5",
+      label: "About Emerald",
+      href: "/about",
+      description: "Our mission, specialized practices, and engineering philosophy",
+    },
+    {
+      label: "Contact & Inquiries",
+      href: "/contact",
+      description: "Direct partnership consultation and enterprise RFP submission",
     },
     {
       label: "Privacy Policy",
@@ -87,7 +95,25 @@ export const NAVIGATION_DATA: NavigationData = {
   },
   footer: {
     description:
-      "Emerald System Integrators helps businesses move forward through technology solutions, enterprise expertise and strategic consulting.",
+      "Emerald System Integrators (ESI) delivers enterprise-grade software engineering, robust systems architecture, and transformative strategic consulting for organizations worldwide.",
+    solutionsTitle: "Solutions & Practices",
+    solutionsLinks: [
+      { label: "Web Applications & Platforms", href: "/service/b2b-website-design-development" },
+      { label: "Mobile Engineering & Lifecycle", href: "/service/custom-saas-solutions" },
+      { label: "CRM & ERP Integrations", href: "/service/crm-erp-integrations" },
+      { label: "Enterprise Digital Strategy", href: "/service/enterprise-digital-strategy" },
+      { label: "Data-Driven Marketing", href: "/service/data-driven-marketing" },
+      { label: "All Solutions Overview", href: "/service" },
+    ],
+    companyTitle: "Company & Insights",
+    companyLinks: [
+      { label: "About ESI", href: "/about" },
+      { label: "Client Case Studies", href: "/case-study" },
+      { label: "Insights & Articles", href: "/blog" },
+      { label: "Our Story & Values", href: "/about#story" },
+      { label: "Executive Leadership", href: "/about#team" },
+      { label: "Get in Touch", href: "/contact" },
+    ],
     navColumnTitle: "Navigation",
     navLinks: [
       { label: "Home", href: "/" },
@@ -96,20 +122,27 @@ export const NAVIGATION_DATA: NavigationData = {
       { label: "Case Studies", href: "/case-study" },
       { label: "Insights", href: "/blog" },
       { label: "Contact", href: "/contact" },
-      { label: "Changelog", href: "/changelog" },
     ],
-    contactColumnTitle: "Get in Touch",
+    contactColumnTitle: "Global Delivery Hubs",
     email: "admin@es-integrators.com",
-    phone: "+1 (800) 456-7890",
-    address: "Chennai, Tamil Nadu, India • Michigan, USA",
-    locations: [
-      { city: "Chennai", country: "India", label: "Chennai, Tamil Nadu, India" },
-      { city: "Michigan", country: "USA", label: "Michigan, USA" },
+    hubs: [
+      {
+        city: "Chennai",
+        region: "Tamil Nadu, India",
+        role: "Core Engineering & Systems Integration",
+        status: "Active Delivery Center",
+      },
+      {
+        city: "Michigan",
+        region: "USA",
+        role: "Strategic Client Advisory & Regional Operations",
+        status: "North American Hub",
+      },
     ],
+    sla: "Inquiries reviewed within 24 business hours",
     legalLinks: [
       { label: "Privacy Policy", href: "/legal-pages/privacy-policy" },
     ],
-    copyright: "© Emerald System Integrators. All Rights Reserved.",
+    copyright: "© 2026 Emerald System Integrators (ESI). All Rights Reserved.",
   },
 };
-
