@@ -131,14 +131,14 @@ export const HOME_DATA = {
       title: "Customer Satisfaction First",
       description:
         "Standardized business processes, timely delivery, constant communication and dependable operations designed around client priorities.",
-      iconSrc: "/icons/icon-Gx6UBmzydtzv.svg",
+      iconSrc: "/icons/icon-FNXmFBsR2D4C.svg",
     },
     {
       id: "component-architecture",
       title: "Standardized Enterprise Architecture",
       description:
         "Component-based technology environments that unify disparate systems, reduce architectural friction, and scale seamlessly.",
-      iconSrc: "/icons/icon-NTvSIOmgsP6r.svg",
+      iconSrc: "/icons/icon-R1XsGA4fBWxa.svg",
     },
     {
       id: "long-term-partnerships",
