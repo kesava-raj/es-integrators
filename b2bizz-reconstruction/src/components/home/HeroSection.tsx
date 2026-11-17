@@ -1,12 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Headphones, Users, Activity, ShieldCheck, MessageSquare } from "lucide-react";
 import { HOME_DATA } from "@/data/home-data";
+import AnimatedGradient from "@/components/ui/animated-gradient";
 
 export const HeroSection: React.FC = () => {
   const { hero } = HOME_DATA;
+  const [isLight, setIsLight] = useState(false);
+
+  useEffect(() => {
+    const checkTheme = () => {
+      setIsLight(document.documentElement.classList.contains("light"));
+    };
+    checkTheme();
+
+    const observer = new MutationObserver(checkTheme);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class", "data-theme"],
+    });
+    return () => observer.disconnect();
+  }, []);
 
   const capabilityIcons = [Headphones, Users, Activity, ShieldCheck, MessageSquare];
 
@@ -15,11 +31,38 @@ export const HeroSection: React.FC = () => {
       <div className="container-wrapper">
         {/* Main Hero Card Container matching Reference layout */}
         <div className="relative rounded-[28px] sm:rounded-[32px] border border-border-olive/60 bg-surface-base overflow-hidden min-h-[580px] sm:min-h-[660px] lg:min-h-[720px] flex flex-col justify-end p-6 sm:p-12 lg:p-16">
+          {/* Dynamic WebGL2 Animated Gradient in ESI Emerald & Background Tones */}
+          <AnimatedGradient
+            config={{
+              preset: "custom",
+              color1: isLight ? "#D1FAE5" : "#043D2A",
+              color2: isLight ? "#6EE7B7" : "#10B981",
+              color3: isLight ? "#F1F5F9" : "#0E100F",
+              rotation: -35,
+              proportion: 38,
+              scale: 0.28,
+              speed: 15,
+              distortion: 15,
+              swirl: 55,
+              swirlIterations: 6,
+              softness: 85,
+              shape: "Edge",
+              shapeSize: 32,
+            }}
+            noise={{ opacity: isLight ? 0.08 : 0.12, scale: 1.2 }}
+            style={{ zIndex: 0 }}
+            className={isLight ? "opacity-75 transition-opacity duration-300" : "opacity-85 transition-opacity duration-300"}
+          />
+
           {/* Authentic Ambient Diagonal Volt/Olive Light Beam from Bottom-Right */}
-          <div className="absolute inset-0 pointer-events-none opacity-80 hero-ambient-glow" />
+          <div className="absolute inset-0 pointer-events-none opacity-60 hero-ambient-glow z-[1]" />
 
           {/* Subtle Secondary Ambient Glow at Top */}
-          <div className="glow-ambient-volt top-0 right-1/4 opacity-40 pointer-events-none" />
+          <div className="glow-ambient-volt top-0 right-1/4 opacity-30 pointer-events-none z-[1]" />
+
+          {/* Soft contrast gradient mask ensuring text readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-surface-base/80 via-transparent to-transparent pointer-events-none z-[2]" />
+          <div className="absolute inset-0 bg-gradient-to-r from-surface-base/80 via-surface-base/30 to-transparent pointer-events-none z-[2]" />
 
           {/* Hero Content Block */}
           <div className="relative z-10 space-y-6 max-w-4xl pt-28 sm:pt-32">
