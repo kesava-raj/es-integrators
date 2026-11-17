@@ -20,18 +20,18 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
           alt="Emerald System Integrators Ambient Backdrop"
           fill
           priority
-          className="object-cover opacity-80 select-none transition-transform duration-700 ease-out hover:scale-105"
+          className="object-cover object-top opacity-85 select-none transition-transform duration-700 ease-out hover:scale-105"
           sizes="(max-width: 1200px) 100vw, 1200px"
         />
 
-        {/* Ambient Dark Scrim & Vignette ensuring seamless edges and zero bottom artifacts */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#080B09] via-transparent to-[#080B09]/80 pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#080B09]/80 via-transparent to-[#080B09]/80 pointer-events-none" />
-        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#080B09] to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none" />
+        {/* Ambient Dark Scrims ensuring seamless obsidian integration and zero bottom artifacts */}
+        <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#080B09] via-[#080B09]/90 to-transparent pointer-events-none z-[2]" />
+        <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#080B09]/80 to-transparent pointer-events-none z-[2]" />
+        <div className="absolute inset-y-0 inset-x-0 bg-gradient-to-r from-[#080B09]/85 via-transparent to-[#080B09]/85 pointer-events-none z-[2]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none z-[2]" />
 
         {/* Subtle Top Volt Accent Edge Glow */}
-        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-volt/40 to-transparent pointer-events-none" />
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-volt/40 to-transparent pointer-events-none z-[3]" />
 
         <div className="relative z-10 space-y-4 max-w-2xl">
           <h2 className="text-h2-compact text-brand-volt leading-[1.25] font-normal tracking-tight">

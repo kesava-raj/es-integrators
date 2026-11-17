@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { CheckCircle2, Send, Mail, MapPin, Globe, Clock, ShieldCheck } from "lucide-react";
+import { CheckCircle2, Send, Mail, MapPin, Globe, Clock, ShieldCheck, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 export function ContactForm() {
@@ -106,17 +106,22 @@ export function ContactForm() {
                 <label className="text-xs font-mono uppercase tracking-wider text-text-muted">
                   Area of Interest
                 </label>
-                <select
-                  value={formData.service}
-                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                  className="w-full bg-surface-base border border-border-olive rounded-xl px-4 py-3 text-sm text-text-primary focus:outline-none focus:border-brand-volt transition-colors min-h-[46px]"
-                >
-                  <option value="Web Application Development">Web Application Development</option>
-                  <option value="Mobile Application Development">Mobile Application Development</option>
-                  <option value="Enterprise Solutions">Enterprise Solutions & Integration</option>
-                  <option value="Business Consulting">Business Consulting & Strategy</option>
-                  <option value="Specialist Resourcing">Specialist Resourcing & Staffing</option>
-                </select>
+                <div className="relative flex items-center">
+                  <select
+                    value={formData.service}
+                    onChange={(e) => setFormData({ ...formData, service: e.target.value })}
+                    className="w-full appearance-none bg-surface-base border border-border-olive rounded-xl pl-4 pr-11 py-3 text-sm text-text-primary focus:outline-none focus:border-brand-volt transition-colors min-h-[46px] cursor-pointer"
+                  >
+                    <option value="Web Application Development">Web Application Development</option>
+                    <option value="Mobile Application Development">Mobile Application Development</option>
+                    <option value="Enterprise Solutions">Enterprise Solutions & Integration</option>
+                    <option value="Business Consulting">Business Consulting & Strategy</option>
+                    <option value="Specialist Resourcing">Specialist Resourcing & Staffing</option>
+                  </select>
+                  <div className="absolute right-4 pointer-events-none flex items-center justify-center text-brand-volt">
+                    <ChevronDown className="w-4 h-4 text-brand-volt shrink-0" />
+                  </div>
+                </div>
               </div>
             </div>
 

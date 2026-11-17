@@ -36,9 +36,9 @@ export const ABOUT_DATA = {
       "Process Optimization",
     ],
     collage: [
-      { src: "/images/qyFALiDAT11qq2R9yTbABUg1qo.jpg", alt: "Technology Engineering", width: 460, height: 415 },
-      { src: "/images/lxIpRAPB2GyzWXqCsmI4Lt1Bu4.jpg", alt: "Specialist Resourcing", width: 580, height: 415 },
-      { src: "/images/d512t4V6VrGb1hhvxUjbODGCXCk.jpg", alt: "Enterprise Consulting", width: 300, height: 415 },
+      { src: "/images/esi-engineering-team.jpg", alt: "Technology Engineering Team", width: 580, height: 415 },
+      { src: "/images/esi-enterprise-architecture.jpg", alt: "Enterprise Architecture", width: 580, height: 415 },
+      { src: "/images/esi-app-development.jpg", alt: "Application Engineering", width: 580, height: 415 },
     ],
     decorationImage: "/images/j1u7mOstGtDSOqkHWRDDUZrUo4.png",
   },
@@ -99,7 +99,7 @@ export const ABOUT_DATA = {
       title: "To become a trusted technology and consulting partner for businesses worldwide.",
       description:
         "Delivering innovative solutions, building lasting relationships, and supporting sustainable business growth across industries and geographies.",
-      imageSrc: "/images/ssle2Ob2kE3q97SLsLFaNwznQ.jpg",
+      imageSrc: "/images/esi-enterprise-architecture.jpg",
       iconSrc: "/icons/toyCuDHAxxxvNK12bvDF2trUQZU.svg",
     },
     mission: {

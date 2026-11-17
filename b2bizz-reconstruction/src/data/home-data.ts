@@ -89,7 +89,7 @@ export const HOME_DATA = {
       "Customer value management focused on tangible, sustainable performance",
     ],
     cta: { text: "Discover ESI", href: "/about" },
-    imageSrc: "/images/about-team.jpg",
+    imageSrc: "/images/esi-engineering-team.jpg",
   },
 
   industries: [
@@ -97,13 +97,13 @@ export const HOME_DATA = {
       id: "technology",
       title: "Technology & Software",
       category: "Web & Mobile Platforms",
-      imageSrc: "/images/img-Zi0oKIBGmUqx.jpg",
+      imageSrc: "/images/esi-app-development.jpg",
     },
     {
       id: "manufacturing",
       title: "Manufacturing & Industry",
       category: "Component Integration",
-      imageSrc: "/images/img-3IkbFdGrInFu.jpg",
+      imageSrc: "/images/esi-enterprise-architecture.jpg",
     },
     {
       id: "logistics",
@@ -115,13 +115,13 @@ export const HOME_DATA = {
       id: "financial-services",
       title: "Financial & Enterprise",
       category: "Systems Integration",
-      imageSrc: "/images/img-H0hRoAnIkQv5.jpg",
+      imageSrc: "/images/esi-ai-automation.jpg",
     },
     {
       id: "tourism-trading",
       title: "Tourism & Trading",
       category: "Specialist Resourcing",
-      imageSrc: "/images/img-SiKi93XgBCO1.jpg",
+      imageSrc: "/images/esi-engineering-team.jpg",
     },
   ] as IndustryCard[],
 
@@ -156,7 +156,7 @@ export const HOME_DATA = {
     role: "Quality Analyst",
     company: "Enterprise Client",
     avatarSrc: "/images/avatar-michael-brown.jpg",
-    bgImageSrc: "/images/img-XwCo50BibsVk.jpg",
+    bgImageSrc: "/images/esi-enterprise-architecture.jpg",
   },
 
   testimonialsList: [

@@ -41,11 +41,11 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Process Synchronization",
       "Scalable Solutions",
     ],
-    imageSrc: "/images/gdRM7GW5TQGv1DnZNScYVrTUQE.jpg",
+    imageSrc: "/images/esi-app-development.jpg",
     approachHeading: "Customized applications that evolve alongside organizational needs.",
     approachText:
       "ESI develops customized web applications designed to simplify IT complexity, streamline workflows and synchronize business operations. The company focuses on understanding specific business requirements and developing scalable applications that evolve alongside organizational needs.",
-    approachImageSrc: "/images/SiKi93XgBCO1jd5YYRhnqoQ2PI.jpg",
+    approachImageSrc: "/images/esi-enterprise-architecture.jpg",
     deliverables: [
       "Custom Web Application Development",
       "Workflow Optimization & Automation",
@@ -72,11 +72,11 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Lifecycle Support",
       "User Experience",
     ],
-    imageSrc: "/images/1b3nodcFE17MeyegY5o26I9LyYM.jpg",
+    imageSrc: "/images/esi-app-development.jpg",
     approachHeading: "Business-focused mobile solutions with end-to-end lifecycle support.",
     approachText:
       "ESI provides mobile application development expertise across modern platforms, supporting businesses throughout the entire application lifecycle. The company focuses on developing mobile solutions that address business requirements and improve user experiences.",
-    approachImageSrc: "/images/d4bOSjZzklRnk0Y8ssGiLJlIO0.jpg",
+    approachImageSrc: "/images/esi-engineering-team.jpg",
     deliverables: [
       "Native & Cross-Platform Mobile Applications",
       "Application Lifecycle Support & Maintenance",
@@ -103,11 +103,11 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Standardized Components",
       "Operational Efficiency",
     ],
-    imageSrc: "/images/case-study-eco-enterprise.jpg",
+    imageSrc: "/images/esi-enterprise-architecture.jpg",
     approachHeading: "Unifying internal and external business systems to eliminate operational friction.",
     approachText:
       "ESI provides enterprise technology solutions focused on system integration, standardized architecture and component-based technology environments. Its approach emphasizes bringing internal and external business systems together to reduce complexity and improve operational efficiency.",
-    approachImageSrc: "/images/case-study-consulting-shift.jpg",
+    approachImageSrc: "/images/esi-ai-automation.jpg",
     deliverables: [
       "Enterprise Architecture & Standards",
       "Business Systems & API Integration",
@@ -134,11 +134,11 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Digital Transformation",
       "Advanced Analytics",
     ],
-    imageSrc: "/images/case-study-brand-edge.jpg",
+    imageSrc: "/images/esi-engineering-team.jpg",
     approachHeading: "Combining functional expertise with a broader global perspective.",
     approachText:
       "ESI provides management consulting services addressing critical business challenges and opportunities. Our consulting expertise covers staffing, business strategy, marketing, operations, digital transformation, and advanced analytics to help organizations achieve tangible results.",
-    approachImageSrc: "/images/about-team.jpg",
+    approachImageSrc: "/images/esi-enterprise-architecture.jpg",
     deliverables: [
       "Specialist Resourcing Across Key Functions",
       "Business Strategy & Operational Optimization",
