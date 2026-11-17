@@ -134,10 +134,10 @@
  * --------------------------------------------------------------------------- */
 html.light,
 [data-theme="light"] {
-  --token-canvas: #F5F7F3;
+  --token-canvas: #F8FAFC;
   --color-canvas: var(--token-canvas);
 
-  --token-surface-base: #ECF0E7;
+  --token-surface-base: #F1F5F9;
   --color-surface-base: var(--token-surface-base);
 
   --token-surface-card: #FFFFFF;
@@ -149,53 +149,53 @@ html.light,
   --token-surface-glass: rgba(255, 255, 255, 0.75);
   --color-surface-glass: var(--token-surface-glass);
 
-  --token-surface-panel: #F9FAF7;
+  --token-surface-panel: #FFFFFF;
   --color-surface-panel: var(--token-surface-panel);
 
-  --token-surface-subtle: #EDF2E8;
+  --token-surface-subtle: #F8FAFC;
   --color-surface-subtle: var(--token-surface-subtle);
 
   --token-surface-elevated: #FFFFFF;
   --color-surface-elevated: var(--token-surface-elevated);
 
   /* Soft refined borders for light mode */
-  --token-border-olive: #D4DDD0;
+  --token-border-olive: #E2E8F0;
   --color-border-olive: var(--token-border-olive);
 
-  --token-border-dark: #C5D0C0;
+  --token-border-dark: #CBD5E1;
   --color-border-dark: var(--token-border-dark);
 
-  --token-accent-olive: #245835;
+  --token-accent-olive: #047857;
   --color-accent-olive: var(--token-accent-olive);
 
   /* Emerald brand accents */
-  --token-brand-volt: #145A32;
+  --token-brand-volt: #047857;
   --color-brand-volt: var(--token-brand-volt);
 
-  --token-brand-volt-light: #1E8449;
+  --token-brand-volt-light: #059669;
   --color-brand-volt-light: var(--token-brand-volt-light);
 
-  --token-text-primary: #0F1C13;
+  --token-text-primary: #0F172A;
   --color-text-primary: var(--token-text-primary);
 
-  --token-text-secondary: #2E4232;
+  --token-text-secondary: #334155;
   --color-text-secondary: var(--token-text-secondary);
 
-  --token-text-muted: #5C6E60;
+  --token-text-muted: #64748B;
   --color-text-muted: var(--token-text-muted);
 
-  --token-text-white: #0F1C13;
+  --token-text-white: #FFFFFF;
   --color-text-white: var(--token-text-white);
 
-  --token-overlay-subtle: rgba(0, 0, 0, 0.03);
+  --token-overlay-subtle: rgba(15, 23, 42, 0.03);
   --color-overlay-subtle: var(--token-overlay-subtle);
 
-  --token-overlay-glow: rgba(20, 90, 50, 0.10);
+  --token-overlay-glow: rgba(4, 120, 87, 0.15);
   --color-overlay-glow: var(--token-overlay-glow);
 
-  --token-btn-primary-bg: #145A32;
+  --token-btn-primary-bg: #047857;
   --token-btn-primary-text: #FFFFFF;
-  --token-nav-bg: rgba(245, 247, 243, 0.92);
-  --token-card-border: #D8E0D4;
+  --token-nav-bg: rgba(255, 255, 255, 0.90);
+  --token-card-border: #E2E8F0;
 }
 

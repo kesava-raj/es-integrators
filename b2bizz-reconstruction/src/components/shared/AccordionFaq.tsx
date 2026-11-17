@@ -41,7 +41,7 @@ export const AccordionFaq: React.FC<AccordionFaqProps> = ({
             variant="base"
             className={cn(
               "transition-all duration-200 p-5 sm:p-6",
-              isOpen ? "border-accent-olive bg-[#161a18]" : "hover:border-[#585e44]/60"
+              isOpen ? "border-brand-volt/50 bg-surface-subtle shadow-md" : "border-border-olive hover:border-brand-volt/40"
             )}
           >
             <button
@@ -56,7 +56,7 @@ export const AccordionFaq: React.FC<AccordionFaqProps> = ({
                 className={cn(
                   "w-8 h-8 rounded-full border flex items-center justify-center shrink-0 transition-all duration-300",
                   isOpen
-                    ? "bg-brand-volt border-brand-volt text-surface-base"
+                    ? "bg-brand-volt border-brand-volt text-white dark:text-surface-base"
                     : "border-border-olive bg-surface-base text-text-secondary group-hover:border-brand-volt group-hover:text-brand-volt"
                 )}
               >

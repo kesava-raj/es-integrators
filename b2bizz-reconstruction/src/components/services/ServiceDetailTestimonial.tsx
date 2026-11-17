@@ -31,7 +31,7 @@ export function ServiceDetailTestimonial({ service }: { service: ServiceItem }) 
           </blockquote>
 
           <div className="flex items-center gap-4 pt-6 border-t border-border-olive/60">
-            <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-brand-volt/40 bg-surface-dark">
+            <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-brand-volt/40 bg-surface-subtle">
               <Image
                 src={testimonial.avatarSrc}
                 alt={testimonial.author}

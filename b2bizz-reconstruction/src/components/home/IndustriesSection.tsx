@@ -72,7 +72,7 @@ export const IndustriesSection: React.FC = () => {
 
               {/* Title pinned to Bottom-Left matching Reference */}
               <div className="absolute bottom-6 left-6 right-6">
-                <span className="text-base sm:text-lg font-normal text-brand-volt tracking-tight group-hover:text-brand-volt-light transition-colors">
+                <span className="text-base sm:text-lg font-normal text-white group-hover:text-brand-volt tracking-tight transition-colors">
                   {item.title}
                 </span>
               </div>

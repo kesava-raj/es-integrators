@@ -23,7 +23,7 @@ export function AboutPrinciples() {
           {principles.items.map((item, idx) => (
             <div
               key={item.id}
-              className="p-7 rounded-[24px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between min-h-[220px] shadow-lg group"
+              className="p-7 rounded-[24px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between min-h-[220px] shadow-lg group"
             >
               <div className="text-xs font-mono text-brand-volt mb-6 font-medium">
                 0{idx + 1}

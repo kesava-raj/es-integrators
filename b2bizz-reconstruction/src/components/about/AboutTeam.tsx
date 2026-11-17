@@ -22,10 +22,10 @@ export function AboutTeam() {
           {team.members.map((member) => (
             <div
               key={member.id}
-              className="group relative rounded-[28px] overflow-hidden bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 p-5 backdrop-blur-md transition-all duration-300 shadow-xl"
+              className="group relative rounded-[28px] overflow-hidden bg-surface-card border border-border-olive hover:border-brand-volt/40 p-5 backdrop-blur-md transition-all duration-300 shadow-xl"
             >
               {/* Member Headshot */}
-              <div className="relative aspect-square w-full rounded-[20px] overflow-hidden mb-5 bg-surface-dark border border-white/5">
+              <div className="relative aspect-square w-full rounded-[20px] overflow-hidden mb-5 bg-surface-subtle border border-border-olive">
                 <Image
                   src={member.avatarSrc}
                   alt={member.name}
@@ -54,14 +54,14 @@ export function AboutTeam() {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-7 h-7 rounded-full bg-white/5 hover:bg-brand-volt hover:text-canvas transition-colors flex items-center justify-center p-1.5"
+                      className="w-7 h-7 rounded-full bg-surface-subtle border border-border-olive hover:bg-brand-volt hover:text-white transition-colors flex items-center justify-center p-1.5"
                     >
                       <Image
                         src={social.iconSrc}
                         alt={social.platform}
                         width={14}
                         height={14}
-                        className="w-3.5 h-3.5 object-contain invert opacity-80 hover:opacity-100"
+                        className="w-3.5 h-3.5 object-contain dark:invert opacity-80 hover:opacity-100"
                       />
                     </Link>
                   ))}

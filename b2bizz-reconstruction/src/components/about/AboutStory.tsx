@@ -25,7 +25,7 @@ export function AboutStory() {
             {story.stats.map((stat, idx) => (
               <div
                 key={idx}
-                className="p-7 rounded-[24px] bg-surface-subtle/70 border border-white/10 flex flex-col justify-between backdrop-blur-md"
+                className="p-7 rounded-[24px] bg-surface-card border border-border-olive flex flex-col justify-between backdrop-blur-md"
               >
                 <div className="text-4xl sm:text-5xl font-medium text-brand-volt mb-3 tracking-tight">
                   {stat.value}
@@ -45,7 +45,7 @@ export function AboutStory() {
               <h3 className="text-xl sm:text-2xl font-normal text-text-primary leading-snug">
                 {story.ctaBanner.title}
               </h3>
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 p-2.5 flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-xl bg-brand-volt/10 border border-brand-volt/20 p-2.5 flex items-center justify-center shrink-0">
                 <Image
                   src={story.ctaBanner.iconSrc}
                   alt=""

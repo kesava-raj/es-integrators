@@ -15,7 +15,7 @@ export function ServiceDetailHero({ service }: { service: ServiceItem }) {
             <Link href="/service" className="hover:text-brand-volt transition-colors">
               Services
             </Link>
-            <span className="text-white/20">/</span>
+            <span className="text-border-olive">/</span>
             <span className="text-brand-volt">{service.title}</span>
           </div>
 

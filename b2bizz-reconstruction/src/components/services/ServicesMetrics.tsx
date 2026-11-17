@@ -13,9 +13,9 @@ export function ServicesMetrics() {
           {metrics.map((item, idx) => (
             <div
               key={idx}
-              className="p-7 rounded-[28px] bg-surface-subtle/70 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between min-h-[220px] shadow-lg group"
+              className="p-7 rounded-[28px] bg-surface-card border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 flex flex-col justify-between min-h-[220px] shadow-lg group"
             >
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 p-2.5 flex items-center justify-center mb-6">
+              <div className="w-12 h-12 rounded-xl bg-brand-volt/10 border border-brand-volt/20 p-2.5 flex items-center justify-center mb-6">
                 <Image
                   src={item.iconSrc}
                   alt=""

@@ -40,8 +40,8 @@ export function ServicesTestimonial() {
             </blockquote>
 
             {/* Profile */}
-            <div className="flex items-center gap-4 pt-6 border-t border-white/10">
-              <div className="relative w-14 h-14 rounded-full overflow-hidden shrink-0 border border-brand-volt/40 bg-surface-dark">
+            <div className="flex items-center gap-4 pt-6 border-t border-border-olive">
+              <div className="relative w-14 h-14 rounded-full overflow-hidden shrink-0 border border-brand-volt/40 bg-surface-subtle">
                 <Image
                   src={testimonial.avatarSrc}
                   alt={testimonial.author}

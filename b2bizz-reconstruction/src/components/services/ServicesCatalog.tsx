@@ -30,12 +30,12 @@ export function ServicesCatalog() {
             <Link
               key={service.id}
               href={`/service/${service.slug}`}
-              className="group block p-6 sm:p-8 rounded-[28px] bg-surface-subtle/70 hover:bg-surface-elevated/90 border border-white/10 hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-xl overflow-hidden"
+              className="group block p-6 sm:p-8 rounded-[28px] bg-surface-card hover:bg-surface-elevated border border-border-olive hover:border-brand-volt/40 backdrop-blur-md transition-all duration-300 shadow-xl overflow-hidden"
             >
 
               <div className="flex flex-col md:flex-row items-start md:items-center gap-6 lg:gap-8 justify-between">
                 {/* Left: Thumbnail Image */}
-                <div className="relative w-full md:w-[220px] h-[160px] rounded-[20px] overflow-hidden shrink-0 bg-surface-dark border border-white/5">
+                <div className="relative w-full md:w-[220px] h-[160px] rounded-[20px] overflow-hidden shrink-0 bg-surface-subtle border border-border-olive">
                   <Image
                     src={service.imageSrc}
                     alt={service.title}
@@ -60,7 +60,7 @@ export function ServicesCatalog() {
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-1 rounded-full bg-white/5 border border-white/10"
+                        className="text-[0.7rem] font-mono uppercase tracking-wider text-text-muted px-2.5 py-1 rounded-full bg-surface-subtle border border-border-olive"
                       >
                         {tag}
                       </span>

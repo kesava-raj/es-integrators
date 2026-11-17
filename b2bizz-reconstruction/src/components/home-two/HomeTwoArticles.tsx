@@ -34,7 +34,7 @@ export function HomeTwoArticles() {
                 alt=""
                 width={16}
                 height={16}
-                className="w-4 h-4 invert opacity-75"
+                className="w-4 h-4 dark:invert opacity-75"
               />
             </Button>
           </div>
@@ -49,7 +49,7 @@ export function HomeTwoArticles() {
               className="group block rounded-[28px] overflow-hidden bg-surface-card border border-border-olive hover:border-brand-volt/40 p-5 backdrop-blur-md transition-all duration-300 shadow-xl"
             >
               {/* Article Featured Image */}
-              <div className="relative aspect-[16/10] w-full rounded-[20px] overflow-hidden mb-5 bg-surface-dark border border-white/5">
+              <div className="relative aspect-[16/10] w-full rounded-[20px] overflow-hidden mb-5 bg-surface-subtle border border-border-olive">
                 <Image
                   src={article.imageSrc}
                   alt={article.title}

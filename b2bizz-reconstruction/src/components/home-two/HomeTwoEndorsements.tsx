@@ -60,8 +60,8 @@ export function HomeTwoEndorsements() {
                 </div>
 
                 {/* Author Metadata */}
-                <div className="flex items-center gap-4 pt-6 border-t border-white/10 mt-6 relative z-10">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-white/15 bg-surface-dark">
+                <div className="flex items-center gap-4 pt-6 border-t border-border-olive mt-6 relative z-10">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border border-border-olive bg-surface-subtle">
                     <Image
                       src={item.avatarSrc}
                       alt={item.author}

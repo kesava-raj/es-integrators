@@ -27,7 +27,7 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
         <div className="absolute inset-0 bg-black/40 pointer-events-none" />
 
         <div className="relative z-10 space-y-4 max-w-2xl">
-          <h2 className="text-h2-compact text-brand-volt leading-[1.25] font-normal tracking-tight">
+          <h2 className="text-h2-compact text-white dark:text-brand-volt leading-[1.25] font-normal tracking-tight">
             Ready to engineer what&apos;s next
             <br />
             with Emerald System Integrators?
@@ -36,7 +36,7 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
           <div className="pt-1">
             <Link
               href="/service"
-              className="inline-flex items-center gap-2 text-sm sm:text-base font-normal text-brand-volt hover:text-brand-volt-light transition-colors"
+              className="inline-flex items-center gap-2 text-sm sm:text-base font-normal text-white hover:text-brand-volt dark:text-brand-volt dark:hover:text-brand-volt-light transition-colors"
             >
               <ArrowUpRight className="w-4 h-4" />
               <span>Explore Our Solutions</span>

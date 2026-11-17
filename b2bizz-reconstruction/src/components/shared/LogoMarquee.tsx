@@ -51,7 +51,7 @@ export const LogoMarquee: React.FC<LogoMarqueeProps> = ({
                   alt={`${partner.name} logo`}
                   width={partner.width}
                   height={partner.height}
-                  className="max-h-7 w-auto object-contain brightness-90 group-hover:brightness-100 transition-all"
+                  className="max-h-7 w-auto object-contain brightness-0 dark:brightness-100 opacity-60 hover:opacity-100 dark:opacity-75 dark:hover:opacity-100 transition-all"
                 />
               </div>
             </div>

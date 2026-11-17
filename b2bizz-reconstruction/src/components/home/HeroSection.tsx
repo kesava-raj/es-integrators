@@ -16,13 +16,7 @@ export const HeroSection: React.FC = () => {
         {/* Main Hero Card Container matching Reference layout */}
         <div className="relative rounded-[28px] sm:rounded-[32px] border border-border-olive/60 bg-surface-base overflow-hidden min-h-[580px] sm:min-h-[660px] lg:min-h-[720px] flex flex-col justify-end p-6 sm:p-12 lg:p-16">
           {/* Authentic Ambient Diagonal Volt/Olive Light Beam from Bottom-Right */}
-          <div
-            className="absolute inset-0 pointer-events-none opacity-80"
-            style={{
-              background:
-                "radial-gradient(circle 800px at 100% 100%, rgba(243, 255, 201, 0.22) 0%, rgba(88, 94, 68, 0.18) 30%, transparent 70%)",
-            }}
-          />
+          <div className="absolute inset-0 pointer-events-none opacity-80 hero-ambient-glow" />
 
           {/* Subtle Secondary Ambient Glow at Top */}
           <div className="glow-ambient-volt top-0 right-1/4 opacity-40 pointer-events-none" />

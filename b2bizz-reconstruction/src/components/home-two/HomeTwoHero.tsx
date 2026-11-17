@@ -75,7 +75,7 @@ export function HomeTwoHero() {
               </h3>
 
               {/* Case Study Photography */}
-              <div className="relative aspect-[4/3] rounded-[20px] overflow-hidden mb-6 bg-surface-dark border border-white/5">
+              <div className="relative aspect-[4/3] rounded-[20px] overflow-hidden mb-6 bg-surface-subtle border border-border-olive">
                 <Image
                   src={featuredCaseStudy.imageSrc}
                   alt={featuredCaseStudy.title}
@@ -87,7 +87,7 @@ export function HomeTwoHero() {
               </div>
 
               {/* Dual Stat Metrics */}
-              <div className="grid grid-cols-2 gap-4 pt-4 border-t border-white/10">
+              <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border-olive">
                 {featuredCaseStudy.metrics.map((metric, idx) => (
                   <div key={idx} className="flex flex-col">
                     <span className="text-2xl sm:text-3xl font-medium text-brand-volt leading-none mb-1">

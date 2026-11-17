@@ -36,12 +36,12 @@ export function HomeTwoPricing() {
               onClick={() => setIsYearly(true)}
               className={`px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all flex items-center gap-2 cursor-pointer ${
                 isYearly
-                  ? "bg-brand-volt text-surface-base shadow-md font-semibold"
+                  ? "bg-brand-volt text-white dark:text-surface-base shadow-md font-semibold"
                   : "text-text-muted hover:text-text-primary"
               }`}
             >
               <span>Yearly</span>
-              <span className="text-[0.65rem] font-mono px-2 py-0.5 rounded-full bg-white/20 text-surface-base font-semibold uppercase">
+              <span className="text-[0.65rem] font-mono px-2 py-0.5 rounded-full bg-black/15 dark:bg-white/20 text-white dark:text-surface-base font-semibold uppercase">
                 {pricing.discountBadge}
               </span>
             </button>
@@ -89,7 +89,7 @@ export function HomeTwoPricing() {
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-text-muted font-light leading-relaxed mb-8 pb-8 border-b border-white/10">
+                  <p className="text-sm text-text-muted font-light leading-relaxed mb-8 pb-8 border-b border-border-olive">
                     {plan.description}
                   </p>
 
@@ -114,7 +114,7 @@ export function HomeTwoPricing() {
                             alt=""
                             width={12}
                             height={12}
-                            className="w-3 h-3 object-contain invert opacity-80"
+                            className="w-3 h-3 object-contain dark:invert opacity-80"
                           />
                         </div>
                         <span className="text-xs sm:text-sm text-text-muted font-light leading-snug">

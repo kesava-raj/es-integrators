@@ -113,6 +113,38 @@ body {
   color: var(--color-brand-volt);
 }
 
+/* Light Mode Heading High Contrast: Deep crisp slate obsidian black */
+html.light .text-display-1,
+html.light .text-h1,
+html.light .text-h2,
+html.light .text-h2-large,
+html.light .text-h2-compact,
+html.light .text-h3,
+[data-theme="light"] .text-display-1,
+[data-theme="light"] .text-h1,
+[data-theme="light"] .text-h2,
+[data-theme="light"] .text-h2-large,
+[data-theme="light"] .text-h2-compact,
+[data-theme="light"] .text-h3,
+html.light h1.text-brand-volt,
+html.light h2.text-brand-volt,
+html.light h3.text-brand-volt,
+[data-theme="light"] h1.text-brand-volt,
+[data-theme="light"] h2.text-brand-volt,
+[data-theme="light"] h3.text-brand-volt {
+  color: var(--token-text-primary);
+}
+
+/* Allow intentional emerald accent spans inside headings */
+html.light h1 .text-brand-volt,
+html.light h2 .text-brand-volt,
+html.light h3 .text-brand-volt,
+[data-theme="light"] h1 .text-brand-volt,
+[data-theme="light"] h2 .text-brand-volt,
+[data-theme="light"] h3 .text-brand-volt {
+  color: var(--color-brand-volt);
+}
+
 .text-body-lead {
   font-family: var(--font-family-body);
   font-size: var(--text-body-lead);
@@ -264,7 +296,6 @@ body {
   box-shadow: 0 0 25px -4px var(--token-overlay-glow);
 }
 
-
 .btn-primary:active {
   transform: scale(0.98);
 }
@@ -293,6 +324,13 @@ body {
   border-color: var(--color-brand-volt);
   color: var(--color-brand-volt);
   background-color: rgba(243, 255, 201, 0.04);
+}
+
+html.light .btn-secondary:hover,
+[data-theme="light"] .btn-secondary:hover {
+  border-color: var(--color-brand-volt);
+  color: var(--color-brand-volt);
+  background-color: rgba(4, 120, 87, 0.05);
 }
 
 .btn-ghost {
@@ -330,6 +368,13 @@ body {
   letter-spacing: 0.04em;
   padding: 0.375rem 0.875rem;
   border-radius: var(--radius-pill);
+}
+
+html.light .btn-pill,
+[data-theme="light"] .btn-pill {
+  background-color: rgba(4, 120, 87, 0.08);
+  border: 1px solid rgba(4, 120, 87, 0.25);
+  color: var(--color-brand-volt);
 }
 
 /* ---------------------------------------------------------------------------
@@ -377,6 +422,12 @@ body {
   box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.6), 0 0 24px -6px rgba(243, 255, 201, 0.12);
 }
 
+html.light .card-interactive:hover,
+[data-theme="light"] .card-interactive:hover {
+  border-color: rgba(4, 120, 87, 0.35);
+  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.08), 0 0 20px -4px rgba(4, 120, 87, 0.12);
+}
+
 .card-master {
   background-color: var(--color-surface-card);
   border: 1px solid var(--color-border-olive);
@@ -406,4 +457,18 @@ body {
   filter: blur(60px);
   pointer-events: none;
   z-index: 0;
+}
+
+html.light .glow-ambient-volt,
+[data-theme="light"] .glow-ambient-volt {
+  background: radial-gradient(circle, rgba(4, 120, 87, 0.08) 0%, rgba(5, 150, 105, 0.03) 50%, transparent 70%);
+}
+
+.hero-ambient-glow {
+  background: radial-gradient(circle 800px at 100% 100%, rgba(243, 255, 201, 0.22) 0%, rgba(88, 94, 68, 0.18) 30%, transparent 70%);
+}
+
+html.light .hero-ambient-glow,
+[data-theme="light"] .hero-ambient-glow {
+  background: radial-gradient(circle 800px at 100% 100%, rgba(4, 120, 87, 0.08) 0%, rgba(16, 185, 129, 0.03) 30%, transparent 70%);
 }

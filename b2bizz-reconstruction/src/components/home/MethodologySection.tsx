@@ -74,7 +74,7 @@ export const MethodologySection: React.FC = () => {
                     onClick={() => setActiveStep(idx)}
                     className={`px-4 sm:px-5 py-1.5 rounded-full text-xs transition-all cursor-pointer ${
                       activeStep === idx
-                        ? "bg-brand-volt text-surface-base font-semibold border border-brand-volt shadow-sm"
+                        ? "bg-brand-volt text-white dark:text-surface-base font-semibold border border-brand-volt shadow-sm"
                         : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
                     }`}
                   >
@@ -94,8 +94,8 @@ export const MethodologySection: React.FC = () => {
 
             {/* Visual Ramp Wave Graphic at Bottom */}
             <div className="relative w-full min-h-[260px] sm:min-h-[320px] flex items-end">
-              {/* SVG Background Slope Shape (Hidden on small mobile to avoid cramped overlap) */}
-              <div className="hidden sm:block absolute inset-x-0 bottom-0 w-full h-[180px] sm:h-[220px] pointer-events-none opacity-80">
+              {/* SVG Background Slope Shape (Visible only in dark mode to blend with dark canvas) */}
+              <div className="hidden sm:dark:block absolute inset-x-0 bottom-0 w-full h-[180px] sm:h-[220px] pointer-events-none opacity-80">
                 <Image
                   src="/icons/icon-X8QKXnvD0vuQ.svg"
                   alt=""

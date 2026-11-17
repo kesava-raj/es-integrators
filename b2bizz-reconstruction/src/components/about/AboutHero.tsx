@@ -32,7 +32,7 @@ export function AboutHero() {
 
         {/* 3-Photo Collage Row */}
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-5 mb-12 items-stretch">
-          <div className="sm:col-span-4 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-dark border border-white/10 shadow-xl">
+          <div className="sm:col-span-4 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-subtle border border-border-olive shadow-xl">
             <Image
               src={hero.collage[0].src}
               alt={hero.collage[0].alt}
@@ -42,7 +42,7 @@ export function AboutHero() {
               priority
             />
           </div>
-          <div className="sm:col-span-5 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-dark border border-white/10 shadow-xl">
+          <div className="sm:col-span-5 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-subtle border border-border-olive shadow-xl">
             <Image
               src={hero.collage[1].src}
               alt={hero.collage[1].alt}
@@ -52,7 +52,7 @@ export function AboutHero() {
               priority
             />
           </div>
-          <div className="sm:col-span-3 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-dark border border-white/10 shadow-xl">
+          <div className="sm:col-span-3 relative aspect-[4/3] sm:aspect-auto sm:h-[380px] lg:h-[415px] rounded-[24px] overflow-hidden bg-surface-subtle border border-border-olive shadow-xl">
             <Image
               src={hero.collage[2].src}
               alt={hero.collage[2].alt}
@@ -65,7 +65,7 @@ export function AboutHero() {
         </div>
 
         {/* Sector Ticker / Divider Strip */}
-        <div className="py-6 border-y border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="py-6 border-y border-border-olive flex flex-col md:flex-row md:items-center justify-between gap-4">
           <span className="text-xs font-mono uppercase tracking-wider text-text-muted shrink-0">
             {hero.sectorsLabel}
           </span>
@@ -76,7 +76,7 @@ export function AboutHero() {
                   {sector}
                 </span>
                 {idx < hero.sectors.length - 1 && (
-                  <span className="text-white/20">/</span>
+                  <span className="text-border-olive">/</span>
                 )}
               </React.Fragment>
             ))}

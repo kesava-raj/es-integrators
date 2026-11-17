@@ -78,8 +78,8 @@ export const Navbar: React.FC = () => {
                   className={cn(
                     "relative px-4 py-1.5 text-sm font-medium rounded-full transition-colors duration-200",
                     isActive
-                      ? "text-brand-volt bg-border-olive/50"
-                      : "text-text-secondary hover:text-brand-volt hover:bg-white/[0.03]"
+                      ? "text-brand-volt bg-brand-volt/10 dark:bg-border-olive/50 font-semibold"
+                      : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
                   )}
                 >
                   {link.label}
@@ -97,8 +97,8 @@ export const Navbar: React.FC = () => {
                 className={cn(
                   "flex items-center gap-1 px-4 py-1.5 text-sm font-medium rounded-full transition-colors duration-200",
                   isDropdownOpen
-                    ? "text-brand-volt bg-border-olive/50"
-                    : "text-text-secondary hover:text-brand-volt hover:bg-white/[0.03]"
+                    ? "text-brand-volt bg-brand-volt/10 dark:bg-border-olive/50 font-semibold"
+                    : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
                 )}
                 aria-expanded={isDropdownOpen}
               >

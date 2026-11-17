@@ -80,7 +80,7 @@ export const ValuePropSection: React.FC = () => {
 
             {/* Testimonial Quote and Attribution */}
             <div className="space-y-4">
-              <blockquote className="text-base sm:text-xl md:text-2xl font-normal text-brand-volt leading-snug tracking-tight">
+              <blockquote className="text-base sm:text-xl md:text-2xl font-normal text-white dark:text-brand-volt leading-snug tracking-tight">
                 &ldquo;{testimonial.quote}&rdquo;
               </blockquote>
 

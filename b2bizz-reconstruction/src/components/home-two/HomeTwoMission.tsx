@@ -27,7 +27,7 @@ export function HomeTwoMission() {
           {mission.stats.map((stat, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-3 px-5 py-3 rounded-full bg-surface-subtle/70 border border-white/10 backdrop-blur-sm"
+              className="flex items-center gap-3 px-5 py-3 rounded-full bg-surface-card border border-border-olive backdrop-blur-sm"
             >
               <span className="text-xl sm:text-2xl font-medium text-brand-volt">{stat.value}</span>
               <span className="text-xs sm:text-sm text-text-muted font-light">{stat.label}</span>
@@ -36,7 +36,7 @@ export function HomeTwoMission() {
         </div>
 
         {/* Sub-label and Button */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6 border-t border-white/10 max-w-[600px] mx-auto">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6 border-t border-border-olive max-w-[600px] mx-auto">
           <span className="text-xs sm:text-sm text-text-muted font-light">
             Customer satisfaction comes first across every engagement.
           </span>
@@ -47,7 +47,7 @@ export function HomeTwoMission() {
               alt="Arrow"
               width={16}
               height={16}
-              className="w-4 h-4 invert opacity-75"
+              className="w-4 h-4 dark:invert opacity-75"
             />
           </Button>
         </div>
