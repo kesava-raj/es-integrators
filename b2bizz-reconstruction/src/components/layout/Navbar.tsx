@@ -8,7 +8,6 @@ import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown, Menu, X, ArrowRight, ArrowUpRight } from "lucide-react";
 import { NAVIGATION_DATA, NavItem } from "@/data/navigation";
 import { Button } from "@/components/ui/Button";
-import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { cn } from "@/lib/utils";
 
 export const Navbar: React.FC = () => {
@@ -156,10 +155,8 @@ export const Navbar: React.FC = () => {
             </div>
           </nav>
 
-          {/* Right Header Action Button + Theme Toggle */}
+          {/* Right Header Action Button */}
           <div className="flex items-center gap-2 sm:gap-3">
-            <ThemeToggle />
-
             <div className="hidden sm:block">
               <Button
                 href={NAVIGATION_DATA.headerCta.href}
@@ -209,13 +206,6 @@ export const Navbar: React.FC = () => {
               className="fixed top-[62px] sm:top-[74px] left-0 right-0 z-50 bg-[var(--token-nav-bg)] backdrop-blur-2xl border-b border-border-olive overflow-hidden lg:hidden shadow-2xl"
             >
               <div className="container-wrapper py-6 space-y-6 max-h-[calc(100vh-80px)] overflow-y-auto">
-                <div className="flex items-center justify-between pb-3 border-b border-border-olive/50">
-                  <span className="text-xs font-mono uppercase text-brand-volt font-semibold">
-                    Theme Appearance
-                  </span>
-                  <ThemeToggle showLabel />
-                </div>
-
                 <div className="space-y-1">
                   <div className="text-xs font-mono uppercase text-brand-volt px-3 py-1 font-semibold">
                     Main Navigation

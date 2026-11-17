@@ -37,7 +37,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${inter.variable} dark`}>
+    <html lang="en" className={`${geist.variable} ${inter.variable} dark`} data-theme="dark" style={{ colorScheme: "dark" }}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                localStorage.removeItem('esi-theme');
+                document.documentElement.classList.add('dark');
+                document.documentElement.classList.remove('light');
+                document.documentElement.setAttribute('data-theme', 'dark');
+              } catch (_) {}
+            `,
+          }}
+        />
+      </head>
       <body className="bg-canvas text-text-secondary font-body antialiased selection:bg-brand-volt selection:text-canvas min-h-screen flex flex-col">
         <SmoothScroll>
           <Navbar />

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { Headphones, Users, Activity, ShieldCheck, MessageSquare } from "lucide-react";
 import { HOME_DATA } from "@/data/home-data";
@@ -8,22 +8,6 @@ import AnimatedGradient from "@/components/ui/animated-gradient";
 
 export const HeroSection: React.FC = () => {
   const { hero } = HOME_DATA;
-  const [isLight, setIsLight] = useState(false);
-
-  useEffect(() => {
-    const checkTheme = () => {
-      setIsLight(document.documentElement.classList.contains("light"));
-    };
-    checkTheme();
-
-    const observer = new MutationObserver(checkTheme);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class", "data-theme"],
-    });
-    return () => observer.disconnect();
-  }, []);
-
   const capabilityIcons = [Headphones, Users, Activity, ShieldCheck, MessageSquare];
 
   return (
@@ -35,9 +19,9 @@ export const HeroSection: React.FC = () => {
           <AnimatedGradient
             config={{
               preset: "custom",
-              color1: isLight ? "#D1FAE5" : "#043D2A",
-              color2: isLight ? "#6EE7B7" : "#10B981",
-              color3: isLight ? "#F1F5F9" : "#0E100F",
+              color1: "#043D2A",
+              color2: "#10B981",
+              color3: "#0E100F",
               rotation: -35,
               proportion: 38,
               scale: 0.28,
@@ -49,9 +33,9 @@ export const HeroSection: React.FC = () => {
               shape: "Edge",
               shapeSize: 32,
             }}
-            noise={{ opacity: isLight ? 0.08 : 0.12, scale: 1.2 }}
+            noise={{ opacity: 0.12, scale: 1.2 }}
             style={{ zIndex: 0 }}
-            className={isLight ? "opacity-75 transition-opacity duration-300" : "opacity-85 transition-opacity duration-300"}
+            className="opacity-85"
           />
 
           {/* Authentic Ambient Diagonal Volt/Olive Light Beam from Bottom-Right */}
