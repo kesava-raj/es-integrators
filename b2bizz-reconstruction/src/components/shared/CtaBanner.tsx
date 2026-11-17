@@ -12,22 +12,28 @@ export interface CtaBannerProps {
 export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
   return (
     <div className={`space-y-4 sm:space-y-6 ${className || ""}`}>
-      {/* Top Graphic Card matching Reference */}
-      <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 min-h-[250px] sm:min-h-[280px] p-8 sm:p-12 flex flex-col items-center justify-center text-center space-y-5 shadow-2xl bg-surface-card">
-        {/* Authentic Ambient CTA Graphic Wallpaper */}
+      {/* Top Graphic Card matching Reference with Emerald Tech Atmosphere */}
+      <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 min-h-[250px] sm:min-h-[280px] p-8 sm:p-12 flex flex-col items-center justify-center text-center space-y-5 shadow-2xl bg-[#0A0D0B]">
+        {/* Authentic Ambient CTA Graphic Wallpaper in ESI Dark Emerald Palette */}
         <Image
           src="/images/cta-bg.jpg"
-          alt="CTA Ambient Backdrop"
+          alt="Emerald System Integrators Ambient Backdrop"
           fill
-          className="object-cover opacity-85"
-          sizes="100vw"
+          priority
+          className="object-cover opacity-75 select-none transition-transform duration-700 ease-out hover:scale-105"
+          sizes="(max-width: 1200px) 100vw, 1200px"
         />
 
-        {/* Ambient Dark Scrim */}
-        <div className="absolute inset-0 bg-black/40 pointer-events-none" />
+        {/* Ambient Dark Scrim & Vignette ensuring seamless edges and high text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0E100F]/90 via-[#0E100F]/45 to-[#0E100F]/85 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0E100F]/70 via-transparent to-[#0E100F]/70 pointer-events-none" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent pointer-events-none" />
+
+        {/* Subtle Top Volt Accent Edge Glow */}
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-volt/40 to-transparent pointer-events-none" />
 
         <div className="relative z-10 space-y-4 max-w-2xl">
-          <h2 className="text-h2-compact text-white dark:text-brand-volt leading-[1.25] font-normal tracking-tight">
+          <h2 className="text-h2-compact text-brand-volt leading-[1.25] font-normal tracking-tight">
             Ready to engineer what&apos;s next
             <br />
             with Emerald System Integrators?
@@ -36,9 +42,9 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
           <div className="pt-1">
             <Link
               href="/service"
-              className="inline-flex items-center gap-2 text-sm sm:text-base font-normal text-white hover:text-brand-volt dark:text-brand-volt dark:hover:text-brand-volt-light transition-colors"
+              className="inline-flex items-center gap-2 text-sm sm:text-base font-normal text-brand-volt hover:text-brand-volt-light transition-colors group"
             >
-              <ArrowUpRight className="w-4 h-4" />
+              <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               <span>Explore Our Solutions</span>
             </Link>
           </div>
