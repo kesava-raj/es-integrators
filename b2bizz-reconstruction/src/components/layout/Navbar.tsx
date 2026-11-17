@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronDown, Menu, X, ArrowRight, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
 import { NAVIGATION_DATA, NavItem } from "@/data/navigation";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -13,7 +13,6 @@ import { cn } from "@/lib/utils";
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -27,7 +26,6 @@ export const Navbar: React.FC = () => {
   // Close mobile drawer on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
-    setIsDropdownOpen(false);
   }, [pathname]);
 
   return (
@@ -86,74 +84,6 @@ export const Navbar: React.FC = () => {
                 </Link>
               );
             })}
-
-            {/* Pages Mega Dropdown Trigger */}
-            <div
-              className="relative"
-              onMouseEnter={() => setIsDropdownOpen(true)}
-              onMouseLeave={() => setIsDropdownOpen(false)}
-            >
-              <button
-                className={cn(
-                  "flex items-center gap-1 px-2.5 xl:px-4 py-1.5 text-xs xl:text-sm font-medium rounded-full whitespace-nowrap transition-colors duration-200",
-                  isDropdownOpen
-                    ? "text-brand-volt bg-brand-volt/10 dark:bg-border-olive/50 font-semibold"
-                    : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
-                )}
-                aria-expanded={isDropdownOpen}
-              >
-                <span>Pages</span>
-                <ChevronDown
-                  className={cn(
-                    "w-3.5 h-3.5 transition-transform duration-200",
-                    isDropdownOpen && "rotate-180"
-                  )}
-                />
-              </button>
-
-              {/* Dropdown Menu Overlay */}
-              <AnimatePresence>
-                {isDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 10, scale: 0.96 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 8, scale: 0.96 }}
-                    transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                    className="absolute top-full right-0 mt-3 w-80 p-2.5 rounded-2xl bg-surface-card/95 backdrop-blur-2xl border border-border-olive shadow-2xl z-50"
-                  >
-                    <div className="space-y-1">
-                      {NAVIGATION_DATA.dropdownLinks.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={item.href}
-                          onClick={() => setIsDropdownOpen(false)}
-                          className="flex items-start justify-between p-2.5 rounded-xl transition-all duration-150 hover:bg-surface-subtle group"
-                        >
-                          <div className="space-y-0.5">
-                            <div className="flex items-center gap-2">
-                              <span className="text-sm font-medium text-text-primary group-hover:text-brand-volt transition-colors">
-                                {item.label}
-                              </span>
-                              {item.badge && (
-                                <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-border-olive text-brand-volt">
-                                  {item.badge}
-                                </span>
-                              )}
-                            </div>
-                            {item.description && (
-                              <p className="text-xs text-text-muted line-clamp-1">
-                                {item.description}
-                              </p>
-                            )}
-                          </div>
-                          <ArrowUpRight className="w-4 h-4 text-text-muted opacity-0 group-hover:opacity-100 group-hover:text-brand-volt transition-all" />
-                        </Link>
-                      ))}
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
           </nav>
 
           {/* Right Header Action Button */}

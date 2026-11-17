@@ -21,11 +21,15 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
           fill
           priority
           className="object-cover object-top opacity-85 select-none transition-transform duration-700 ease-out hover:scale-105"
+          style={{
+            maskImage: "linear-gradient(to bottom, black 50%, rgba(0,0,0,0.8) 65%, transparent 88%)",
+            WebkitMaskImage: "linear-gradient(to bottom, black 50%, rgba(0,0,0,0.8) 65%, transparent 88%)",
+          }}
           sizes="(max-width: 1200px) 100vw, 1200px"
         />
 
         {/* Ambient Dark Scrims ensuring seamless obsidian integration and zero bottom artifacts */}
-        <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#080B09] via-[#080B09]/90 to-transparent pointer-events-none z-[2]" />
+        <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-[#080B09] via-[#080B09]/95 to-transparent pointer-events-none z-[2]" />
         <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#080B09]/80 to-transparent pointer-events-none z-[2]" />
         <div className="absolute inset-y-0 inset-x-0 bg-gradient-to-r from-[#080B09]/85 via-transparent to-[#080B09]/85 pointer-events-none z-[2]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none z-[2]" />

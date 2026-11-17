@@ -109,7 +109,7 @@ export const HOME_DATA = {
       id: "logistics",
       title: "Logistics & Supply Chain",
       category: "Workflow Synchronization",
-      imageSrc: "/images/img-snVr8e30vWzy.jpg",
+      imageSrc: "/images/esi-logistics.jpg",
     },
     {
       id: "financial-services",
@@ -156,7 +156,7 @@ export const HOME_DATA = {
     role: "Quality Analyst",
     company: "Enterprise Client",
     avatarSrc: "/images/avatar-michael-brown.jpg",
-    bgImageSrc: "/images/esi-enterprise-architecture.jpg",
+    bgImageSrc: "/images/img-XwCo50BibsVk.jpg",
   },
 
   testimonialsList: [
