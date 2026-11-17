@@ -7,29 +7,16 @@ import {
   ArrowRight,
   Mail,
   MapPin,
-  CheckCircle2,
   Globe,
   Building2,
   ShieldCheck,
-  Sparkles,
   Copy,
   Check,
 } from "lucide-react";
 import { NAVIGATION_DATA } from "@/data/navigation";
-import { Button } from "@/components/ui/Button";
 
 export const Footer: React.FC = () => {
-  const [email, setEmail] = useState("");
-  const [subscribed, setSubscribed] = useState(false);
   const [copiedEmail, setCopiedEmail] = useState(false);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email.trim()) {
-      setSubscribed(true);
-      setEmail("");
-    }
-  };
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(NAVIGATION_DATA.footer.email);
@@ -53,20 +40,20 @@ export const Footer: React.FC = () => {
               className="inline-flex items-center gap-3 group"
               aria-label="Emerald System Integrators Home"
             >
-              <div className="relative w-10 h-10 flex items-center justify-center rounded-xl bg-surface-card border border-border-olive group-hover:border-brand-volt group-hover:shadow-[0_0_15px_rgba(4,120,87,0.2)] transition-all shrink-0">
+              <div className="relative w-11 h-11 flex items-center justify-center rounded-xl bg-surface-card/90 border border-border-olive/80 p-1.5 group-hover:border-brand-volt group-hover:shadow-[0_0_20px_rgba(16,185,129,0.35)] transition-all shrink-0">
                 <Image
                   src={NAVIGATION_DATA.logo.iconPath}
-                  alt="Emerald System Integrators Logo"
-                  width={24}
-                  height={24}
-                  className="object-contain"
+                  alt="Emerald System Integrators Logo Icon"
+                  width={36}
+                  height={36}
+                  className="w-full h-full object-contain drop-shadow-[0_0_8px_rgba(16,185,129,0.3)] transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors leading-none">
+                <span className="text-xl font-bold font-display tracking-tight text-brand-volt group-hover:text-brand-volt-light transition-colors leading-none">
                   {NAVIGATION_DATA.logo.text}
                 </span>
-                <span className="text-xs text-text-muted font-medium tracking-wide mt-1">
+                <span className="text-xs text-text-secondary font-medium tracking-wide mt-1 group-hover:text-text-primary transition-colors">
                   {NAVIGATION_DATA.logo.subtext}
                 </span>
               </div>
@@ -94,45 +81,6 @@ export const Footer: React.FC = () => {
                 <span>USA Advisory Hub</span>
                 <span className="text-text-muted text-[11px]">(Michigan)</span>
               </div>
-            </div>
-
-            {/* Intelligence Dispatch Newsletter */}
-            <div className="space-y-3 pt-3 border-t border-border-olive/50">
-              <div className="space-y-1">
-                <span className="text-xs font-mono uppercase tracking-wider text-brand-volt font-semibold flex items-center gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  ESI Technology & Strategic Dispatch
-                </span>
-                <p className="text-xs text-text-muted">
-                  Quarterly architectures, case studies, and enterprise digital strategy.
-                </p>
-              </div>
-
-              {subscribed ? (
-                <div className="flex items-center gap-2.5 text-sm text-brand-volt bg-brand-volt/10 border border-brand-volt/30 p-3 rounded-2xl">
-                  <CheckCircle2 className="w-4 h-4 text-brand-volt shrink-0" />
-                  <span className="font-medium text-text-primary">
-                    Thank you! You are subscribed to ESI strategic dispatch.
-                  </span>
-                </div>
-              ) : (
-                <form
-                  onSubmit={handleSubscribe}
-                  className="flex flex-col sm:flex-row gap-2 max-w-md"
-                >
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter work email address"
-                    required
-                    className="flex-1 bg-surface-card border border-border-olive rounded-xl sm:rounded-full px-4 py-2.5 text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-brand-volt transition-colors min-h-[44px]"
-                  />
-                  <Button variant="primary" type="submit" showArrow className="shrink-0 min-h-[44px]">
-                    Subscribe
-                  </Button>
-                </form>
-              )}
             </div>
           </div>
 

@@ -41,33 +41,34 @@ export const Navbar: React.FC = () => {
         )}
       >
         <div className="container-wrapper flex items-center justify-between gap-4">
-          {/* Brand Logo */}
+          {/* Brand Logo with Transparent Emerald Icon */}
           <Link
             href={NAVIGATION_DATA.logo.href}
             className="flex items-center gap-2.5 sm:gap-3 group shrink-0"
+            aria-label="Emerald System Integrators"
           >
-            <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-xl bg-surface-card border border-border-olive group-hover:border-brand-volt transition-colors shrink-0">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-xl bg-surface-card/90 border border-border-olive/80 p-1.5 group-hover:border-brand-volt group-hover:shadow-[0_0_20px_rgba(16,185,129,0.35)] transition-all shrink-0">
               <Image
                 src={NAVIGATION_DATA.logo.iconPath}
-                alt="Emerald System Integrators Logo"
-                width={20}
-                height={20}
-                className="object-contain"
+                alt="Emerald System Integrators Icon"
+                width={32}
+                height={32}
+                priority
+                className="w-full h-full object-contain drop-shadow-[0_0_8px_rgba(16,185,129,0.3)] transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-lg sm:text-xl font-bold font-display tracking-tight text-text-primary group-hover:text-brand-volt transition-colors leading-none">
+              <span className="text-lg sm:text-xl font-bold font-display tracking-tight text-brand-volt group-hover:text-brand-volt-light transition-colors leading-none">
                 {NAVIGATION_DATA.logo.text}
               </span>
-              <span className="hidden sm:inline-block text-[11px] text-text-muted font-light tracking-wide mt-0.5">
+              <span className="hidden xl:inline-block text-[11px] text-text-secondary font-light tracking-wide mt-1 group-hover:text-text-primary transition-colors">
                 {NAVIGATION_DATA.logo.subtext}
               </span>
             </div>
           </Link>
 
-
-          {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1 bg-surface-card/60 backdrop-blur-md border border-border-olive/80 rounded-full px-4 py-1.5">
+          {/* Desktop & Tablet Navigation Links (Scaled cleanly for iPad & Large screens) */}
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 bg-surface-card/60 backdrop-blur-md border border-border-olive/80 rounded-full px-2 xl:px-3.5 py-1.5">
             {NAVIGATION_DATA.mainLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -75,7 +76,7 @@ export const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    "relative px-4 py-1.5 text-sm font-medium rounded-full transition-colors duration-200",
+                    "relative px-2.5 xl:px-4 py-1.5 text-xs xl:text-sm font-medium rounded-full whitespace-nowrap transition-colors duration-200",
                     isActive
                       ? "text-brand-volt bg-brand-volt/10 dark:bg-border-olive/50 font-semibold"
                       : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
@@ -94,7 +95,7 @@ export const Navbar: React.FC = () => {
             >
               <button
                 className={cn(
-                  "flex items-center gap-1 px-4 py-1.5 text-sm font-medium rounded-full transition-colors duration-200",
+                  "flex items-center gap-1 px-2.5 xl:px-4 py-1.5 text-xs xl:text-sm font-medium rounded-full whitespace-nowrap transition-colors duration-200",
                   isDropdownOpen
                     ? "text-brand-volt bg-brand-volt/10 dark:bg-border-olive/50 font-semibold"
                     : "text-text-secondary hover:text-brand-volt hover:bg-surface-subtle"
@@ -156,15 +157,16 @@ export const Navbar: React.FC = () => {
           </nav>
 
           {/* Right Header Action Button */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            <div className="hidden sm:block">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+            <div className="hidden md:block">
               <Button
                 href={NAVIGATION_DATA.headerCta.href}
                 variant="primary"
                 showArrow
-                className="text-sm px-5 py-2"
+                className="whitespace-nowrap text-xs xl:text-sm px-3.5 xl:px-5 py-2 min-h-[38px] xl:min-h-[44px]"
               >
-                {NAVIGATION_DATA.headerCta.label}
+                <span className="hidden xl:inline">{NAVIGATION_DATA.headerCta.label}</span>
+                <span className="xl:hidden">Explore Solutions</span>
               </Button>
             </div>
 

@@ -18,6 +18,7 @@ export interface NavigationData {
     subtext: string;
     href: string;
     iconPath: string;
+    fullLogoPath?: string;
   };
   mainLinks: NavItem[];
   dropdownLinks: NavItem[];
@@ -47,7 +48,8 @@ export const NAVIGATION_DATA: NavigationData = {
     text: "ESI",
     subtext: "Emerald System Integrators",
     href: "/",
-    iconPath: "/icons/logo-b2bizz.png",
+    iconPath: "/icons/emerald-icon.png",
+    fullLogoPath: "/icons/emerald-logo-full.png",
   },
   mainLinks: [
     { label: "Home", href: "/" },

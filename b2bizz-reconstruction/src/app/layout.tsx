@@ -25,8 +25,14 @@ export const metadata: Metadata = {
   description:
     "Emerald System Integrators partners with businesses to simplify technological complexity, strengthen operations, and engineer digital transformation through technology, specialist resourcing, and consulting.",
   icons: {
-    icon: "/icons/logo-b2bizz.png",
-    apple: "/icons/logo-b2bizz.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icons/emerald-icon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/emerald-icon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icons/emerald-icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icons/emerald-icon-192.png",
   },
 };
 

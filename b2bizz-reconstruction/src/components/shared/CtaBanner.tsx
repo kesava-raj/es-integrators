@@ -13,21 +13,22 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ className }) => {
   return (
     <div className={`space-y-4 sm:space-y-6 ${className || ""}`}>
       {/* Top Graphic Card matching Reference with Emerald Tech Atmosphere */}
-      <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 min-h-[250px] sm:min-h-[280px] p-8 sm:p-12 flex flex-col items-center justify-center text-center space-y-5 shadow-2xl bg-[#0A0D0B]">
+      <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-border-olive/60 min-h-[250px] sm:min-h-[280px] p-8 sm:p-12 flex flex-col items-center justify-center text-center space-y-5 shadow-2xl bg-[#080B09]">
         {/* Authentic Ambient CTA Graphic Wallpaper in ESI Dark Emerald Palette */}
         <Image
-          src="/images/cta-bg.jpg"
+          src="/images/cta-emerald-bg.jpg"
           alt="Emerald System Integrators Ambient Backdrop"
           fill
           priority
-          className="object-cover opacity-75 select-none transition-transform duration-700 ease-out hover:scale-105"
+          className="object-cover opacity-80 select-none transition-transform duration-700 ease-out hover:scale-105"
           sizes="(max-width: 1200px) 100vw, 1200px"
         />
 
-        {/* Ambient Dark Scrim & Vignette ensuring seamless edges and high text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0E100F]/90 via-[#0E100F]/45 to-[#0E100F]/85 pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0E100F]/70 via-transparent to-[#0E100F]/70 pointer-events-none" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent pointer-events-none" />
+        {/* Ambient Dark Scrim & Vignette ensuring seamless edges and zero bottom artifacts */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#080B09] via-transparent to-[#080B09]/80 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#080B09]/80 via-transparent to-[#080B09]/80 pointer-events-none" />
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#080B09] to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none" />
 
         {/* Subtle Top Volt Accent Edge Glow */}
         <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-volt/40 to-transparent pointer-events-none" />
